@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taiwan Musical — 台灣音樂劇行事曆</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎭 Taiwan Musical</h1>
+    <p class="subtitle">台灣音樂劇演出行事曆</p>
+  </header>
+
+  <div class="filters">
+    <select id="filter-region" aria-label="篩選地區">
+      <option value="">全部地區</option>
+      <option value="台北">台北</option>
+      <option value="台中">台中</option>
+      <option value="高雄">高雄</option>
+      <option value="其他">其他</option>
+    </select>
+    <input
+      id="filter-search"
+      type="search"
+      placeholder="搜尋節目名稱..."
+      aria-label="搜尋節目名稱"
+    >
+  </div>
+
+  <main>
+    <div class="calendar-nav">
+      <button id="prev-month" aria-label="上個月">&#8249;</button>
+      <h2 id="month-label"></h2>
+      <button id="next-month" aria-label="下個月">&#8250;</button>
+    </div>
+
+    <div class="calendar" id="calendar">
+      <div class="day-headers">
+        <span>一</span><span>二</span><span>三</span>
+        <span>四</span><span>五</span><span>六</span><span>日</span>
+      </div>
+      <div class="weeks" id="weeks"></div>
+    </div>
+
+    <p class="no-results hidden" id="no-results">本月無符合演出</p>
+  </main>
+
+  <footer>
+    <p>資料來源：<a href="https://www.opentix.life" target="_blank" rel="noopener">OpenTix</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
