@@ -1,5 +1,12 @@
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+dist/
 .venv/
 node_modules/
 .DS_Store
+.pytest_cache/
+playwright-report/
+test-results/
+*.log
