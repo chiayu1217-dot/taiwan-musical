@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "show-001-1",
+    "title": "我的媽媽是 EsmeralDa",
+    "region": "台北",
+    "venue": "水源劇場",
+    "date": "2026-06-06",
+    "time": "14:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/program/123456"
+  },
+  {
+    "id": "show-001-2",
+    "title": "我的媽媽是 EsmeralDa",
+    "region": "台北",
+    "venue": "水源劇場",
+    "date": "2026-06-06",
+    "time": "19:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/program/123456"
+  },
+  {
+    "id": "show-002-1",
+    "title": "搖滾芭比",
+    "region": "台北",
+    "venue": "中山堂",
+    "date": "2026-06-07",
+    "time": "14:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/program/234567"
+  },
+  {
+    "id": "show-003-1",
+    "title": "四月望雨",
+    "region": "台中",
+    "venue": "台中國家歌劇院",
+    "date": "2026-06-13",
+    "time": "19:30",
+    "price": "600-1500",
+    "url": "https://www.opentix.life/program/345678"
+  },
+  {
+    "id": "show-004-1",
+    "title": "天堂邊緣",
+    "region": "高雄",
+    "venue": "衛武營國家藝術文化中心",
+    "date": "2026-06-20",
+    "time": "19:30",
+    "price": "500-1800",
+    "url": "https://www.opentix.life/program/456789"
+  },
+  {
+    "id": "show-005-1",
+    "title": "人間條件",
+    "region": "台北",
+    "venue": "國家戲劇院",
+    "date": "2026-06-21",
+    "time": "14:30",
+    "price": "800-3000",
+    "url": "https://www.opentix.life/program/567890"
+  },
+  {
+    "id": "show-005-2",
+    "title": "人間條件",
+    "region": "台北",
+    "venue": "國家戲劇院",
+    "date": "2026-06-28",
+    "time": "19:30",
+    "price": "800-3000",
+    "url": "https://www.opentix.life/program/567890"
+  }
+]
