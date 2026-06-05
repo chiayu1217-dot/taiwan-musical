@@ -10,8 +10,13 @@ const state = {
 
 // ===== Data loading =====
 async function loadShows() {
-  const res = await fetch('data/shows.json');
-  state.allShows = await res.json();
+  try {
+    const res = await fetch('data/shows.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    state.allShows = await res.json();
+  } catch (err) {
+    console.error('Failed to load shows:', err);
+  }
   renderCalendar();
 }
 
@@ -28,7 +33,7 @@ function groupByDate(shows) {
 function applyFilters(shows) {
   return shows.filter(show => {
     if (state.filterRegion && show.region !== state.filterRegion) return false;
-    if (state.filterSearch && !show.title.includes(state.filterSearch)) return false;
+    if (state.filterSearch && !show.title.toLowerCase().includes(state.filterSearch.toLowerCase())) return false;
     return true;
   });
 }
@@ -186,12 +191,34 @@ function openExpand(dateStr, weekIndex, grouped) {
   shows.forEach(show => {
     const card = document.createElement('div');
     card.className = 'show-card';
-    card.innerHTML = `
-      <span class="show-title">${show.title}</span>
-      <span class="show-meta">📍 ${show.venue} &nbsp; 🕐 ${show.time}</span>
-      ${show.price ? `<span class="show-price">NT$ ${show.price}</span>` : ''}
-      <a class="buy-btn" href="${show.url}" target="_blank" rel="noopener">購票</a>
-    `;
+
+    const title = document.createElement('span');
+    title.className = 'show-title';
+    title.textContent = show.title;
+
+    const meta = document.createElement('span');
+    meta.className = 'show-meta';
+    meta.textContent = `📍 ${show.venue}   🕐 ${show.time}`;
+
+    card.appendChild(title);
+    card.appendChild(meta);
+
+    if (show.price) {
+      const price = document.createElement('span');
+      price.className = 'show-price';
+      price.textContent = `NT$ ${show.price}`;
+      card.appendChild(price);
+    }
+
+    const safeUrl = show.url && show.url.startsWith('https://') ? show.url : '#';
+    const btn = document.createElement('a');
+    btn.className = 'buy-btn';
+    btn.href = safeUrl;
+    btn.target = '_blank';
+    btn.rel = 'noopener noreferrer';
+    btn.textContent = '購票';
+    card.appendChild(btn);
+
     expandEl.appendChild(card);
   });
 
