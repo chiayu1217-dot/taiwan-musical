@@ -51,33 +51,45 @@ function toDateStr(year, month, day) {
   return `${year}-${pad(month + 1)}-${pad(day)}`;
 }
 
+// Shorten venue: take text before ．・, or trim to 15 chars
+function shortVenue(venue) {
+  const cut = venue.split(/[．・\n]/)[0].trim();
+  return cut.length > 18 ? cut.slice(0, 18) + '…' : cut;
+}
+
+// Merge same-show same-venue sessions into one card with combined times
+function mergeSessionsForDay(shows) {
+  const groups = new Map();
+  for (const show of shows) {
+    const key = `${show.title}||${show.venue}`;
+    if (!groups.has(key)) {
+      groups.set(key, { ...show, times: [] });
+    }
+    groups.get(key).times.push(show.time);
+  }
+  return [...groups.values()];
+}
+
 // ===== Calendar rendering =====
 function renderCalendar() {
   const { year, month } = state;
   const filtered = applyFilters(state.allShows);
   const grouped = groupByDate(filtered);
 
-  // Update month label
-  document.getElementById('month-label').textContent =
-    `${year}年${month + 1}月`;
+  document.getElementById('month-label').textContent = `${year}年${month + 1}月`;
 
-  // Build weeks array
-  const firstDay = new Date(year, month, 1).getDay(); // 0=Sun
-  // Convert to Mon-first (0=Mon ... 6=Sun)
+  const firstDay = new Date(year, month, 1).getDay();
   const startOffset = (firstDay + 6) % 7;
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const prevMonthDays = new Date(year, month, 0).getDate();
 
   const cells = [];
-  // Leading cells from previous month
   for (let i = startOffset - 1; i >= 0; i--) {
     cells.push({ day: prevMonthDays - i, current: false });
   }
-  // Current month
   for (let d = 1; d <= daysInMonth; d++) {
     cells.push({ day: d, current: true });
   }
-  // Trailing cells
   const remainder = cells.length % 7;
   if (remainder > 0) {
     for (let d = 1; d <= 7 - remainder; d++) {
@@ -85,7 +97,6 @@ function renderCalendar() {
     }
   }
 
-  // Split into weeks
   const weeks = [];
   for (let i = 0; i < cells.length; i += 7) {
     weeks.push(cells.slice(i, i + 7));
@@ -102,16 +113,12 @@ function renderCalendar() {
   weeks.forEach((week, wi) => {
     const weekRow = document.createElement('div');
     weekRow.className = 'week-row';
-    weekRow.dataset.week = wi;
 
-    // Days
     const weekDays = document.createElement('div');
     weekDays.className = 'week-days';
 
     week.forEach(cell => {
-      const dateStr = cell.current
-        ? toDateStr(year, month, cell.day)
-        : null;
+      const dateStr = cell.current ? toDateStr(year, month, cell.day) : null;
       const shows = dateStr ? (grouped[dateStr] || []) : [];
       if (shows.length > 0) hasAnyShow = true;
 
@@ -132,7 +139,6 @@ function renderCalendar() {
       if (shows.length > 0) {
         const dotsEl = document.createElement('div');
         dotsEl.className = 'dots';
-        // One dot per unique region
         const regions = [...new Set(shows.map(s => s.region))];
         regions.forEach(region => {
           const dot = document.createElement('span');
@@ -140,14 +146,12 @@ function renderCalendar() {
           dotsEl.appendChild(dot);
         });
         dayEl.appendChild(dotsEl);
-
         dayEl.addEventListener('click', () => onDayClick(dateStr, wi));
       }
 
       weekDays.appendChild(dayEl);
     });
 
-    // Expand panel
     const expandEl = document.createElement('div');
     expandEl.className = 'week-expand';
     expandEl.id = `expand-${wi}`;
@@ -157,26 +161,19 @@ function renderCalendar() {
     weeksEl.appendChild(weekRow);
   });
 
-  // Restore expanded state
   if (state.selectedDate) {
     const selCell = weeksEl.querySelector(`.day-cell[data-date="${state.selectedDate}"]`);
     if (selCell) {
-      const wi = selCell.dataset.week;
-      openExpand(state.selectedDate, wi, grouped);
+      openExpand(state.selectedDate, selCell.dataset.week, grouped);
     }
   }
 
-  // No results message
   document.getElementById('no-results').classList.toggle('hidden', hasAnyShow || state.allShows.length === 0);
 }
 
 // ===== Expand/collapse =====
-function onDayClick(dateStr, weekIndex) {
-  if (state.selectedDate === dateStr) {
-    state.selectedDate = null;
-  } else {
-    state.selectedDate = dateStr;
-  }
+function onDayClick(dateStr) {
+  state.selectedDate = state.selectedDate === dateStr ? null : dateStr;
   renderCalendar();
 }
 
@@ -185,20 +182,25 @@ function openExpand(dateStr, weekIndex, grouped) {
   if (!expandEl) return;
 
   const shows = grouped[dateStr] || [];
-  const [year, month, day] = dateStr.split('-');
-  expandEl.innerHTML = `<div class="expand-title">${+month}月${+day}日 ${shows.length} 場次</div>`;
+  const [, month, day] = dateStr.split('-');
+  const merged = mergeSessionsForDay(shows);
 
-  shows.forEach(show => {
+  expandEl.innerHTML = `<div class="expand-title">${+month}月${+day}日　${merged.length} 部節目</div>`;
+
+  merged.forEach(show => {
     const card = document.createElement('div');
     card.className = 'show-card';
 
     const title = document.createElement('span');
     title.className = 'show-title';
     title.textContent = show.title;
+    title.title = show.title;
 
+    const venue = shortVenue(show.venue);
+    const timeStr = show.times.join(' / ');
     const meta = document.createElement('span');
     meta.className = 'show-meta';
-    meta.textContent = `📍 ${show.venue}   🕐 ${show.time}`;
+    meta.textContent = `📍 ${venue}　🕐 ${timeStr}`;
 
     card.appendChild(title);
     card.appendChild(meta);
@@ -226,7 +228,6 @@ function openExpand(dateStr, weekIndex, grouped) {
 
   expandEl.classList.add('open');
 
-  // Mark selected cell
   const selCell = document.querySelector(`.day-cell[data-date="${dateStr}"]`);
   if (selCell) selCell.classList.add('expanded');
 }

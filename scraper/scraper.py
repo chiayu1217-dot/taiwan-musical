@@ -42,7 +42,8 @@ def guess_region(venue: str) -> str:
 def normalize_price(raw: str) -> str:
     if not raw or raw.strip() in ("免費", "免費入場", "0"):
         return ""
-    nums = re.findall(r"\d+", raw)
+    # Match numbers with optional commas (e.g. 1,500)
+    nums = [n.replace(",", "") for n in re.findall(r"\d[\d,]*", raw)]
     if len(nums) >= 2:
         return f"{nums[0]}-{nums[-1]}"
     if len(nums) == 1:
