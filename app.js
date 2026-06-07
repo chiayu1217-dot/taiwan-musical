@@ -137,6 +137,9 @@ function renderCalendar() {
       dayEl.appendChild(numEl);
 
       if (shows.length > 0) {
+        const dotsRow = document.createElement('div');
+        dotsRow.className = 'dots-row';
+
         const dotsEl = document.createElement('div');
         dotsEl.className = 'dots';
         const regions = [...new Set(shows.map(s => s.region))];
@@ -145,7 +148,18 @@ function renderCalendar() {
           dot.className = `dot ${dotClass(region)}`;
           dotsEl.appendChild(dot);
         });
-        dayEl.appendChild(dotsEl);
+        dotsRow.appendChild(dotsEl);
+
+        // Badge: count of unique productions on this day
+        const productionCount = mergeSessionsForDay(shows).length;
+        if (productionCount > 1) {
+          const badge = document.createElement('span');
+          badge.className = 'show-badge';
+          badge.textContent = productionCount;
+          dotsRow.appendChild(badge);
+        }
+
+        dayEl.appendChild(dotsRow);
         dayEl.addEventListener('click', () => onDayClick(dateStr, wi));
       }
 
@@ -197,13 +211,23 @@ function openExpand(dateStr, weekIndex, grouped) {
     title.title = show.title;
 
     const venue = shortVenue(show.venue);
-    const timeStr = show.times.join(' / ');
     const meta = document.createElement('span');
     meta.className = 'show-meta';
-    meta.textContent = `📍 ${venue}　🕐 ${timeStr}`;
+    meta.textContent = `📍 ${venue}`;
+
+    // Time chips
+    const timeChips = document.createElement('div');
+    timeChips.className = 'time-chips';
+    show.times.forEach(t => {
+      const chip = document.createElement('span');
+      chip.className = 'time-chip';
+      chip.textContent = t;
+      timeChips.appendChild(chip);
+    });
 
     card.appendChild(title);
     card.appendChild(meta);
+    card.appendChild(timeChips);
 
     if (show.price) {
       const price = document.createElement('span');

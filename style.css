@@ -145,7 +145,8 @@ header .subtitle {
 
 .day-num { font-size: 0.88rem; font-weight: 500; line-height: 1.2; }
 
-/* ===== Dots ===== */
+/* ===== Dots + badge ===== */
+.dots-row { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
 .dots { display: flex; gap: 3px; flex-wrap: wrap; }
 .dot {
   width: 10px;
@@ -158,6 +159,31 @@ header .subtitle {
 .dot-taichung  { background: #3bb87a; }
 .dot-kaohsiung { background: #f7974f; }
 .dot-other     { background: #aaa; }
+
+.show-badge {
+  background: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.05rem 0.38rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1.5;
+  min-width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* ===== Time chips ===== */
+.time-chips { display: flex; gap: 4px; flex-wrap: wrap; flex-shrink: 0; }
+.time-chip {
+  background: #f0eeff;
+  color: #6c63ff;
+  border-radius: 5px;
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
 
 /* ===== Expand row ===== */
 .week-expand {
