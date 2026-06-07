@@ -86,16 +86,36 @@ def scrape_shows() -> list[dict]:
             pass
         time.sleep(2)
 
-        # Click "顯示更多" until all results are loaded
-        while True:
-            try:
-                more_btn = page.query_selector("button:has-text('顯示更多')")
-                if not more_btn:
-                    break
-                more_btn.click()
-                time.sleep(1.5)
-            except Exception:
+        # Dismiss any popup dialogs first
+        try:
+            page.evaluate("""
+                () => {
+                    const dismissBtns = [...document.querySelectorAll('button, div')]
+                        .filter(el => el.innerText && el.innerText.includes('不再提醒'));
+                    dismissBtns.forEach(el => el.click());
+                }
+            """)
+            time.sleep(0.5)
+        except Exception:
+            pass
+
+        # Click "顯示更多" via JS to bypass popup overlay (43 items, ~15 per page = 3 clicks max)
+        for attempt in range(4):
+            time.sleep(2.5)
+            has_btn = page.evaluate("""
+                () => {
+                    const btn = [...document.querySelectorAll('button')]
+                        .find(b => b.innerText && b.innerText.includes('顯示更多'));
+                    if (btn) { btn.click(); return true; }
+                    return false;
+                }
+            """)
+            if not has_btn:
                 break
+            print(f"  Clicked 顯示更多 ({attempt + 1})")
+
+        total = page.evaluate("[...new Set([...document.querySelectorAll('a[href*=\"/event/\"]')].map(a=>a.href))].length")
+        print(f"Total event links on page: {total}")
 
         # Collect event metadata from search result cards
         event_meta = page.evaluate("""
