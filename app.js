@@ -33,7 +33,6 @@ function groupByDate(shows) {
 function applyFilters(shows) {
   return shows.filter(show => {
     if (state.filterRegion && show.region !== state.filterRegion) return false;
-    if (state.filterSearch && !show.title.toLowerCase().includes(state.filterSearch.toLowerCase())) return false;
     return true;
   });
 }
@@ -286,11 +285,81 @@ document.getElementById('filter-region').addEventListener('change', e => {
   renderCalendar();
 });
 
-document.getElementById('filter-search').addEventListener('input', e => {
-  state.filterSearch = e.target.value.trim();
-  state.selectedDate = null;
+// ===== Autocomplete =====
+function setupAutocomplete() {
+  const input = document.getElementById('filter-search');
+  const dropdown = document.getElementById('autocomplete-dropdown');
+
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
+    if (query.length < 1) { dropdown.classList.add('hidden'); return; }
+
+    // Unique titles matching query
+    const seen = new Set();
+    const matches = state.allShows
+      .filter(s => s.title.toLowerCase().includes(query.toLowerCase()))
+      .filter(s => { if (seen.has(s.title)) return false; seen.add(s.title); return true; })
+      .slice(0, 8);
+
+    if (matches.length === 0) { dropdown.classList.add('hidden'); return; }
+
+    dropdown.innerHTML = '';
+    matches.forEach(show => {
+      const item = document.createElement('div');
+      item.className = 'autocomplete-item';
+      const q = query.toLowerCase();
+      const t = show.title;
+      const idx = t.toLowerCase().indexOf(q);
+      item.innerHTML = escapeHtml(t.slice(0, idx))
+        + `<mark>${escapeHtml(t.slice(idx, idx + q.length))}</mark>`
+        + escapeHtml(t.slice(idx + q.length));
+      item.addEventListener('click', () => {
+        input.value = '';
+        dropdown.classList.add('hidden');
+        navigateToShow(show.title);
+      });
+      dropdown.appendChild(item);
+    });
+    dropdown.classList.remove('hidden');
+  });
+
+  // Close on outside click
+  document.addEventListener('click', e => {
+    if (!input.closest('.search-wrap').contains(e.target)) {
+      dropdown.classList.add('hidden');
+    }
+  });
+}
+
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function navigateToShow(title) {
+  const today = new Date();
+  const todayStr = toDateStr(today.getFullYear(), today.getMonth(), today.getDate());
+
+  const futureShows = state.allShows
+    .filter(s => s.title === title && s.date >= todayStr)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  if (futureShows.length === 0) return;
+
+  const nearest = futureShows[0];
+  const [year, month] = nearest.date.split('-').map(Number);
+
+  state.year = year;
+  state.month = month - 1;
+  state.selectedDate = nearest.date;
+  state.filterRegion = '';
+
   renderCalendar();
-});
+
+  setTimeout(() => {
+    document.getElementById('show-panel')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 80);
+}
 
 // ===== Init =====
+setupAutocomplete();
 loadShows();

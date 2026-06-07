@@ -21,12 +21,16 @@
       <option value="東部">東部</option>
       <option value="離島">離島</option>
     </select>
-    <input
-      id="filter-search"
-      type="search"
-      placeholder="搜尋節目名稱..."
-      aria-label="搜尋節目名稱"
-    >
+    <div class="search-wrap">
+      <input
+        id="filter-search"
+        type="search"
+        placeholder="搜尋節目名稱..."
+        aria-label="搜尋節目名稱"
+        autocomplete="off"
+      >
+      <div class="autocomplete-dropdown hidden" id="autocomplete-dropdown"></div>
+    </div>
   </div>
 
   <main>
