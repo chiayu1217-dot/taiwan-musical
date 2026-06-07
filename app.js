@@ -1,7 +1,7 @@
 // ===== State =====
 const state = {
   year: new Date().getFullYear(),
-  month: new Date().getMonth(), // 0-indexed
+  month: new Date().getMonth(),
   allShows: [],
   selectedDate: null,
   filterRegion: '',
@@ -51,15 +51,28 @@ function toDateStr(year, month, day) {
   return `${year}-${pad(month + 1)}-${pad(day)}`;
 }
 
-// Render dots + badge fallback for calendar cells without poster
+function shortVenue(venue) {
+  const cut = venue.split(/[．・\n]/)[0].trim();
+  return cut.length > 18 ? cut.slice(0, 18) + '…' : cut;
+}
+
+function mergeSessionsForDay(shows) {
+  const groups = new Map();
+  for (const show of shows) {
+    const key = `${show.title}||${show.venue}`;
+    if (!groups.has(key)) groups.set(key, { ...show, times: [] });
+    groups.get(key).times.push(show.time);
+  }
+  return [...groups.values()];
+}
+
 function renderDots(dayEl, shows, merged) {
   const dotsRow = document.createElement('div');
   dotsRow.className = 'dots-row';
 
   const dotsEl = document.createElement('div');
   dotsEl.className = 'dots';
-  const regions = [...new Set(shows.map(s => s.region))];
-  regions.forEach(region => {
+  [...new Set(shows.map(s => s.region))].forEach(region => {
     const dot = document.createElement('span');
     dot.className = `dot ${dotClass(region)}`;
     dotsEl.appendChild(dot);
@@ -73,25 +86,6 @@ function renderDots(dayEl, shows, merged) {
     dotsRow.appendChild(badge);
   }
   dayEl.appendChild(dotsRow);
-}
-
-// Shorten venue: take text before ．・, or trim to 15 chars
-function shortVenue(venue) {
-  const cut = venue.split(/[．・\n]/)[0].trim();
-  return cut.length > 18 ? cut.slice(0, 18) + '…' : cut;
-}
-
-// Merge same-show same-venue sessions into one card with combined times
-function mergeSessionsForDay(shows) {
-  const groups = new Map();
-  for (const show of shows) {
-    const key = `${show.title}||${show.venue}`;
-    if (!groups.has(key)) {
-      groups.set(key, { ...show, times: [] });
-    }
-    groups.get(key).times.push(show.time);
-  }
-  return [...groups.values()];
 }
 
 // ===== Calendar rendering =====
@@ -108,23 +102,13 @@ function renderCalendar() {
   const prevMonthDays = new Date(year, month, 0).getDate();
 
   const cells = [];
-  for (let i = startOffset - 1; i >= 0; i--) {
-    cells.push({ day: prevMonthDays - i, current: false });
-  }
-  for (let d = 1; d <= daysInMonth; d++) {
-    cells.push({ day: d, current: true });
-  }
-  const remainder = cells.length % 7;
-  if (remainder > 0) {
-    for (let d = 1; d <= 7 - remainder; d++) {
-      cells.push({ day: d, current: false });
-    }
-  }
+  for (let i = startOffset - 1; i >= 0; i--) cells.push({ day: prevMonthDays - i, current: false });
+  for (let d = 1; d <= daysInMonth; d++) cells.push({ day: d, current: true });
+  const rem = cells.length % 7;
+  if (rem > 0) for (let d = 1; d <= 7 - rem; d++) cells.push({ day: d, current: false });
 
   const weeks = [];
-  for (let i = 0; i < cells.length; i += 7) {
-    weeks.push(cells.slice(i, i + 7));
-  }
+  for (let i = 0; i < cells.length; i += 7) weeks.push(cells.slice(i, i + 7));
 
   const today = new Date();
   const todayStr = toDateStr(today.getFullYear(), today.getMonth(), today.getDate());
@@ -151,9 +135,8 @@ function renderCalendar() {
       if (!cell.current) dayEl.classList.add('other-month');
       if (dateStr === todayStr) dayEl.classList.add('today');
       if (shows.length > 0) dayEl.classList.add('has-shows');
-      if (dateStr === state.selectedDate) dayEl.classList.add('expanded');
+      if (dateStr === state.selectedDate) dayEl.classList.add('selected');
       if (dateStr) dayEl.dataset.date = dateStr;
-      if (dateStr) dayEl.dataset.week = wi;
 
       const numEl = document.createElement('span');
       numEl.className = 'day-num';
@@ -165,7 +148,6 @@ function renderCalendar() {
         const firstImage = merged.find(s => s.image_url)?.image_url;
 
         if (firstImage) {
-          // Show circular poster with optional badge
           dayEl.classList.add('has-poster');
           const wrap = document.createElement('div');
           wrap.className = 'cal-poster-wrap';
@@ -174,7 +156,7 @@ function renderCalendar() {
           img.className = 'cal-poster';
           img.src = firstImage;
           img.alt = merged[0].title;
-          img.onerror = () => { wrap.remove(); renderDots(dayEl, shows, merged); };
+          img.onerror = () => { wrap.remove(); dayEl.classList.remove('has-poster'); renderDots(dayEl, shows, merged); };
           wrap.appendChild(img);
 
           if (merged.length > 1) {
@@ -188,52 +170,48 @@ function renderCalendar() {
           renderDots(dayEl, shows, merged);
         }
 
-        dayEl.addEventListener('click', () => onDayClick(dateStr, wi));
+        dayEl.addEventListener('click', () => onDayClick(dateStr));
       }
 
       weekDays.appendChild(dayEl);
     });
 
-    const expandEl = document.createElement('div');
-    expandEl.className = 'week-expand';
-    expandEl.id = `expand-${wi}`;
-
     weekRow.appendChild(weekDays);
-    weekRow.appendChild(expandEl);
     weeksEl.appendChild(weekRow);
   });
 
-  if (state.selectedDate) {
-    const selCell = weeksEl.querySelector(`.day-cell[data-date="${state.selectedDate}"]`);
-    if (selCell) {
-      openExpand(state.selectedDate, selCell.dataset.week, grouped);
-    }
-  }
-
   document.getElementById('no-results').classList.toggle('hidden', hasAnyShow || state.allShows.length === 0);
+
+  // Update show panel
+  if (state.selectedDate && grouped[state.selectedDate]) {
+    renderPanel(state.selectedDate, grouped[state.selectedDate]);
+  } else {
+    hidePanel();
+  }
 }
 
-// ===== Expand/collapse =====
+// ===== Day click =====
 function onDayClick(dateStr) {
   state.selectedDate = state.selectedDate === dateStr ? null : dateStr;
   renderCalendar();
 }
 
-function openExpand(dateStr, weekIndex, grouped) {
-  const expandEl = document.getElementById(`expand-${weekIndex}`);
-  if (!expandEl) return;
+// ===== Show Panel =====
+function renderPanel(dateStr, shows) {
+  const panel = document.getElementById('show-panel');
+  const dateEl = document.getElementById('panel-date');
+  const cardsEl = document.getElementById('panel-cards');
 
-  const shows = grouped[dateStr] || [];
   const [, month, day] = dateStr.split('-');
-  const merged = mergeSessionsForDay(shows);
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  const wd = weekdays[new Date(dateStr).getDay()];
+  dateEl.textContent = `${+month}月${+day}日　週${wd}　${mergeSessionsForDay(shows).length} 部節目`;
 
-  expandEl.innerHTML = `<div class="expand-title">${+month}月${+day}日　${merged.length} 部節目</div>`;
-
-  merged.forEach(show => {
+  cardsEl.innerHTML = '';
+  mergeSessionsForDay(shows).forEach(show => {
     const card = document.createElement('div');
     card.className = 'show-card';
 
-    // Poster thumbnail
     if (show.image_url) {
       const poster = document.createElement('img');
       poster.className = 'show-poster';
@@ -247,13 +225,14 @@ function openExpand(dateStr, weekIndex, grouped) {
     title.className = 'show-title';
     title.textContent = show.title;
     title.title = show.title;
+    card.appendChild(title);
 
     const venue = shortVenue(show.venue);
     const meta = document.createElement('span');
     meta.className = 'show-meta';
     meta.textContent = `📍 ${venue}`;
+    card.appendChild(meta);
 
-    // Time chips
     const timeChips = document.createElement('div');
     timeChips.className = 'time-chips';
     show.times.forEach(t => {
@@ -262,17 +241,7 @@ function openExpand(dateStr, weekIndex, grouped) {
       chip.textContent = t;
       timeChips.appendChild(chip);
     });
-
-    card.appendChild(title);
-    card.appendChild(meta);
     card.appendChild(timeChips);
-
-    if (show.price) {
-      const price = document.createElement('span');
-      price.className = 'show-price';
-      price.textContent = `NT$ ${show.price}`;
-      card.appendChild(price);
-    }
 
     const safeUrl = show.url && show.url.startsWith('https://') ? show.url : null;
     if (safeUrl) {
@@ -285,27 +254,27 @@ function openExpand(dateStr, weekIndex, grouped) {
       card.appendChild(btn);
     }
 
-    expandEl.appendChild(card);
+    cardsEl.appendChild(card);
   });
 
-  expandEl.classList.add('open');
+  panel.classList.remove('hidden');
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
 
-  const selCell = document.querySelector(`.day-cell[data-date="${dateStr}"]`);
-  if (selCell) selCell.classList.add('expanded');
+function hidePanel() {
+  document.getElementById('show-panel').classList.add('hidden');
 }
 
 // ===== Event listeners =====
 document.getElementById('prev-month').addEventListener('click', () => {
   state.selectedDate = null;
-  if (state.month === 0) { state.year--; state.month = 11; }
-  else { state.month--; }
+  if (state.month === 0) { state.year--; state.month = 11; } else { state.month--; }
   renderCalendar();
 });
 
 document.getElementById('next-month').addEventListener('click', () => {
   state.selectedDate = null;
-  if (state.month === 11) { state.year++; state.month = 0; }
-  else { state.month++; }
+  if (state.month === 11) { state.year++; state.month = 0; } else { state.month++; }
   renderCalendar();
 });
 
