@@ -12,9 +12,23 @@ OPENTIX_URL = (
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "shows.json"
 
 REGION_KEYWORDS = {
-    "台北": ["台北", "水源", "國家戲劇", "中山堂", "信義", "松菸", "城市舞台", "新舞臺", "牯嶺街"],
+    "台北": ["台北", "臺北", "水源", "國家戲劇", "中山堂", "信義", "松菸", "城市舞台", "新舞臺", "牯嶺街", "南村", "PLAYground"],
     "台中": ["台中", "臺中", "中正堂", "歌劇院"],
     "高雄": ["高雄", "衛武營", "大東", "駁二"],
+    "新竹": ["新竹", "竹科"],
+    "屏東": ["屏東"],
+    "苗栗": ["苗栗"],
+}
+
+REGION_TEXT_MAP = {
+    "臺北": "台北",
+    "台北": "台北",
+    "臺中": "台中",
+    "台中": "台中",
+    "高雄": "高雄",
+    "新竹": "新竹",
+    "屏東": "屏東",
+    "苗栗": "苗栗",
 }
 
 
@@ -36,9 +50,17 @@ def normalize_price(raw: str) -> str:
     return ""
 
 
-def build_show_id(program_id: str, date: str, time_str: str) -> str:
+def build_show_id(event_id: str, date: str, time_str: str) -> str:
     time_compact = time_str.replace(":", "")
-    return f"{program_id}-{date}-{time_compact}"
+    return f"{event_id}-{date}-{time_compact}"
+
+
+def parse_region_from_text(text: str) -> str:
+    """Parse region from search result card text (e.g. '臺北', '高雄')."""
+    for raw, normalized in REGION_TEXT_MAP.items():
+        if raw in text:
+            return normalized
+    return "其他"
 
 
 def scrape_shows() -> list[dict]:
@@ -55,76 +77,149 @@ def scrape_shows() -> list[dict]:
 
         print(f"Loading: {OPENTIX_URL}")
         page.goto(OPENTIX_URL, wait_until="domcontentloaded", timeout=30000)
-        # Wait for program links to appear (React app needs time to hydrate)
         try:
-            page.wait_for_selector("a[href*='/program/']", timeout=15000)
+            page.wait_for_selector("a[href*='/event/']", timeout=15000)
         except Exception:
-            pass  # proceed even if selector not found; program_links will be empty
-        time.sleep(1)
+            pass
+        time.sleep(2)
 
-        program_links = page.eval_on_selector_all(
-            "a[href*='/program/']",
-            "els => [...new Set(els.map(e => e.href))]"
-        )
-        print(f"Found {len(program_links)} program links")
-
-        for link in program_links:
+        # Click "顯示更多" until all results are loaded
+        while True:
             try:
-                shows.extend(scrape_program(browser, link))
+                more_btn = page.query_selector("button:has-text('顯示更多')")
+                if not more_btn:
+                    break
+                more_btn.click()
                 time.sleep(1.5)
+            except Exception:
+                break
+
+        # Collect event metadata from search result cards
+        event_meta = page.evaluate("""
+            () => {
+                const links = [...document.querySelectorAll('a[href*="/event/"]')];
+                const seen = new Set();
+                const results = [];
+                for (const a of links) {
+                    const href = a.href;
+                    if (seen.has(href)) continue;
+                    seen.add(href);
+                    // Walk up to find unique card container
+                    let container = a;
+                    for (let i = 0; i < 8; i++) {
+                        container = container.parentElement;
+                        if (!container) break;
+                        const evtLinks = container.querySelectorAll('a[href*="/event/"]');
+                        if (evtLinks.length === 1) break;
+                    }
+                    const text = container ? container.innerText : a.innerText;
+                    results.push({ href, text });
+                }
+                return results;
+            }
+        """)
+
+        print(f"Found {len(event_meta)} events")
+
+        for meta in event_meta:
+            try:
+                url = meta["href"]
+                card_text = meta["text"]
+                event_id = url.rstrip("/").split("/")[-1]
+
+                # Parse price from card text: $1,500 - $2,400
+                price_match = re.search(r"\$[\d,]+\s*-\s*\$[\d,]+", card_text)
+                price = normalize_price(price_match.group(0)) if price_match else ""
+
+                # Parse region from card text
+                region_from_card = parse_region_from_text(card_text)
+
+                shows.extend(scrape_event(browser, url, event_id, price, region_from_card))
+                time.sleep(1)
             except Exception as e:
-                print(f"Error scraping {link}: {e}")
+                print(f"Error scraping {meta.get('href')}: {e}")
 
         browser.close()
     return shows
 
 
-def scrape_program(browser, url: str) -> list[dict]:
+def scrape_event(browser, url: str, event_id: str, price: str, region_from_card: str) -> list[dict]:
     page = browser.new_page()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=20000)
-        time.sleep(2)  # give React time to render session data
+        try:
+            page.wait_for_selector("h1", timeout=8000)
+        except Exception:
+            pass
+        time.sleep(2)
 
-        program_id = url.rstrip("/").split("/")[-1]
-
-        title_el = page.query_selector("h1, .program-title, [class*='title']")
+        # Title
+        title_el = page.query_selector("h1")
         title = title_el.inner_text().strip() if title_el else "未知節目"
 
-        sessions = page.eval_on_selector_all(
-            "[class*='session'], [class*='performance'], [class*='schedule']",
-            """els => els.map(el => ({
-                text: el.innerText,
-                html: el.innerHTML
-            }))"""
-        )
+        # Sessions: each span.mr-2 contains date+time, its parent text has venue
+        sessions_data = page.evaluate("""
+            () => {
+                const spans = [...document.querySelectorAll('span.mr-2')];
+                const dateSpans = spans.filter(s => /\\d{4}\\/\\d{1,2}\\/\\d{1,2}/.test(s.innerText));
+                return dateSpans.map(s => ({
+                    datetime: s.innerText.trim(),
+                    parentText: s.parentElement ? s.parentElement.innerText.trim() : ''
+                }));
+            }
+        """)
 
         results = []
-        for session in sessions:
-            text = session["text"]
-            date_match = re.search(r"(\d{4})[/-](\d{1,2})[/-](\d{1,2})", text)
+        seen_ids = set()
+
+        for session in sessions_data:
+            dt_text = session["datetime"]
+            parent_text = session["parentText"]
+
+            # Parse date: 2026/6/10 (三) 19:30
+            date_match = re.search(r"(\d{4})/(\d{1,2})/(\d{1,2})", dt_text)
             if not date_match:
                 continue
             date_str = f"{date_match.group(1)}-{date_match.group(2).zfill(2)}-{date_match.group(3).zfill(2)}"
 
-            time_match = re.search(r"(\d{1,2}):(\d{2})", text)
+            # Parse time
+            time_match = re.search(r"(\d{1,2}):(\d{2})", dt_text)
             time_str = f"{time_match.group(1).zfill(2)}:{time_match.group(2)}" if time_match else "00:00"
 
-            venue_match = re.search(r"(劇院|劇場|舞台|中心|堂|廳|廣場|藝廊|場館)[^\n]*", text)
-            venue = venue_match.group(0).strip() if venue_match else "待確認"
+            # Extract venue from parent text (lines after the datetime line)
+            lines = [l.strip() for l in parent_text.split("\n") if l.strip()]
+            venue = "待確認"
+            for line in lines:
+                # Skip the datetime line and ticket type lines
+                if re.search(r"\d{4}/\d{1,2}/\d{1,2}", line):
+                    continue
+                if "電子票" in line or "實體票" in line:
+                    continue
+                if len(line) > 2:
+                    venue = line
+                    break
 
-            price_match = re.search(r"(NT\$|NT |新台幣|免費)?[\d,]+\s*[-~至到]\s*[\d,]+", text)
-            price = normalize_price(price_match.group(0)) if price_match else ""
+            region = guess_region(venue) if venue != "待確認" else region_from_card
+
+            show_id = build_show_id(event_id, date_str, time_str)
+            if show_id in seen_ids:
+                continue
+            seen_ids.add(show_id)
 
             results.append({
-                "id": build_show_id(program_id, date_str, time_str),
+                "id": show_id,
                 "title": title,
-                "region": guess_region(venue),
+                "region": region,
                 "venue": venue,
                 "date": date_str,
                 "time": time_str,
                 "price": price,
                 "url": url,
             })
+
+        # Fallback: if no sessions found via span.mr-2, use card data
+        if not results:
+            print(f"  No sessions found for {title}, skipping")
 
         return results
     finally:
@@ -137,8 +232,13 @@ if __name__ == "__main__":
     if not shows:
         print("No shows scraped — keeping existing data")
     else:
+        # Deduplicate by id
+        seen = {}
+        for show in shows:
+            seen[show["id"]] = show
+        deduped = list(seen.values())
         OUTPUT_PATH.write_text(
-            json.dumps(shows, ensure_ascii=False, indent=2),
+            json.dumps(deduped, ensure_ascii=False, indent=2),
             encoding="utf-8"
         )
-        print(f"Wrote {len(shows)} sessions to {OUTPUT_PATH}")
+        print(f"Wrote {len(deduped)} sessions to {OUTPUT_PATH}")
