@@ -197,7 +197,7 @@ header .subtitle {
   position: absolute;
   bottom: -2px; left: 0; right: 0;
   height: 2px;
-  background: var(--gold);
+  background: var(--ultramarine);
   border-radius: 1px;
 }
 
@@ -216,7 +216,7 @@ header .subtitle {
 .cal-poster-badge {
   position: absolute;
   bottom: -2px; right: -4px;
-  background: var(--gold);
+  background: var(--ultramarine);
   color: #fff;
   border-radius: 8px;
   padding: 0 4px;
@@ -236,7 +236,7 @@ header .subtitle {
 .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
 
 .dot-north   { background: var(--ultramarine); }
-.dot-central { background: var(--gold); }
+.dot-central { background: #4A7C59; }
 .dot-south   { background: #C04A30; }
 .dot-east    { background: #3D7A55; }
 .dot-island  { background: #7A6E9A; }
