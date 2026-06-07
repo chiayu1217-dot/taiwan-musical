@@ -33,6 +33,7 @@ function groupByDate(shows) {
 function applyFilters(shows) {
   return shows.filter(show => {
     if (state.filterRegion && show.region !== state.filterRegion) return false;
+    if (state.filterSearch && show.title !== state.filterSearch) return false;
     return true;
   });
 }
@@ -289,12 +290,11 @@ document.getElementById('filter-region').addEventListener('change', e => {
 function setupAutocomplete() {
   const input = document.getElementById('filter-search');
   const dropdown = document.getElementById('autocomplete-dropdown');
+  const clearBtn = document.getElementById('search-clear');
 
-  input.addEventListener('input', () => {
-    const query = input.value.trim();
+  function showSuggestions(query) {
     if (query.length < 1) { dropdown.classList.add('hidden'); return; }
 
-    // Unique titles matching query
     const seen = new Set();
     const matches = state.allShows
       .filter(s => s.title.toLowerCase().includes(query.toLowerCase()))
@@ -314,21 +314,62 @@ function setupAutocomplete() {
         + `<mark>${escapeHtml(t.slice(idx, idx + q.length))}</mark>`
         + escapeHtml(t.slice(idx + q.length));
       item.addEventListener('click', () => {
-        input.value = '';
         dropdown.classList.add('hidden');
-        navigateToShow(show.title);
+        selectShow(show.title);
       });
       dropdown.appendChild(item);
     });
     dropdown.classList.remove('hidden');
+  }
+
+  input.addEventListener('input', () => {
+    // If user edits after a selection, clear the active filter
+    if (state.filterSearch) {
+      state.filterSearch = '';
+      clearBtn.classList.add('hidden');
+      input.classList.remove('has-value');
+      state.selectedDate = null;
+      renderCalendar();
+    }
+    showSuggestions(input.value.trim());
   });
 
-  // Close on outside click
+  input.addEventListener('focus', () => {
+    if (!state.filterSearch && input.value.trim()) showSuggestions(input.value.trim());
+  });
+
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    input.classList.remove('has-value');
+    clearBtn.classList.add('hidden');
+    dropdown.classList.add('hidden');
+    state.filterSearch = '';
+    state.selectedDate = null;
+    renderCalendar();
+    input.focus();
+  });
+
   document.addEventListener('click', e => {
     if (!input.closest('.search-wrap').contains(e.target)) {
       dropdown.classList.add('hidden');
     }
   });
+}
+
+function selectShow(title) {
+  const input = document.getElementById('filter-search');
+  const clearBtn = document.getElementById('search-clear');
+
+  input.value = title;
+  input.classList.add('has-value');
+  clearBtn.classList.remove('hidden');
+
+  // Auto-clear region filter
+  state.filterRegion = '';
+  document.getElementById('filter-region').value = '';
+
+  state.filterSearch = title;
+  navigateToShow(title);
 }
 
 function escapeHtml(str) {
