@@ -165,10 +165,12 @@ header .subtitle { color: #8a8ab0; margin-top: 0.3rem; font-size: 0.88rem; }
   display: inline-block;
   flex-shrink: 0;
 }
-.dot-taipei    { background: #4f8ef7; }
-.dot-taichung  { background: #3bb87a; }
-.dot-kaohsiung { background: #f7974f; }
-.dot-other     { background: #aaa; }
+.dot-north   { background: #4f8ef7; }
+.dot-central { background: #3bb87a; }
+.dot-south   { background: #f7974f; }
+.dot-east    { background: #e05fb5; }
+.dot-island  { background: #9b59b6; }
+.dot-other   { background: #aaa; }
 
 .show-badge {
   background: #6c63ff;

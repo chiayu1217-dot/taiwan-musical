@@ -39,9 +39,11 @@ function applyFilters(shows) {
 }
 
 function dotClass(region) {
-  if (region === '台北') return 'dot-taipei';
-  if (region === '台中') return 'dot-taichung';
-  if (region === '高雄') return 'dot-kaohsiung';
+  if (region === '北部') return 'dot-north';
+  if (region === '中部') return 'dot-central';
+  if (region === '南部') return 'dot-south';
+  if (region === '東部') return 'dot-east';
+  if (region === '離島') return 'dot-island';
   return 'dot-other';
 }
 
