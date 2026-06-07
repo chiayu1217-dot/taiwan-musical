@@ -158,6 +158,16 @@ def scrape_event(browser, url: str, event_id: str, price: str, region_from_card:
         title_el = page.query_selector("h1")
         title = title_el.inner_text().strip() if title_el else "未知節目"
 
+        # Poster image: try og:image first, then first cover img
+        image_url = page.evaluate("""
+            () => {
+                const og = document.querySelector('meta[property="og:image"]');
+                if (og && og.content) return og.content;
+                const img = document.querySelector('img[src*="opentix"], img[class*="cover"], img[class*="poster"]');
+                return img ? img.src : '';
+            }
+        """)
+
         # Sessions: each span.mr-2 contains date+time, its parent text has venue
         sessions_data = page.evaluate("""
             () => {
@@ -216,6 +226,7 @@ def scrape_event(browser, url: str, event_id: str, price: str, region_from_card:
                 "time": time_str,
                 "price": price,
                 "url": url,
+                "image_url": image_url or "",
             })
 
         # Fallback: if no sessions found via span.mr-2, use card data

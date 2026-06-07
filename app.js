@@ -51,6 +51,30 @@ function toDateStr(year, month, day) {
   return `${year}-${pad(month + 1)}-${pad(day)}`;
 }
 
+// Render dots + badge fallback for calendar cells without poster
+function renderDots(dayEl, shows, merged) {
+  const dotsRow = document.createElement('div');
+  dotsRow.className = 'dots-row';
+
+  const dotsEl = document.createElement('div');
+  dotsEl.className = 'dots';
+  const regions = [...new Set(shows.map(s => s.region))];
+  regions.forEach(region => {
+    const dot = document.createElement('span');
+    dot.className = `dot ${dotClass(region)}`;
+    dotsEl.appendChild(dot);
+  });
+  dotsRow.appendChild(dotsEl);
+
+  if (merged.length > 1) {
+    const badge = document.createElement('span');
+    badge.className = 'show-badge';
+    badge.textContent = merged.length;
+    dotsRow.appendChild(badge);
+  }
+  dayEl.appendChild(dotsRow);
+}
+
 // Shorten venue: take text before ．・, or trim to 15 chars
 function shortVenue(venue) {
   const cut = venue.split(/[．・\n]/)[0].trim();
@@ -137,29 +161,33 @@ function renderCalendar() {
       dayEl.appendChild(numEl);
 
       if (shows.length > 0) {
-        const dotsRow = document.createElement('div');
-        dotsRow.className = 'dots-row';
+        const merged = mergeSessionsForDay(shows);
+        const firstImage = merged.find(s => s.image_url)?.image_url;
 
-        const dotsEl = document.createElement('div');
-        dotsEl.className = 'dots';
-        const regions = [...new Set(shows.map(s => s.region))];
-        regions.forEach(region => {
-          const dot = document.createElement('span');
-          dot.className = `dot ${dotClass(region)}`;
-          dotsEl.appendChild(dot);
-        });
-        dotsRow.appendChild(dotsEl);
+        if (firstImage) {
+          // Show circular poster with optional badge
+          dayEl.classList.add('has-poster');
+          const wrap = document.createElement('div');
+          wrap.className = 'cal-poster-wrap';
 
-        // Badge: count of unique productions on this day
-        const productionCount = mergeSessionsForDay(shows).length;
-        if (productionCount > 1) {
-          const badge = document.createElement('span');
-          badge.className = 'show-badge';
-          badge.textContent = productionCount;
-          dotsRow.appendChild(badge);
+          const img = document.createElement('img');
+          img.className = 'cal-poster';
+          img.src = firstImage;
+          img.alt = merged[0].title;
+          img.onerror = () => { wrap.remove(); renderDots(dayEl, shows, merged); };
+          wrap.appendChild(img);
+
+          if (merged.length > 1) {
+            const badge = document.createElement('span');
+            badge.className = 'cal-poster-badge';
+            badge.textContent = merged.length;
+            wrap.appendChild(badge);
+          }
+          dayEl.appendChild(wrap);
+        } else {
+          renderDots(dayEl, shows, merged);
         }
 
-        dayEl.appendChild(dotsRow);
         dayEl.addEventListener('click', () => onDayClick(dateStr, wi));
       }
 
@@ -204,6 +232,16 @@ function openExpand(dateStr, weekIndex, grouped) {
   merged.forEach(show => {
     const card = document.createElement('div');
     card.className = 'show-card';
+
+    // Poster thumbnail
+    if (show.image_url) {
+      const poster = document.createElement('img');
+      poster.className = 'show-poster';
+      poster.src = show.image_url;
+      poster.alt = show.title;
+      poster.onerror = () => poster.remove();
+      card.appendChild(poster);
+    }
 
     const title = document.createElement('span');
     title.className = 'show-title';
