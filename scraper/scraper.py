@@ -54,8 +54,13 @@ def scrape_shows() -> list[dict]:
         )
 
         print(f"Loading: {OPENTIX_URL}")
-        page.goto(OPENTIX_URL, wait_until="networkidle", timeout=30000)
-        time.sleep(2)
+        page.goto(OPENTIX_URL, wait_until="domcontentloaded", timeout=30000)
+        # Wait for program links to appear (React app needs time to hydrate)
+        try:
+            page.wait_for_selector("a[href*='/program/']", timeout=15000)
+        except Exception:
+            pass  # proceed even if selector not found; program_links will be empty
+        time.sleep(1)
 
         program_links = page.eval_on_selector_all(
             "a[href*='/program/']",
@@ -77,8 +82,8 @@ def scrape_shows() -> list[dict]:
 def scrape_program(browser, url: str) -> list[dict]:
     page = browser.new_page()
     try:
-        page.goto(url, wait_until="networkidle", timeout=20000)
-        time.sleep(1)
+        page.goto(url, wait_until="domcontentloaded", timeout=20000)
+        time.sleep(2)  # give React time to render session data
 
         program_id = url.rstrip("/").split("/")[-1]
 
