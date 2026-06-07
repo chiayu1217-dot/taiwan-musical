@@ -1,0 +1,37 @@
+name: Scrape OpenTix
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 UTC 02:00 = 台灣時間 10:00
+  workflow_dispatch:        # 允許手動觸發
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scraper/requirements.txt
+          playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python scraper/scraper.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/shows.json
+          git diff --staged --quiet || git commit -m "chore: update shows data [skip ci]"
+          git push
