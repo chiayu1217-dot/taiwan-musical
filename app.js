@@ -210,14 +210,16 @@ function openExpand(dateStr, weekIndex, grouped) {
       card.appendChild(price);
     }
 
-    const safeUrl = show.url && show.url.startsWith('https://') ? show.url : '#';
-    const btn = document.createElement('a');
-    btn.className = 'buy-btn';
-    btn.href = safeUrl;
-    btn.target = '_blank';
-    btn.rel = 'noopener noreferrer';
-    btn.textContent = '購票';
-    card.appendChild(btn);
+    const safeUrl = show.url && show.url.startsWith('https://') ? show.url : null;
+    if (safeUrl) {
+      const btn = document.createElement('a');
+      btn.className = 'buy-btn';
+      btn.href = safeUrl;
+      btn.target = '_blank';
+      btn.rel = 'noopener noreferrer';
+      btn.textContent = '購票';
+      card.appendChild(btn);
+    }
 
     expandEl.appendChild(card);
   });
