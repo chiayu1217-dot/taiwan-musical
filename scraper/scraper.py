@@ -120,6 +120,7 @@ def scrape_shows() -> list[dict]:
         # Collect event metadata from search result cards
         event_meta = page.evaluate("""
             () => {
+                const CATEGORIES = new Set(['戲劇', '音樂', '親子', '舞蹈', '其他', '展覽']);
                 const links = [...document.querySelectorAll('a[href*="/event/"]')];
                 const seen = new Set();
                 const results = [];
@@ -127,16 +128,11 @@ def scrape_shows() -> list[dict]:
                     const href = a.href;
                     if (seen.has(href)) continue;
                     seen.add(href);
-                    // Walk up to find unique card container
-                    let container = a;
-                    for (let i = 0; i < 8; i++) {
-                        container = container.parentElement;
-                        if (!container) break;
-                        const evtLinks = container.querySelectorAll('a[href*="/event/"]');
-                        if (evtLinks.length === 1) break;
-                    }
-                    const text = container ? container.innerText : a.innerText;
-                    results.push({ href, text });
+                    // Use a.innerText directly — it contains the full card content
+                    const text = a.innerText.trim();
+                    const aLines = text.split('\\n').map(l => l.trim()).filter(Boolean);
+                    const title = aLines.find(l => l.length > 5 && !CATEGORIES.has(l)) || '';
+                    results.push({ href, text, title });
                 }
                 return results;
             }
@@ -150,11 +146,9 @@ def scrape_shows() -> list[dict]:
                 card_text = meta["text"]
                 event_id = url.rstrip("/").split("/")[-1]
 
-                # Parse price from card text: $1,500 - $2,400
                 price_match = re.search(r"\$[\d,]+\s*-\s*\$[\d,]+", card_text)
                 price = normalize_price(price_match.group(0)) if price_match else ""
 
-                # Parse region from card text
                 region_from_card = parse_region_from_text(card_text)
 
                 shows.extend(scrape_event(browser, url, event_id, price, region_from_card))

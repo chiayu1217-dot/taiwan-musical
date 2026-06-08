@@ -204,7 +204,7 @@
     "venue": "新竹縣政府文化局演藝廳",
     "date": "2026-06-13",
     "time": "14:00",
-    "price": "1500-2400",
+    "price": "400-800",
     "url": "https://www.opentix.life/event/2038509943907385345",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774856176794I0wKaWMaO5.png"
   },
@@ -215,7 +215,7 @@
     "venue": "高雄市文化中心至德堂",
     "date": "2026-06-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "600-2000",
     "url": "https://www.opentix.life/event/2036344711529598977",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774584474346DTAN5Jxll9.png"
   },
@@ -226,7 +226,7 @@
     "venue": "屏東藝術館",
     "date": "2026-06-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-1200",
     "url": "https://www.opentix.life/event/2013895944716156929",
     "image_url": "https://s3.resource.opentix.life/upload/program/1768986810957yCRSKMCSjT.jpeg"
   },
@@ -237,7 +237,7 @@
     "venue": "屏東藝術館",
     "date": "2026-06-14",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1200",
     "url": "https://www.opentix.life/event/2013895944716156929",
     "image_url": "https://s3.resource.opentix.life/upload/program/1768986810957yCRSKMCSjT.jpeg"
   },
@@ -248,7 +248,7 @@
     "venue": "臺中市中山堂",
     "date": "2026-06-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-3000",
     "url": "https://www.opentix.life/event/1963563229010575360",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
   },
@@ -259,7 +259,7 @@
     "venue": "臺中市中山堂",
     "date": "2026-06-14",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3000",
     "url": "https://www.opentix.life/event/1963563229010575360",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
   },
@@ -270,9 +270,20 @@
     "venue": "恆春文化中心劇場館表演廳",
     "date": "2026-06-20",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "100-300",
     "url": "https://www.opentix.life/event/2046559224610115585",
     "image_url": "https://s3.resource.opentix.life/upload/program/17767740051320O66vNblDf.jpeg"
+  },
+  {
+    "id": "2062470825049464833-2026-06-27-1430",
+    "title": "【廳院青專屬】青現場｜勸世變身中：《勸世三姊妹》服裝造型工作坊",
+    "region": "其他",
+    "venue": "國家兩廳院",
+    "date": "2026-06-27",
+    "time": "14:30",
+    "price": "",
+    "url": "https://www.opentix.life/event/2062470825049464833",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780660310278LA8SGAeLmX.jpeg"
   },
   {
     "id": "2037370828788154369-2026-06-27-1430",
@@ -281,7 +292,7 @@
     "venue": "臺灣戲曲中心多功能廳",
     "date": "2026-06-27",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-3000",
     "url": "https://www.opentix.life/event/2037370828788154369",
     "image_url": "https://s3.resource.opentix.life/upload/program/17745819158538fP57eWvHC.jpeg"
   },
@@ -292,7 +303,7 @@
     "venue": "臺灣戲曲中心多功能廳",
     "date": "2026-06-27",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-3000",
     "url": "https://www.opentix.life/event/2037370828788154369",
     "image_url": "https://s3.resource.opentix.life/upload/program/17745819158538fP57eWvHC.jpeg"
   },
@@ -303,7 +314,7 @@
     "venue": "臺灣戲曲中心多功能廳",
     "date": "2026-06-28",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-3000",
     "url": "https://www.opentix.life/event/2037370828788154369",
     "image_url": "https://s3.resource.opentix.life/upload/program/17745819158538fP57eWvHC.jpeg"
   },
@@ -314,7 +325,7 @@
     "venue": "3Q米食",
     "date": "2026-07-04",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "300-500",
     "url": "https://www.opentix.life/event/2052289564972879873",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778666227956IrAU08FHJ1.jpeg"
   },
@@ -325,7 +336,7 @@
     "venue": "3Q米食",
     "date": "2026-07-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "300-500",
     "url": "https://www.opentix.life/event/2052289564972879873",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778666227956IrAU08FHJ1.jpeg"
   },
@@ -336,7 +347,7 @@
     "venue": "3Q米食",
     "date": "2026-07-05",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "300-500",
     "url": "https://www.opentix.life/event/2052289564972879873",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778666227956IrAU08FHJ1.jpeg"
   },
@@ -347,7 +358,7 @@
     "venue": "臺中國家歌劇院大劇院",
     "date": "2026-07-10",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2600",
     "url": "https://www.opentix.life/event/2041405429645697025",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
   },
@@ -358,7 +369,7 @@
     "venue": "臺中國家歌劇院大劇院",
     "date": "2026-07-11",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2600",
     "url": "https://www.opentix.life/event/2041405429645697025",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
   },
@@ -369,7 +380,7 @@
     "venue": "臺中國家歌劇院大劇院",
     "date": "2026-07-11",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2600",
     "url": "https://www.opentix.life/event/2041405429645697025",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
   },
@@ -380,7 +391,7 @@
     "venue": "臺中國家歌劇院大劇院",
     "date": "2026-07-12",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2600",
     "url": "https://www.opentix.life/event/2041405429645697025",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
   },
@@ -391,7 +402,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-07-11",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "600-1000",
     "url": "https://www.opentix.life/event/2019309595075858432",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
@@ -402,7 +413,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-07-11",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "600-1000",
     "url": "https://www.opentix.life/event/2019309595075858432",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
@@ -413,7 +424,7 @@
     "venue": "恆春文化中心劇場館表演廳",
     "date": "2026-07-11",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-1200",
     "url": "https://www.opentix.life/event/2056946900775936001",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
   },
@@ -424,7 +435,7 @@
     "venue": "恆春文化中心劇場館表演廳",
     "date": "2026-07-12",
     "time": "14:00",
-    "price": "1500-2400",
+    "price": "500-1200",
     "url": "https://www.opentix.life/event/2056946900775936001",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
   },
@@ -435,7 +446,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-18",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2045067828311797761",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778130137329nbvsyVeqH5.jpeg"
   },
@@ -446,7 +457,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2045067828311797761",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778130137329nbvsyVeqH5.jpeg"
   },
@@ -457,7 +468,7 @@
     "venue": "國立陽明交通大學光復校區大禮堂",
     "date": "2026-07-18",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "100-200",
     "url": "https://www.opentix.life/event/2051498109678620672",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777950121927uXdF5jrlsR.jpeg"
   },
@@ -468,7 +479,7 @@
     "venue": "衛武營國家藝術文化中心歌劇院",
     "date": "2026-07-18",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4000",
     "url": "https://www.opentix.life/event/2011615042313633793",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
   },
@@ -479,7 +490,7 @@
     "venue": "國家音樂廳",
     "date": "2026-07-21",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "600-4000",
     "url": "https://www.opentix.life/event/2039175336378621953",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777353786394WcgkIKIjSt.png"
   },
@@ -490,7 +501,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-25",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-2500",
     "url": "https://www.opentix.life/event/2044254955820302336",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
   },
@@ -501,7 +512,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-25",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-2500",
     "url": "https://www.opentix.life/event/2044254955820302336",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
   },
@@ -512,7 +523,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-26",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-2500",
     "url": "https://www.opentix.life/event/2044254955820302336",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
   },
@@ -523,7 +534,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-07-26",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-2500",
     "url": "https://www.opentix.life/event/2044254955820302336",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
   },
@@ -534,7 +545,7 @@
     "venue": "衛武營國家藝術文化中心歌劇院",
     "date": "2026-07-25",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2009210831283515392",
     "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
   },
@@ -545,7 +556,7 @@
     "venue": "衛武營國家藝術文化中心歌劇院",
     "date": "2026-07-26",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2009210831283515392",
     "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
   },
@@ -556,7 +567,7 @@
     "venue": "臺東縣政府文化處藝文中心演藝廳",
     "date": "2026-07-25",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "400-1000",
     "url": "https://www.opentix.life/event/2054052615857229824",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779185669948wHnOLVwEAN.png"
   },
@@ -567,7 +578,7 @@
     "venue": "雲林表演廳",
     "date": "2026-07-25",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "350-1600",
     "url": "https://www.opentix.life/event/2032387392627208193",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774934574359yMd6lF9NS9.jpeg"
   },
@@ -578,7 +589,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-01",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -589,7 +600,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-01",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -600,7 +611,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-01",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -611,7 +622,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-02",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -622,7 +633,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-02",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -633,7 +644,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-12",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -644,7 +655,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-12",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -655,7 +666,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-13",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -666,7 +677,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-13",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "500-1500",
     "url": "https://www.opentix.life/event/2046829520049606657",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
@@ -677,7 +688,7 @@
     "venue": "臺中市葫蘆墩文化中心演奏廳",
     "date": "2026-08-01",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "200-600",
     "url": "https://www.opentix.life/event/2060160467043475457",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780363980220b1P4WNxx6H.jpeg"
   },
@@ -688,7 +699,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-07",
     "time": "20:00",
-    "price": "1500-2400",
+    "price": "700-1200",
     "url": "https://www.opentix.life/event/2045062329252155393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776999245131i8H0uXUJ32.jpeg"
   },
@@ -699,7 +710,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-08",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-1200",
     "url": "https://www.opentix.life/event/2045062329252155393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776999245131i8H0uXUJ32.jpeg"
   },
@@ -710,7 +721,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-09",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-1200",
     "url": "https://www.opentix.life/event/2045062329252155393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776999245131i8H0uXUJ32.jpeg"
   },
@@ -721,7 +732,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-08",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -732,7 +743,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-09",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -743,7 +754,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -754,7 +765,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -765,7 +776,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-14",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -776,7 +787,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-15",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -787,7 +798,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-15",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -798,7 +809,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-16",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -809,7 +820,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-19",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -820,7 +831,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-20",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -831,7 +842,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-21",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -842,7 +853,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-22",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -853,7 +864,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-22",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -864,7 +875,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-23",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -875,7 +886,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-26",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -886,7 +897,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-27",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -897,7 +908,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-28",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -908,7 +919,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-29",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -919,7 +930,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-29",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -930,7 +941,7 @@
     "venue": "國家戲劇院",
     "date": "2026-08-30",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "500-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
@@ -941,7 +952,7 @@
     "venue": "衛武營國家藝術文化中心表演廳",
     "date": "2026-08-19",
     "time": "20:00",
-    "price": "1500-2400",
+    "price": "300-800",
     "url": "https://www.opentix.life/event/2039660562763821057",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777278848152unasdCjPT9.png"
   },
@@ -952,7 +963,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-21",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "600-2600",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
   },
@@ -963,7 +974,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-22",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "600-2600",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
   },
@@ -974,7 +985,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-22",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "600-2600",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
   },
@@ -985,7 +996,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-08-23",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "600-2600",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
   },
@@ -996,7 +1007,7 @@
     "venue": "水源劇場",
     "date": "2026-08-21",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1007,7 +1018,7 @@
     "venue": "水源劇場",
     "date": "2026-08-22",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1018,7 +1029,7 @@
     "venue": "水源劇場",
     "date": "2026-08-22",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1029,7 +1040,7 @@
     "venue": "水源劇場",
     "date": "2026-08-23",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1040,7 +1051,7 @@
     "venue": "水源劇場",
     "date": "2026-08-28",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1051,7 +1062,7 @@
     "venue": "水源劇場",
     "date": "2026-08-29",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1062,7 +1073,7 @@
     "venue": "水源劇場",
     "date": "2026-08-29",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1073,7 +1084,7 @@
     "venue": "水源劇場",
     "date": "2026-08-30",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1084,7 +1095,7 @@
     "venue": "水源劇場",
     "date": "2026-09-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1095,7 +1106,7 @@
     "venue": "水源劇場",
     "date": "2026-09-05",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1106,7 +1117,7 @@
     "venue": "水源劇場",
     "date": "2026-09-05",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1117,7 +1128,7 @@
     "venue": "水源劇場",
     "date": "2026-09-06",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -1128,7 +1139,7 @@
     "venue": "高雄市岡山皮影戲館(3F親子劇場)",
     "date": "2026-08-22",
     "time": "14:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2031996710945062912",
     "image_url": "https://s3.resource.opentix.life/upload/program/1773300556778ehGN276rzb.jpeg"
   },
@@ -1139,7 +1150,7 @@
     "venue": "小馬廄",
     "date": "2026-08-25",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "650-1200",
     "url": "https://www.opentix.life/event/2059080758652174337",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779757749167YwjgzaDocV.png"
   },
@@ -1150,7 +1161,7 @@
     "venue": "小馬廄",
     "date": "2026-08-26",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "650-1200",
     "url": "https://www.opentix.life/event/2059080758652174337",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779757749167YwjgzaDocV.png"
   },
@@ -1161,7 +1172,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-28",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1200-3000",
     "url": "https://www.opentix.life/event/2046079208613777408",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057969553GWjpvz2w5X.jpeg"
   },
@@ -1172,7 +1183,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-29",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1200-3000",
     "url": "https://www.opentix.life/event/2046079208613777408",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057969553GWjpvz2w5X.jpeg"
   },
@@ -1183,7 +1194,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-29",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1200-3000",
     "url": "https://www.opentix.life/event/2046079208613777408",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057969553GWjpvz2w5X.jpeg"
   },
@@ -1194,7 +1205,7 @@
     "venue": "臺中國家歌劇院中劇院",
     "date": "2026-08-30",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1200-3000",
     "url": "https://www.opentix.life/event/2046079208613777408",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057969553GWjpvz2w5X.jpeg"
   },
@@ -1205,7 +1216,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-3000",
     "url": "https://www.opentix.life/event/2046477133841158145",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057937969kUVtXsDj09.jpeg"
   },
@@ -1216,7 +1227,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-05",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-3000",
     "url": "https://www.opentix.life/event/2046477133841158145",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057937969kUVtXsDj09.jpeg"
   },
@@ -1227,7 +1238,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-05",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-3000",
     "url": "https://www.opentix.life/event/2046477133841158145",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057937969kUVtXsDj09.jpeg"
   },
@@ -1238,7 +1249,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-06",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-3000",
     "url": "https://www.opentix.life/event/2046477133841158145",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778057937969kUVtXsDj09.jpeg"
   },
@@ -1249,7 +1260,7 @@
     "venue": "屏東藝術館",
     "date": "2026-09-05",
     "time": "14:00",
-    "price": "1500-2400",
+    "price": "400-1000",
     "url": "https://www.opentix.life/event/2059097848899674113",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780364432001gZmZdAC0Ce.png"
   },
@@ -1260,7 +1271,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-05",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1271,7 +1282,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-06",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1282,7 +1293,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-06",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1293,7 +1304,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-11",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1304,7 +1315,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-12",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1315,7 +1326,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1326,7 +1337,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-13",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1337,7 +1348,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-17",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1348,7 +1359,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-18",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1359,7 +1370,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1370,7 +1381,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-19",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1381,7 +1392,7 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-09-20",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
@@ -1392,7 +1403,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-09-12",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "400-3000",
     "url": "https://www.opentix.life/event/1881618375330443264",
     "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
   },
@@ -1403,7 +1414,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-09-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "400-3000",
     "url": "https://www.opentix.life/event/1881618375330443264",
     "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
   },
@@ -1414,7 +1425,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-09-13",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "400-3000",
     "url": "https://www.opentix.life/event/1881618375330443264",
     "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
   },
@@ -1425,7 +1436,7 @@
     "venue": "屏東藝術館",
     "date": "2026-09-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "400-800",
     "url": "https://www.opentix.life/event/2044692904715923457",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776843416894xcm7dPjAkj.png"
   },
@@ -1436,7 +1447,7 @@
     "venue": "澎湖縣演藝廳",
     "date": "2026-09-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-800",
     "url": "https://www.opentix.life/event/1823201256034107393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780221229857STEVVyhVxW.jpeg"
   },
@@ -1447,7 +1458,7 @@
     "venue": "澎湖縣演藝廳",
     "date": "2026-09-19",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-800",
     "url": "https://www.opentix.life/event/1823201256034107393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780221229857STEVVyhVxW.jpeg"
   },
@@ -1458,7 +1469,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
@@ -1469,7 +1480,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-19",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
@@ -1480,7 +1491,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-20",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
@@ -1491,7 +1502,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-25",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
@@ -1502,7 +1513,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-09-26",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "500-3500",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
@@ -1513,7 +1524,7 @@
     "venue": "誠品表演廳",
     "date": "2026-09-25",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-2500",
     "url": "https://www.opentix.life/event/2047993997244669953",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777114640278RHt9VfX45f.jpeg"
   },
@@ -1524,7 +1535,7 @@
     "venue": "國家戲劇院",
     "date": "2026-09-27",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "880-4680",
     "url": "https://www.opentix.life/event/2053677047754907649",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778468477796IcDlHaVAF9.png"
   },
@@ -1535,7 +1546,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-10-02",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "800-2200",
     "url": "https://www.opentix.life/event/2059231461195935744",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780391040039XbGR62m3T6.png"
   },
@@ -1546,7 +1557,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-10-03",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-2200",
     "url": "https://www.opentix.life/event/2059231461195935744",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780391040039XbGR62m3T6.png"
   },
@@ -1557,7 +1568,7 @@
     "venue": "衛武營國家藝術文化中心戲劇院",
     "date": "2026-10-04",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "800-2200",
     "url": "https://www.opentix.life/event/2059231461195935744",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780391040039XbGR62m3T6.png"
   },
@@ -1568,7 +1579,7 @@
     "venue": "臺北市客家音樂戲劇中心二樓劇場",
     "date": "2026-10-24",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-1000",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
@@ -1579,7 +1590,7 @@
     "venue": "臺北市客家音樂戲劇中心二樓劇場",
     "date": "2026-10-24",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "700-1000",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
@@ -1590,7 +1601,7 @@
     "venue": "臺北市客家音樂戲劇中心二樓劇場",
     "date": "2026-10-25",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "700-1000",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
@@ -1601,7 +1612,7 @@
     "venue": "臺灣大學藝文中心遊心劇場",
     "date": "2026-11-06",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-1800",
     "url": "https://www.opentix.life/event/2052621362491457537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
   },
@@ -1612,7 +1623,7 @@
     "venue": "臺灣大學藝文中心遊心劇場",
     "date": "2026-11-07",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "1000-1800",
     "url": "https://www.opentix.life/event/2052621362491457537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
   },
@@ -1623,7 +1634,7 @@
     "venue": "臺灣大學藝文中心遊心劇場",
     "date": "2026-11-08",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "1000-1800",
     "url": "https://www.opentix.life/event/2052621362491457537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
   },
@@ -1634,7 +1645,7 @@
     "venue": "衛武營國家藝術文化中心表演廳",
     "date": "2026-11-18",
     "time": "20:00",
-    "price": "1500-2400",
+    "price": "300-800",
     "url": "https://www.opentix.life/event/2043952009527836673",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777278931670bXQKIgAN0B.png"
   },
@@ -1645,7 +1656,7 @@
     "venue": "駁二正港小劇場",
     "date": "2026-11-27",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
   },
@@ -1656,7 +1667,7 @@
     "venue": "駁二正港小劇場",
     "date": "2026-11-28",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
   },
@@ -1667,7 +1678,7 @@
     "venue": "駁二正港小劇場",
     "date": "2026-11-29",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
   },
@@ -1678,7 +1689,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-10-03",
     "time": "13:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/1956171631240474625",
     "image_url": "https://s3.resource.opentix.life/upload/program/17593781809424tN0QxJDQB.jpeg"
   },
@@ -1689,7 +1700,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-10-03",
     "time": "18:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/1956171631240474625",
     "image_url": "https://s3.resource.opentix.life/upload/program/17593781809424tN0QxJDQB.jpeg"
   },
@@ -1700,7 +1711,7 @@
     "venue": "苗北藝文中心演藝廳",
     "date": "2026-06-13",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/1955833404180180992",
     "image_url": "https://s3.resource.opentix.life/upload/program/1759378407767RSiKTBpDr1.jpeg"
   },
@@ -1711,7 +1722,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-07-03",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2041826640707264513",
     "image_url": "https://s3.resource.opentix.life/upload/program/1775644192663F0FOf8Rxk8.jpeg"
   },
@@ -1722,7 +1733,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-07-04",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2041826640707264513",
     "image_url": "https://s3.resource.opentix.life/upload/program/1775644192663F0FOf8Rxk8.jpeg"
   },
@@ -1733,7 +1744,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-07-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2041826640707264513",
     "image_url": "https://s3.resource.opentix.life/upload/program/1775644192663F0FOf8Rxk8.jpeg"
   },
@@ -1744,7 +1755,7 @@
     "venue": "臺北市藝文推廣處城市舞台",
     "date": "2026-07-05",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2041826640707264513",
     "image_url": "https://s3.resource.opentix.life/upload/program/1775644192663F0FOf8Rxk8.jpeg"
   },
@@ -1755,7 +1766,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-06-27",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1766,7 +1777,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-06-27",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1777,7 +1788,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-06-28",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1788,7 +1799,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-07-03",
     "time": "20:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1799,7 +1810,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-07-04",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1810,7 +1821,7 @@
     "venue": "台北車站演藝廳",
     "date": "2026-07-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2059181860866781185",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779782182116T9AK8JBlp7.jpeg"
   },
@@ -1821,7 +1832,7 @@
     "venue": "中壢藝術館音樂廳",
     "date": "2026-06-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005488764130009089",
     "image_url": "https://s3.resource.opentix.life/upload/program/17669804373148sr3A7VRSS.jpeg"
   },
@@ -1832,7 +1843,7 @@
     "venue": "中壢藝術館音樂廳",
     "date": "2026-06-13",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005488764130009089",
     "image_url": "https://s3.resource.opentix.life/upload/program/17669804373148sr3A7VRSS.jpeg"
   },
@@ -1843,7 +1854,7 @@
     "venue": "中壢藝術館音樂廳",
     "date": "2026-06-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005488764130009089",
     "image_url": "https://s3.resource.opentix.life/upload/program/17669804373148sr3A7VRSS.jpeg"
   },
@@ -1854,7 +1865,7 @@
     "venue": "中壢藝術館音樂廳",
     "date": "2026-06-14",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005488764130009089",
     "image_url": "https://s3.resource.opentix.life/upload/program/17669804373148sr3A7VRSS.jpeg"
   },
@@ -1865,7 +1876,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-07-31",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1876,7 +1887,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-01",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1887,7 +1898,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-01",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1898,7 +1909,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-02",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1909,7 +1920,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-02",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1920,7 +1931,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-04",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1931,7 +1942,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-05",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1942,7 +1953,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-06",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1953,7 +1964,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-07",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1964,7 +1975,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-08",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1975,7 +1986,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-08",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1986,7 +1997,7 @@
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-08-09",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054129876962353153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg"
   },
@@ -1997,7 +2008,7 @@
     "venue": "新竹縣政府文化局演藝廳",
     "date": "2026-09-11",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054141180924674048",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778580243189rjMfK8zGbH.jpeg"
   },
@@ -2008,7 +2019,7 @@
     "venue": "新竹縣政府文化局演藝廳",
     "date": "2026-09-12",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054141180924674048",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778580243189rjMfK8zGbH.jpeg"
   },
@@ -2019,7 +2030,7 @@
     "venue": "新竹縣政府文化局演藝廳",
     "date": "2026-09-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054141180924674048",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778580243189rjMfK8zGbH.jpeg"
   },
@@ -2030,7 +2041,7 @@
     "venue": "新竹縣政府文化局演藝廳",
     "date": "2026-09-13",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054141180924674048",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778580243189rjMfK8zGbH.jpeg"
   },
@@ -2041,7 +2052,7 @@
     "venue": "宜蘭演藝廳",
     "date": "2026-07-11",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2037121747201376257",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774522259631H5aX0kFi2A.jpeg"
   },
@@ -2052,7 +2063,7 @@
     "venue": "宜蘭演藝廳",
     "date": "2026-07-11",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2037121747201376257",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774522259631H5aX0kFi2A.jpeg"
   },
@@ -2063,7 +2074,7 @@
     "venue": "水源劇場",
     "date": "2026-06-12",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2074,7 +2085,7 @@
     "venue": "水源劇場",
     "date": "2026-06-13",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2085,7 +2096,7 @@
     "venue": "水源劇場",
     "date": "2026-06-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2096,7 +2107,7 @@
     "venue": "水源劇場",
     "date": "2026-06-14",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2107,7 +2118,7 @@
     "venue": "水源劇場",
     "date": "2026-06-19",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2118,7 +2129,7 @@
     "venue": "水源劇場",
     "date": "2026-06-19",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2129,7 +2140,7 @@
     "venue": "水源劇場",
     "date": "2026-06-20",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2140,7 +2151,7 @@
     "venue": "水源劇場",
     "date": "2026-06-20",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2151,7 +2162,7 @@
     "venue": "水源劇場",
     "date": "2026-06-21",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2009274159457329152",
     "image_url": "https://s3.resource.opentix.life/upload/program/17691431598848cS2AvDV6P.png"
   },
@@ -2162,7 +2173,7 @@
     "venue": "國家音樂廳",
     "date": "2026-12-20",
     "time": "19:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2060701239226236928",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780460010776R2c3oU1YVp.jpeg"
   },
@@ -2173,7 +2184,7 @@
     "venue": "屏東演藝廳音樂廳",
     "date": "2026-08-22",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054111612466401281",
     "image_url": "https://s3.resource.opentix.life/upload/program/177857313243801ZsYLcmk7.jpeg"
   },
@@ -2184,7 +2195,7 @@
     "venue": "屏東演藝廳音樂廳",
     "date": "2026-08-22",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2054111612466401281",
     "image_url": "https://s3.resource.opentix.life/upload/program/177857313243801ZsYLcmk7.jpeg"
   },
@@ -2195,7 +2206,7 @@
     "venue": "臺北表演藝術中心 球劇場",
     "date": "2026-08-14",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2048966343179272192",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778566109491p0pxT3akYC.jpeg"
   },
@@ -2206,7 +2217,7 @@
     "venue": "臺北表演藝術中心 球劇場",
     "date": "2026-08-15",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2048966343179272192",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778566109491p0pxT3akYC.jpeg"
   },
@@ -2217,7 +2228,7 @@
     "venue": "臺北表演藝術中心 球劇場",
     "date": "2026-08-15",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2048966343179272192",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778566109491p0pxT3akYC.jpeg"
   },
@@ -2228,7 +2239,7 @@
     "venue": "臺北表演藝術中心 球劇場",
     "date": "2026-08-16",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2048966343179272192",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778566109491p0pxT3akYC.jpeg"
   },
@@ -2239,7 +2250,7 @@
     "venue": "臺南文化中心演藝廳",
     "date": "2026-09-05",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2057670301236293632",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779958376846HBY3lDOOOq.jpeg"
   },
@@ -2250,7 +2261,7 @@
     "venue": "臺南文化中心演藝廳",
     "date": "2026-09-06",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2057670301236293632",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779958376846HBY3lDOOOq.jpeg"
   },
@@ -2261,7 +2272,7 @@
     "venue": "衛武營國家藝術文化中心音樂廳",
     "date": "2026-08-01",
     "time": "14:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005537019322753024",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778232163930IxVEB31FeD.jpeg"
   },
@@ -2272,7 +2283,7 @@
     "venue": "衛武營國家藝術文化中心音樂廳",
     "date": "2026-08-01",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2005537019322753024",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778232163930IxVEB31FeD.jpeg"
   },
@@ -2283,7 +2294,7 @@
     "venue": "衛武營國家藝術文化中心音樂廳",
     "date": "2026-12-18",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2060315517627953153",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780459385614MvrO0bntr6.jpeg"
   },
@@ -2294,7 +2305,7 @@
     "venue": "臺北市政大樓親子劇場",
     "date": "2026-09-05",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2056994138814525441",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779686054895B5QbIbt5p2.jpeg"
   },
@@ -2305,7 +2316,7 @@
     "venue": "臺北市政大樓親子劇場",
     "date": "2026-09-05",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2056994138814525441",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779686054895B5QbIbt5p2.jpeg"
   },
@@ -2316,7 +2327,7 @@
     "venue": "臺北市政大樓親子劇場",
     "date": "2026-09-06",
     "time": "10:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2056994138814525441",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779686054895B5QbIbt5p2.jpeg"
   },
@@ -2327,7 +2338,7 @@
     "venue": "臺北市政大樓親子劇場",
     "date": "2026-09-06",
     "time": "15:00",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2056994138814525441",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779686054895B5QbIbt5p2.jpeg"
   },
@@ -2338,7 +2349,7 @@
     "venue": "臺中國家歌劇院小劇場",
     "date": "2026-07-13",
     "time": "19:30",
-    "price": "1500-2400",
+    "price": "",
     "url": "https://www.opentix.life/event/2032009229067890689",
     "image_url": "https://s3.resource.opentix.life/upload/program/177400808980802pJGnWfWw.jpeg"
   }
