@@ -21,9 +21,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: |
-          pip install -r scraper/requirements.txt
-          playwright install chromium --with-deps
+        run: pip install -r scraper/requirements.txt
 
       - name: Run scraper
         run: python scraper/scraper.py

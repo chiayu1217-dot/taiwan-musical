@@ -1,15 +1,13 @@
+import datetime
 import json
 import re
 import time
+import urllib.request
 from pathlib import Path
-from playwright.sync_api import sync_playwright
 
-OPENTIX_URL = (
-    "https://www.opentix.life/search/%20/ABOUT_TO_BEGIN"
-    "?category=%E6%88%B2%E5%8A%87-%E9%9F%B3%E6%A8%82%E5%8A%87&type=programs"
-)
-
+SEARCH_API = "https://search.opentix.life/search"
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "shows.json"
+PAGE_SIZE = 15
 
 REGION_KEYWORDS = {
     "北部": ["台北", "臺北", "新北", "基隆", "桃園", "新竹", "水源", "國家戲劇", "國家音樂廳", "台北中山堂", "臺北中山堂", "信義", "松菸", "城市舞台", "新舞臺", "牯嶺街", "南村", "PLAYground", "臺灣戲曲中心", "陽明交通大學", "交通大學光復", "樹林", "文山"],
@@ -44,7 +42,6 @@ def guess_region(venue: str) -> str:
 def normalize_price(raw: str) -> str:
     if not raw or raw.strip() in ("免費", "免費入場", "0"):
         return ""
-    # Match numbers with optional commas (e.g. 1,500)
     nums = [n.replace(",", "") for n in re.findall(r"\d[\d,]*", raw)]
     if len(nums) >= 2:
         return f"{nums[0]}-{nums[-1]}"
@@ -54,204 +51,102 @@ def normalize_price(raw: str) -> str:
 
 
 def build_show_id(event_id: str, date: str, time_str: str) -> str:
-    time_compact = time_str.replace(":", "")
-    return f"{event_id}-{date}-{time_compact}"
+    return f"{event_id}-{date}-{time_str.replace(':', '')}"
 
 
-def parse_region_from_text(text: str) -> str:
-    """Parse region from search result card text (e.g. '臺北', '高雄')."""
-    for raw, normalized in REGION_TEXT_MAP.items():
-        if raw in text:
-            return normalized
-    return "其他"
+def _api_post(offset: int) -> dict:
+    payload = json.dumps({
+        "language": "zh-CHT",
+        "categoryFilter": ["戲劇-音樂劇"],
+        "offset": offset,
+        "sortBy": "ABOUT_TO_BEGIN",
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        SEARCH_API,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Origin": "https://www.opentix.life",
+            "Referer": "https://www.opentix.life/",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 
-def scrape_shows() -> list[dict]:
-    shows = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(
-            user_agent=(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            )
-        )
+def parse_sessions(src: dict) -> list[dict]:
+    """Parse all city sessions from one API source object."""
+    event_id = str(src["id"])
+    title = src.get("title", "未知節目")
+    image_url = src.get("imageUrl", "")
+    url = f"https://www.opentix.life/event/{event_id}"
 
-        print(f"Loading: {OPENTIX_URL}")
-        page.goto(OPENTIX_URL, wait_until="domcontentloaded", timeout=30000)
-        try:
-            page.wait_for_selector("a[href*='/event/']", timeout=15000)
-        except Exception:
-            pass
-        time.sleep(2)
+    sessions = []
+    seen_ids = set()
 
-        # Dismiss any popup dialogs first
-        try:
-            page.evaluate("""
-                () => {
-                    const dismissBtns = [...document.querySelectorAll('button, div')]
-                        .filter(el => el.innerText && el.innerText.includes('不再提醒'));
-                    dismissBtns.forEach(el => el.click());
-                }
-            """)
-            time.sleep(0.5)
-        except Exception:
-            pass
+    for venue_data in src.get("eventVenues", []):
+        venue_name = venue_data.get("name", "待確認")
+        city = venue_data.get("city", "")
 
-        # Click "顯示更多" via JS to bypass popup overlay (43 items, ~15 per page = 3 clicks max)
-        for attempt in range(4):
-            time.sleep(2.5)
-            has_btn = page.evaluate("""
-                () => {
-                    const btn = [...document.querySelectorAll('button')]
-                        .find(b => b.innerText && b.innerText.includes('顯示更多'));
-                    if (btn) { btn.click(); return true; }
-                    return false;
-                }
-            """)
-            if not has_btn:
-                break
-            print(f"  Clicked 顯示更多 ({attempt + 1})")
+        region = guess_region(venue_name)
+        if region == "其他" and city:
+            region = REGION_TEXT_MAP.get(city, "其他")
 
-        total = page.evaluate("[...new Set([...document.querySelectorAll('a[href*=\"/event/\"]')].map(a=>a.href))].length")
-        print(f"Total event links on page: {total}")
-
-        # Collect event metadata from search result cards
-        event_meta = page.evaluate("""
-            () => {
-                const CATEGORIES = new Set(['戲劇', '音樂', '親子', '舞蹈', '其他', '展覽']);
-                const links = [...document.querySelectorAll('a[href*="/event/"]')];
-                const seen = new Set();
-                const results = [];
-                for (const a of links) {
-                    const href = a.href;
-                    if (seen.has(href)) continue;
-                    seen.add(href);
-                    // Use a.innerText directly — it contains the full card content
-                    const text = a.innerText.trim();
-                    const aLines = text.split('\\n').map(l => l.trim()).filter(Boolean);
-                    const title = aLines.find(l => l.length > 5 && !CATEGORIES.has(l)) || '';
-                    results.push({ href, text, title });
-                }
-                return results;
-            }
-        """)
-
-        print(f"Found {len(event_meta)} events")
-
-        for meta in event_meta:
-            try:
-                url = meta["href"]
-                card_text = meta["text"]
-                event_id = url.rstrip("/").split("/")[-1]
-
-                price_match = re.search(r"\$[\d,]+\s*-\s*\$[\d,]+", card_text)
-                price = normalize_price(price_match.group(0)) if price_match else ""
-
-                region_from_card = parse_region_from_text(card_text)
-
-                shows.extend(scrape_event(browser, url, event_id, price, region_from_card))
-                time.sleep(1)
-            except Exception as e:
-                print(f"Error scraping {meta.get('href')}: {e}")
-
-        browser.close()
-    return shows
-
-
-def scrape_event(browser, url: str, event_id: str, price: str, region_from_card: str) -> list[dict]:
-    page = browser.new_page()
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=20000)
-        try:
-            page.wait_for_selector("h1", timeout=8000)
-        except Exception:
-            pass
-        time.sleep(2)
-
-        # Title
-        title_el = page.query_selector("h1")
-        title = title_el.inner_text().strip() if title_el else "未知節目"
-
-        # Poster image: try og:image first, then first cover img
-        image_url = page.evaluate("""
-            () => {
-                const og = document.querySelector('meta[property="og:image"]');
-                if (og && og.content) return og.content;
-                const img = document.querySelector('img[src*="opentix"], img[class*="cover"], img[class*="poster"]');
-                return img ? img.src : '';
-            }
-        """)
-
-        # Sessions: each span.mr-2 contains date+time, its parent text has venue
-        sessions_data = page.evaluate("""
-            () => {
-                const spans = [...document.querySelectorAll('span.mr-2')];
-                const dateSpans = spans.filter(s => /\\d{4}\\/\\d{1,2}\\/\\d{1,2}/.test(s.innerText));
-                return dateSpans.map(s => ({
-                    datetime: s.innerText.trim(),
-                    parentText: s.parentElement ? s.parentElement.innerText.trim() : ''
-                }));
-            }
-        """)
-
-        results = []
-        seen_ids = set()
-
-        for session in sessions_data:
-            dt_text = session["datetime"]
-            parent_text = session["parentText"]
-
-            # Parse date: 2026/6/10 (三) 19:30
-            date_match = re.search(r"(\d{4})/(\d{1,2})/(\d{1,2})", dt_text)
-            if not date_match:
+        for t in venue_data.get("times", []):
+            start_ms = t.get("start", 0)
+            if not start_ms:
                 continue
-            date_str = f"{date_match.group(1)}-{date_match.group(2).zfill(2)}-{date_match.group(3).zfill(2)}"
 
-            # Parse time
-            time_match = re.search(r"(\d{1,2}):(\d{2})", dt_text)
-            time_str = f"{time_match.group(1).zfill(2)}:{time_match.group(2)}" if time_match else "00:00"
+            dt = datetime.datetime.fromtimestamp(start_ms / 1000)
+            date_str = dt.strftime("%Y-%m-%d")
+            time_str = dt.strftime("%H:%M")
 
-            # Extract venue from parent text (lines after the datetime line)
-            lines = [l.strip() for l in parent_text.split("\n") if l.strip()]
-            venue = "待確認"
-            for line in lines:
-                # Skip the datetime line and ticket type lines
-                if re.search(r"\d{4}/\d{1,2}/\d{1,2}", line):
-                    continue
-                if "電子票" in line or "實體票" in line:
-                    continue
-                if len(line) > 2:
-                    venue = line
-                    break
-
-            region = guess_region(venue) if venue != "待確認" else region_from_card
+            v_min = t.get("minPrice", 0)
+            v_max = t.get("maxPrice", 0)
+            price = normalize_price(f"{v_min}-{v_max}") if v_min else ""
 
             show_id = build_show_id(event_id, date_str, time_str)
             if show_id in seen_ids:
                 continue
             seen_ids.add(show_id)
 
-            results.append({
+            sessions.append({
                 "id": show_id,
                 "title": title,
                 "region": region,
-                "venue": venue,
+                "venue": venue_name,
                 "date": date_str,
                 "time": time_str,
                 "price": price,
                 "url": url,
-                "image_url": image_url or "",
+                "image_url": image_url,
             })
 
-        # Fallback: if no sessions found via span.mr-2, use card data
-        if not results:
-            print(f"  No sessions found for {title}, skipping")
+    return sessions
 
-        return results
-    finally:
-        page.close()
+
+def scrape_shows() -> list[dict]:
+    shows = []
+    offset = 0
+    total = None
+
+    print("Fetching from search API...")
+    while total is None or offset < total:
+        data = _api_post(offset)
+        total = data["result"]["hitsCount"]
+        items = data["result"]["found"]
+        print(f"  offset={offset}: {len(items)} items (total={total})")
+
+        for item in items:
+            shows.extend(parse_sessions(item["source"]))
+
+        offset += PAGE_SIZE
+        if offset < total:
+            time.sleep(0.3)
+
+    return shows
 
 
 if __name__ == "__main__":
@@ -260,7 +155,6 @@ if __name__ == "__main__":
     if not shows:
         print("No shows scraped — keeping existing data")
     else:
-        # Deduplicate by id
         seen = {}
         for show in shows:
             seen[show["id"]] = show
