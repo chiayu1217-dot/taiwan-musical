@@ -9,6 +9,25 @@ SEARCH_API = "https://search.opentix.life/search"
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "shows.json"
 PAGE_SIZE = 15
 
+# Shows categorized differently in opentix API (not under 戲劇-音樂劇)
+# but are still musicals — add their sessions manually here
+SUPPLEMENTAL_SHOWS = [
+    {
+        "event_id": "2054129876962353153",
+        "title": "新北市生音藝術節-韓國音樂劇《或許是美好結局》世巡首站",
+        "venue": "新北市藝文中心演藝廳",
+        "region": "北部",
+        "price": "1400-4800",
+        "image_url": "https://s3.resource.opentix.life/upload/program/1779438031759xYpDvXFGFq.jpeg",
+        "sessions": [
+            "2026-07-31 19:30", "2026-08-01 14:30", "2026-08-01 19:30",
+            "2026-08-02 14:30", "2026-08-02 19:30", "2026-08-04 19:30",
+            "2026-08-05 19:30", "2026-08-06 19:30", "2026-08-07 19:30",
+            "2026-08-08 14:30", "2026-08-08 19:30", "2026-08-09 14:30",
+        ],
+    },
+]
+
 REGION_KEYWORDS = {
     "北部": ["台北", "臺北", "新北", "基隆", "桃園", "新竹", "水源", "國家戲劇", "國家音樂廳", "台北中山堂", "臺北中山堂", "信義", "松菸", "城市舞台", "新舞臺", "牯嶺街", "南村", "PLAYground", "臺灣戲曲中心", "陽明交通大學", "交通大學光復", "樹林", "文山"],
     "中部": ["台中", "臺中", "苗栗", "彰化", "南投", "雲林", "中正堂", "臺中國家歌劇院", "幽谷書屋"],
@@ -145,6 +164,24 @@ def scrape_shows() -> list[dict]:
         offset += PAGE_SIZE
         if offset < total:
             time.sleep(0.3)
+
+    # Add supplemental shows not in the API category
+    for sup in SUPPLEMENTAL_SHOWS:
+        event_id = sup["event_id"]
+        url = f"https://www.opentix.life/event/{event_id}"
+        for session_str in sup["sessions"]:
+            date_str, time_str = session_str.split(" ")
+            shows.append({
+                "id": build_show_id(event_id, date_str, time_str),
+                "title": sup["title"],
+                "region": sup["region"],
+                "venue": sup["venue"],
+                "date": date_str,
+                "time": time_str,
+                "price": sup["price"],
+                "url": url,
+                "image_url": sup["image_url"],
+            })
 
     return shows
 
