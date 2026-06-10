@@ -118,7 +118,8 @@ def parse_sessions(src: dict) -> list[dict]:
             if not start_ms:
                 continue
 
-            dt = datetime.datetime.fromtimestamp(start_ms / 1000)
+            tz_tw = datetime.timezone(datetime.timedelta(hours=8))
+            dt = datetime.datetime.fromtimestamp(start_ms / 1000, tz=tz_tw)
             date_str = dt.strftime("%Y-%m-%d")
             time_str = dt.strftime("%H:%M")
 
