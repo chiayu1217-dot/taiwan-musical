@@ -1,5 +1,16 @@
 [
   {
+    "id": "2038509943907385345-2026-06-13-1400",
+    "title": "清聲飛揚～竹科媽媽．從心出發～",
+    "region": "北部",
+    "venue": "新竹縣政府文化局演藝廳",
+    "date": "2026-06-13",
+    "time": "14:00",
+    "price": "400-800",
+    "url": "https://www.opentix.life/event/2038509943907385345",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1774856176794I0wKaWMaO5.png"
+  },
+  {
     "id": "1993959650157686785-2026-06-13-1430",
     "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
     "region": "北部",
@@ -99,17 +110,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
   },
   {
-    "id": "1993959650157686785-2026-06-12-1930",
-    "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-06-12",
-    "time": "19:30",
-    "price": "1500-2400",
-    "url": "https://www.opentix.life/event/1993959650157686785",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
     "id": "1993959650157686785-2026-06-17-1930",
     "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
     "region": "北部",
@@ -174,17 +174,6 @@
     "price": "1500-2400",
     "url": "https://www.opentix.life/event/1993959650157686785",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
-    "id": "2038509943907385345-2026-06-13-1400",
-    "title": "清聲飛揚～竹科媽媽．從心出發～",
-    "region": "北部",
-    "venue": "新竹縣政府文化局演藝廳",
-    "date": "2026-06-13",
-    "time": "14:00",
-    "price": "400-800",
-    "url": "https://www.opentix.life/event/2038509943907385345",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774856176794I0wKaWMaO5.png"
   },
   {
     "id": "2036344711529598977-2026-06-13-1930",
@@ -2066,6 +2055,72 @@
     "price": "880-4680",
     "url": "https://www.opentix.life/event/2053677047754907649",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778468477796IcDlHaVAF9.png"
+  },
+  {
+    "id": "2061716950617038849-2026-10-02-1930",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-02",
+    "time": "19:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
+  },
+  {
+    "id": "2061716950617038849-2026-10-03-1930",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-03",
+    "time": "19:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
+  },
+  {
+    "id": "2061716950617038849-2026-10-03-1030",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-03",
+    "time": "10:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
+  },
+  {
+    "id": "2061716950617038849-2026-10-03-1400",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-03",
+    "time": "14:00",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
+  },
+  {
+    "id": "2061716950617038849-2026-10-04-1030",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-04",
+    "time": "10:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
+  },
+  {
+    "id": "2061716950617038849-2026-10-04-1400",
+    "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-10-04",
+    "time": "14:00",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2061716950617038849",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
     "id": "2059231461195935744-2026-10-02-1930",
