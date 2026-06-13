@@ -1,25 +1,14 @@
 [
   {
-    "id": "2038509943907385345-2026-06-13-1400",
-    "title": "清聲飛揚～竹科媽媽．從心出發～",
-    "region": "北部",
-    "venue": "新竹縣政府文化局演藝廳",
-    "date": "2026-06-13",
-    "time": "14:00",
-    "price": "400-800",
-    "url": "https://www.opentix.life/event/2038509943907385345",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774856176794I0wKaWMaO5.png"
-  },
-  {
-    "id": "1993959650157686785-2026-06-13-1430",
-    "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-06-13",
+    "id": "2013895944716156929-2026-06-14-1430",
+    "title": "2026春風調戲藝術節—春河劇團《老闆～來碗陽春麵！》",
+    "region": "南部",
+    "venue": "屏東藝術館",
+    "date": "2026-06-14",
     "time": "14:30",
-    "price": "1500-2400",
-    "url": "https://www.opentix.life/event/1993959650157686785",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2013895944716156929",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1768986810957yCRSKMCSjT.jpeg"
   },
   {
     "id": "1993959650157686785-2026-06-14-1430",
@@ -72,17 +61,6 @@
     "venue": "PLAYground 南村劇場．青鳥．有.設計",
     "date": "2026-06-28",
     "time": "14:30",
-    "price": "1500-2400",
-    "url": "https://www.opentix.life/event/1993959650157686785",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
-    "id": "1993959650157686785-2026-06-13-1930",
-    "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-06-13",
-    "time": "19:30",
     "price": "1500-2400",
     "url": "https://www.opentix.life/event/1993959650157686785",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
@@ -174,50 +152,6 @@
     "price": "1500-2400",
     "url": "https://www.opentix.life/event/1993959650157686785",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
-    "id": "2036344711529598977-2026-06-13-1930",
-    "title": "音樂劇《重拾時間的山語》霧台的迴與疊3.0",
-    "region": "南部",
-    "venue": "高雄市文化中心至德堂",
-    "date": "2026-06-13",
-    "time": "19:30",
-    "price": "600-2000",
-    "url": "https://www.opentix.life/event/2036344711529598977",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774584474346DTAN5Jxll9.png"
-  },
-  {
-    "id": "2013895944716156929-2026-06-13-1930",
-    "title": "2026春風調戲藝術節—春河劇團《老闆～來碗陽春麵！》",
-    "region": "南部",
-    "venue": "屏東藝術館",
-    "date": "2026-06-13",
-    "time": "19:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2013895944716156929",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1768986810957yCRSKMCSjT.jpeg"
-  },
-  {
-    "id": "2013895944716156929-2026-06-14-1430",
-    "title": "2026春風調戲藝術節—春河劇團《老闆～來碗陽春麵！》",
-    "region": "南部",
-    "venue": "屏東藝術館",
-    "date": "2026-06-14",
-    "time": "14:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2013895944716156929",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1768986810957yCRSKMCSjT.jpeg"
-  },
-  {
-    "id": "1963563229010575360-2026-06-13-1930",
-    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
-    "region": "中部",
-    "venue": "臺中市中山堂",
-    "date": "2026-06-13",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/1963563229010575360",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
   },
   {
     "id": "1963563229010575360-2026-06-14-1430",
@@ -2154,6 +2088,17 @@
     "price": "800-2200",
     "url": "https://www.opentix.life/event/2059231461195935744",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780391040039XbGR62m3T6.png"
+  },
+  {
+    "id": "2037069944678072321-2026-10-16-1930",
+    "title": "唱進心靈的眼眸：「青瞑猴，出外讀冊拼出頭」音樂劇",
+    "region": "北部",
+    "venue": "台北生技園區多功能廳",
+    "date": "2026-10-16",
+    "time": "19:30",
+    "price": "800-1500",
+    "url": "https://www.opentix.life/event/2037069944678072321",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781243307077yl5cbDuODW.jpeg"
   },
   {
     "id": "2051483080915320833-2026-10-24-1430",
