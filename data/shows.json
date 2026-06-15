@@ -286,28 +286,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
   {
-    "id": "1963563229010575360-2026-07-11-1930",
-    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-11",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/1963563229010575360",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
-  },
-  {
-    "id": "1963563229010575360-2026-07-12-1430",
-    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-12",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/1963563229010575360",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
-  },
-  {
     "id": "2056946900775936001-2026-07-11-1930",
     "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
     "region": "南部",
@@ -328,6 +306,28 @@
     "price": "500-1200",
     "url": "https://www.opentix.life/event/2056946900775936001",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
+  },
+  {
+    "id": "1963563229010575360-2026-07-11-1930",
+    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-07-11",
+    "time": "19:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/1963563229010575360",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
+  },
+  {
+    "id": "1963563229010575360-2026-07-12-1430",
+    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-07-12",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/1963563229010575360",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
   },
   {
     "id": "2045067828311797761-2026-07-18-1430",
@@ -2176,6 +2176,138 @@
     "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
+  },
+  {
+    "id": "2059243467760234496-2026-12-26-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-12-26",
+    "time": "19:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2026-12-26-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-12-26",
+    "time": "14:30",
+    "price": "1600-2000",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2026-12-30-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-12-30",
+    "time": "19:30",
+    "price": "1600-2000",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2026-12-27-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-12-27",
+    "time": "14:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-02-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-02",
+    "time": "14:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-02-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-02",
+    "time": "19:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-03-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-03",
+    "time": "14:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-07-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-07",
+    "time": "19:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-08-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-08",
+    "time": "19:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-09-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-09",
+    "time": "14:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-09-1930",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-09",
+    "time": "19:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2059243467760234496-2027-01-10-1430",
+    "title": "音樂劇《三個不結婚的女人》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2027-01-10",
+    "time": "14:30",
+    "price": "800-2600",
+    "url": "https://www.opentix.life/event/2059243467760234496",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
   },
   {
     "id": "2054129876962353153-2026-07-31-1930",
