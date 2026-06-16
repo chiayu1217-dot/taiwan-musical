@@ -286,28 +286,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
   {
-    "id": "2056946900775936001-2026-07-11-1930",
-    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
-    "region": "南部",
-    "venue": "恆春文化中心劇場館表演廳",
-    "date": "2026-07-11",
-    "time": "19:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2056946900775936001",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
-  },
-  {
-    "id": "2056946900775936001-2026-07-12-1400",
-    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
-    "region": "南部",
-    "venue": "恆春文化中心劇場館表演廳",
-    "date": "2026-07-12",
-    "time": "14:00",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2056946900775936001",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
-  },
-  {
     "id": "1963563229010575360-2026-07-11-1930",
     "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
     "region": "南部",
@@ -328,6 +306,28 @@
     "price": "500-3000",
     "url": "https://www.opentix.life/event/1963563229010575360",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
+  },
+  {
+    "id": "2056946900775936001-2026-07-11-1930",
+    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-07-11",
+    "time": "19:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2056946900775936001",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
+  },
+  {
+    "id": "2056946900775936001-2026-07-12-1400",
+    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-07-12",
+    "time": "14:00",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2056946900775936001",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
   },
   {
     "id": "2045067828311797761-2026-07-18-1430",
@@ -1199,6 +1199,61 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
   {
+    "id": "2064276306744070145-2026-08-16-2000",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-16",
+    "time": "20:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780997995491piaocFMqWS.jpeg"
+  },
+  {
+    "id": "2064276306744070145-2026-08-26-2000",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-26",
+    "time": "20:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780997995491piaocFMqWS.jpeg"
+  },
+  {
+    "id": "2064276306744070145-2026-08-27-2000",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-27",
+    "time": "20:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780997995491piaocFMqWS.jpeg"
+  },
+  {
+    "id": "2064276306744070145-2026-08-29-1500",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-29",
+    "time": "15:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780997995491piaocFMqWS.jpeg"
+  },
+  {
+    "id": "2064276306744070145-2026-08-30-1500",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-30",
+    "time": "15:00",
+    "price": "1000-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780997995491piaocFMqWS.jpeg"
+  },
+  {
     "id": "2039660562763821057-2026-08-19-2000",
     "title": "【2026衛武營小時光】唱歌集《大家都怎麼做音樂劇？》",
     "region": "南部",
@@ -2068,6 +2123,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1781243307077yl5cbDuODW.jpeg"
   },
   {
+    "id": "2064988953002582017-2026-10-17-1430",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》首部曲—環島篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-10-17",
+    "time": "14:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064988953002582017",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781334822662OU8N02HwJC.jpeg"
+  },
+  {
+    "id": "2064988953002582017-2026-10-17-1830",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》首部曲—環島篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-10-17",
+    "time": "18:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064988953002582017",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781334822662OU8N02HwJC.jpeg"
+  },
+  {
     "id": "2051483080915320833-2026-10-24-1430",
     "title": "原創青少年音樂劇《換氣練習》",
     "region": "北部",
@@ -2145,6 +2222,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1777278931670bXQKIgAN0B.png"
   },
   {
+    "id": "2064992985067073537-2026-11-21-1430",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》二部曲—環遊世界篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-11-21",
+    "time": "14:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064992985067073537",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781335703929dkXEPcxawk.jpeg"
+  },
+  {
+    "id": "2064992985067073537-2026-11-21-1830",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》二部曲—環遊世界篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-11-21",
+    "time": "18:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064992985067073537",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781335703929dkXEPcxawk.jpeg"
+  },
+  {
     "id": "2058773455445823489-2026-11-27-1930",
     "title": "唱歌集《以為是BL結果是BFF》青春校園音樂劇",
     "region": "南部",
@@ -2176,6 +2275,50 @@
     "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
+  },
+  {
+    "id": "2064993947364380673-2026-12-19-1430",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》三部曲—時光旅行篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-12-19",
+    "time": "14:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064993947364380673",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781336018398RIyv3bHAxB.jpeg"
+  },
+  {
+    "id": "2064993947364380673-2026-12-20-1430",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》三部曲—時光旅行篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-12-20",
+    "time": "14:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064993947364380673",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781336018398RIyv3bHAxB.jpeg"
+  },
+  {
+    "id": "2064993947364380673-2026-12-19-1830",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》三部曲—時光旅行篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-12-19",
+    "time": "18:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064993947364380673",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781336018398RIyv3bHAxB.jpeg"
+  },
+  {
+    "id": "2064993947364380673-2026-12-20-1030",
+    "title": "誠品親子音樂劇《阿卡的兒歌大冒險》三部曲—時光旅行篇",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-12-20",
+    "time": "10:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2064993947364380673",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781336018398RIyv3bHAxB.jpeg"
   },
   {
     "id": "2059243467760234496-2026-12-26-1930",
