@@ -66,17 +66,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
   },
   {
-    "id": "1993959650157686785-2026-06-18-1930",
-    "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-06-18",
-    "time": "19:30",
-    "price": "1500-2400",
-    "url": "https://www.opentix.life/event/1993959650157686785",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
     "id": "1993959650157686785-2026-06-19-1930",
     "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
     "region": "北部",
@@ -275,28 +264,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
   {
-    "id": "1963563229010575360-2026-07-11-1930",
-    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-11",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/1963563229010575360",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
-  },
-  {
-    "id": "1963563229010575360-2026-07-12-1430",
-    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-12",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/1963563229010575360",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
-  },
-  {
     "id": "2056946900775936001-2026-07-11-1930",
     "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
     "region": "南部",
@@ -317,6 +284,28 @@
     "price": "500-1200",
     "url": "https://www.opentix.life/event/2056946900775936001",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
+  },
+  {
+    "id": "1963563229010575360-2026-07-11-1930",
+    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-07-11",
+    "time": "19:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/1963563229010575360",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
+  },
+  {
+    "id": "1963563229010575360-2026-07-12-1430",
+    "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-07-12",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/1963563229010575360",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
   },
   {
     "id": "2045067828311797761-2026-07-18-1430",
@@ -1252,6 +1241,50 @@
     "price": "300-800",
     "url": "https://www.opentix.life/event/2039660562763821057",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777278848152unasdCjPT9.png"
+  },
+  {
+    "id": "2067076217283747841-2026-08-21-1930",
+    "title": "《仙履奇緣》百老匯音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 球劇場",
+    "date": "2026-08-21",
+    "time": "19:30",
+    "price": "500-2000",
+    "url": "https://www.opentix.life/event/2067076217283747841",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
+  },
+  {
+    "id": "2067076217283747841-2026-08-22-1930",
+    "title": "《仙履奇緣》百老匯音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 球劇場",
+    "date": "2026-08-22",
+    "time": "19:30",
+    "price": "500-2000",
+    "url": "https://www.opentix.life/event/2067076217283747841",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
+  },
+  {
+    "id": "2067076217283747841-2026-08-22-1430",
+    "title": "《仙履奇緣》百老匯音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 球劇場",
+    "date": "2026-08-22",
+    "time": "14:30",
+    "price": "500-2000",
+    "url": "https://www.opentix.life/event/2067076217283747841",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
+  },
+  {
+    "id": "2067076217283747841-2026-08-23-1430",
+    "title": "《仙履奇緣》百老匯音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 球劇場",
+    "date": "2026-08-23",
+    "time": "14:30",
+    "price": "500-2000",
+    "url": "https://www.opentix.life/event/2067076217283747841",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
   },
   {
     "id": "2043526998491496449-2026-08-21-1930",
