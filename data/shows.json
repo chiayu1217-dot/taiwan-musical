@@ -1647,7 +1647,7 @@
     "time": "14:30",
     "price": "400-1000",
     "url": "https://www.opentix.life/event/2059097848899674113",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780364432001gZmZdAC0Ce.png"
+    "image_url": "https://s3.resource.opentix.life/upload/program/17821072303985ys6qGE7eU.png"
   },
   {
     "id": "2051557579253776385-2026-09-05-1930",
@@ -1780,6 +1780,17 @@
     "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2059917296160870401-2026-09-12-1400",
+    "title": "2026臺東藝術節《勸世三姊妹》中文音樂劇｜暖心臺東版",
+    "region": "東部",
+    "venue": "臺東縣政府文化處藝文中心演藝廳",
+    "date": "2026-09-12",
+    "time": "14:00",
+    "price": "500-2000",
+    "url": "https://www.opentix.life/event/2059917296160870401",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779957144045yhIj8Vgi6G.jpeg"
   },
   {
     "id": "1881618375330443264-2026-12-17-1930",
