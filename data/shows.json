@@ -33,17 +33,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
   },
   {
-    "id": "1993959650157686785-2026-06-24-1930",
-    "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-06-24",
-    "time": "19:30",
-    "price": "1500-2400",
-    "url": "https://www.opentix.life/event/1993959650157686785",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1764908862186dWZNeIbDV7.jpeg"
-  },
-  {
     "id": "1993959650157686785-2026-06-25-1930",
     "title": "外百老匯音樂劇《I Love You, You’re Perfect, Now Change》",
     "region": "北部",
@@ -209,28 +198,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1774946380156hUTdl75sc4.jpeg"
   },
   {
-    "id": "2056946900775936001-2026-07-11-1930",
-    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
-    "region": "南部",
-    "venue": "恆春文化中心劇場館表演廳",
-    "date": "2026-07-11",
-    "time": "19:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2056946900775936001",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
-  },
-  {
-    "id": "2056946900775936001-2026-07-12-1400",
-    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
-    "region": "南部",
-    "venue": "恆春文化中心劇場館表演廳",
-    "date": "2026-07-12",
-    "time": "14:00",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2056946900775936001",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
-  },
-  {
     "id": "1963563229010575360-2026-07-11-1930",
     "title": "果陀劇場《生命中最美好的5分鐘》2026音樂奇蹟重現",
     "region": "南部",
@@ -251,6 +218,28 @@
     "price": "500-3000",
     "url": "https://www.opentix.life/event/1963563229010575360",
     "image_url": "https://s3.resource.opentix.life/upload/program/1764571802681T17e8EWiOx.jpeg"
+  },
+  {
+    "id": "2056946900775936001-2026-07-11-1930",
+    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-07-11",
+    "time": "19:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2056946900775936001",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
+  },
+  {
+    "id": "2056946900775936001-2026-07-12-1400",
+    "title": "曹雅雯 心肝寶貝台灣歌謠演唱會",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-07-12",
+    "time": "14:00",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2056946900775936001",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
   },
   {
     "id": "2045067828311797761-2026-07-18-1430",
@@ -1133,6 +1122,39 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
   {
+    "id": "2064620422574579713-2026-08-15-1930",
+    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
+    "region": "北部",
+    "venue": "小馬廄",
+    "date": "2026-08-15",
+    "time": "19:30",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064620422574579713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
+  },
+  {
+    "id": "2064620422574579713-2026-08-18-1430",
+    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
+    "region": "北部",
+    "venue": "小馬廄",
+    "date": "2026-08-18",
+    "time": "14:30",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064620422574579713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
+  },
+  {
+    "id": "2064620422574579713-2026-08-18-1930",
+    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
+    "region": "北部",
+    "venue": "小馬廄",
+    "date": "2026-08-18",
+    "time": "19:30",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064620422574579713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
+  },
+  {
     "id": "2064276306744070145-2026-08-16-2000",
     "title": "【2026臺北藝穗節】二一六",
     "region": "北部",
@@ -1793,6 +1815,50 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1779957144045yhIj8Vgi6G.jpeg"
   },
   {
+    "id": "2067069773813166080-2026-09-12-1430",
+    "title": "《小裸女Si Sol Mi》音樂劇讀劇會",
+    "region": "北部",
+    "venue": "空軍三重一村時藝劇場",
+    "date": "2026-09-12",
+    "time": "14:30",
+    "price": "900-1688",
+    "url": "https://www.opentix.life/event/2067069773813166080",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781662749973r86vJJjgPN.png"
+  },
+  {
+    "id": "2067069773813166080-2026-09-12-1930",
+    "title": "《小裸女Si Sol Mi》音樂劇讀劇會",
+    "region": "北部",
+    "venue": "空軍三重一村時藝劇場",
+    "date": "2026-09-12",
+    "time": "19:30",
+    "price": "900-1688",
+    "url": "https://www.opentix.life/event/2067069773813166080",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781662749973r86vJJjgPN.png"
+  },
+  {
+    "id": "2067069773813166080-2026-09-13-1430",
+    "title": "《小裸女Si Sol Mi》音樂劇讀劇會",
+    "region": "北部",
+    "venue": "空軍三重一村時藝劇場",
+    "date": "2026-09-13",
+    "time": "14:30",
+    "price": "900-1688",
+    "url": "https://www.opentix.life/event/2067069773813166080",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781662749973r86vJJjgPN.png"
+  },
+  {
+    "id": "2067069773813166080-2026-09-13-1930",
+    "title": "《小裸女Si Sol Mi》音樂劇讀劇會",
+    "region": "北部",
+    "venue": "空軍三重一村時藝劇場",
+    "date": "2026-09-13",
+    "time": "19:30",
+    "price": "900-1688",
+    "url": "https://www.opentix.life/event/2067069773813166080",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781662749973r86vJJjgPN.png"
+  },
+  {
     "id": "1881618375330443264-2026-12-17-1930",
     "title": "《老男孩》音樂劇",
     "region": "北部",
@@ -1912,6 +1978,28 @@
     "price": "500-800",
     "url": "https://www.opentix.life/event/1823201256034107393",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780221229857STEVVyhVxW.jpeg"
+  },
+  {
+    "id": "2067495578192642049-2026-09-19-1430",
+    "title": "2026苗北心勢力：瑤場共創《再見卡門》沉浸式舞蹈小歌劇",
+    "region": "中部",
+    "venue": "苗北藝文中心實驗劇場",
+    "date": "2026-09-19",
+    "time": "14:30",
+    "price": "600-600",
+    "url": "https://www.opentix.life/event/2067495578192642049",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781764275942Nobn3Vf8Ch.jpeg"
+  },
+  {
+    "id": "2067495578192642049-2026-09-20-1430",
+    "title": "2026苗北心勢力：瑤場共創《再見卡門》沉浸式舞蹈小歌劇",
+    "region": "中部",
+    "venue": "苗北藝文中心實驗劇場",
+    "date": "2026-09-20",
+    "time": "14:30",
+    "price": "600-600",
+    "url": "https://www.opentix.life/event/2067495578192642049",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781764275942Nobn3Vf8Ch.jpeg"
   },
   {
     "id": "2052573679595487233-2026-09-19-1430",
@@ -2068,56 +2156,56 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
-    "id": "2061716950617038849-2026-10-03-1930",
+    "id": "2061716950617038849-2026-10-03-1900",
     "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-10-03",
-    "time": "19:30",
+    "time": "19:00",
     "price": "800-2000",
     "url": "https://www.opentix.life/event/2061716950617038849",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
-    "id": "2061716950617038849-2026-10-03-1030",
+    "id": "2061716950617038849-2026-10-03-1100",
     "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-10-03",
-    "time": "10:30",
+    "time": "11:00",
     "price": "800-2000",
     "url": "https://www.opentix.life/event/2061716950617038849",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
-    "id": "2061716950617038849-2026-10-03-1400",
+    "id": "2061716950617038849-2026-10-03-1430",
     "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-10-03",
-    "time": "14:00",
+    "time": "14:30",
     "price": "800-2000",
     "url": "https://www.opentix.life/event/2061716950617038849",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
-    "id": "2061716950617038849-2026-10-04-1030",
+    "id": "2061716950617038849-2026-10-04-1100",
     "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-10-04",
-    "time": "10:30",
+    "time": "11:00",
     "price": "800-2000",
     "url": "https://www.opentix.life/event/2061716950617038849",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
   },
   {
-    "id": "2061716950617038849-2026-10-04-1400",
+    "id": "2061716950617038849-2026-10-04-1430",
     "title": "新北市生音藝術節- C MUSICAL韓國授權親子音樂劇《月亮雪酪》",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-10-04",
-    "time": "14:00",
+    "time": "14:30",
     "price": "800-2000",
     "url": "https://www.opentix.life/event/2061716950617038849",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781180303776pkhTCeKunv.jpeg"
