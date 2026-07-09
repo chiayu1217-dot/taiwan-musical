@@ -1,49 +1,5 @@
 [
   {
-    "id": "2041405429645697025-2026-07-10-1930",
-    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-07-10",
-    "time": "19:30",
-    "price": "700-2600",
-    "url": "https://www.opentix.life/event/2041405429645697025",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
-  },
-  {
-    "id": "2041405429645697025-2026-07-11-1430",
-    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-07-11",
-    "time": "14:30",
-    "price": "700-2600",
-    "url": "https://www.opentix.life/event/2041405429645697025",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
-  },
-  {
-    "id": "2041405429645697025-2026-07-11-1930",
-    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-07-11",
-    "time": "19:30",
-    "price": "700-2600",
-    "url": "https://www.opentix.life/event/2041405429645697025",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
-  },
-  {
-    "id": "2041405429645697025-2026-07-12-1430",
-    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-07-12",
-    "time": "14:30",
-    "price": "700-2600",
-    "url": "https://www.opentix.life/event/2041405429645697025",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
-  },
-  {
     "id": "2019309595075858432-2026-07-11-1030",
     "title": "【2026花露露的童樂節】花露露舞台劇《搶救魔幻飛船》",
     "region": "南部",
@@ -108,6 +64,50 @@
     "price": "500-1200",
     "url": "https://www.opentix.life/event/2056946900775936001",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779775794699CDY6JGB52b.png"
+  },
+  {
+    "id": "2041405429645697025-2026-07-12-1930",
+    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-07-12",
+    "time": "19:30",
+    "price": "700-2600",
+    "url": "https://www.opentix.life/event/2041405429645697025",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
+  },
+  {
+    "id": "2041405429645697025-2026-07-12-1000",
+    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-07-12",
+    "time": "10:00",
+    "price": "700-2600",
+    "url": "https://www.opentix.life/event/2041405429645697025",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
+  },
+  {
+    "id": "2041405429645697025-2026-07-11-1930",
+    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-07-11",
+    "time": "19:30",
+    "price": "700-2600",
+    "url": "https://www.opentix.life/event/2041405429645697025",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
+  },
+  {
+    "id": "2041405429645697025-2026-07-12-1430",
+    "title": "2026夏日放／FUN時光─百老匯傳奇音樂劇《COMPANY》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-07-12",
+    "time": "14:30",
+    "price": "700-2600",
+    "url": "https://www.opentix.life/event/2041405429645697025",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1776244116785AvZdbLuwnN.jpeg"
   },
   {
     "id": "2045067828311797761-2026-07-18-1430",
@@ -1977,7 +1977,7 @@
     "time": "19:30",
     "price": "800-1800",
     "url": "https://www.opentix.life/event/2071861325526528000",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783389983819LYsoNKnG1c.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1783569740515pFQ9wOGGzR.jpeg"
   },
   {
     "id": "2071861325526528000-2026-09-13-1430",
@@ -1988,7 +1988,7 @@
     "time": "14:30",
     "price": "800-1800",
     "url": "https://www.opentix.life/event/2071861325526528000",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783389983819LYsoNKnG1c.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1783569740515pFQ9wOGGzR.jpeg"
   },
   {
     "id": "2066755623980507137-2026-09-19-1430",
