@@ -1,16 +1,5 @@
 [
   {
-    "id": "2045067828311797761-2026-07-18-1430",
-    "title": "2026夏日放／FUN時光—苗北客家流行音樂劇《那一天，彩虹出現》2026重磅回歸",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-07-18",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2045067828311797761",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778130137329nbvsyVeqH5.jpeg"
-  },
-  {
     "id": "2045067828311797761-2026-07-19-1430",
     "title": "2026夏日放／FUN時光—苗北客家流行音樂劇《那一天，彩虹出現》2026重磅回歸",
     "region": "中部",
@@ -20,72 +9,6 @@
     "price": "500-1500",
     "url": "https://www.opentix.life/event/2045067828311797761",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778130137329nbvsyVeqH5.jpeg"
-  },
-  {
-    "id": "2051498109678620672-2026-07-18-1500",
-    "title": "坤泰OPEN藝術節-親子音樂劇《阿甯咕的狗狗會說話YA~》",
-    "region": "北部",
-    "venue": "國立陽明交通大學光復校區大禮堂",
-    "date": "2026-07-18",
-    "time": "15:00",
-    "price": "100-200",
-    "url": "https://www.opentix.life/event/2051498109678620672",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777950121927uXdF5jrlsR.jpeg"
-  },
-  {
-    "id": "2011615042313633793-2026-08-14-1930",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-08-14",
-    "time": "19:30",
-    "price": "800-3500",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-09-25-1930",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-25",
-    "time": "19:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-09-26-1430",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-26",
-    "time": "14:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-09-27-1430",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-27",
-    "time": "14:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-07-18-1930",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-18",
-    "time": "19:30",
-    "price": "500-3500",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
   },
   {
     "id": "2039175336378621953-2026-07-21-1930",
@@ -878,6 +801,50 @@
     "price": "500-4000",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2011615042313633793-2026-08-14-1930",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-08-14",
+    "time": "19:30",
+    "price": "800-3500",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
+  },
+  {
+    "id": "2011615042313633793-2026-09-25-1930",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 大劇院",
+    "date": "2026-09-25",
+    "time": "19:30",
+    "price": "800-4000",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
+  },
+  {
+    "id": "2011615042313633793-2026-09-26-1430",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 大劇院",
+    "date": "2026-09-26",
+    "time": "14:30",
+    "price": "800-4000",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
+  },
+  {
+    "id": "2011615042313633793-2026-09-27-1430",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 大劇院",
+    "date": "2026-09-27",
+    "time": "14:30",
+    "price": "800-4000",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
   },
   {
     "id": "2064620422574579713-2026-08-15-1930",
