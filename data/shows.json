@@ -1,27 +1,5 @@
 [
   {
-    "id": "2044254955820302336-2026-07-25-1430",
-    "title": "2026 夏日放／FUN時光─韓國音樂劇《如蝶翩翩》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-07-25",
-    "time": "14:30",
-    "price": "1000-2500",
-    "url": "https://www.opentix.life/event/2044254955820302336",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
-  },
-  {
-    "id": "2044254955820302336-2026-07-25-1930",
-    "title": "2026 夏日放／FUN時光─韓國音樂劇《如蝶翩翩》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-07-25",
-    "time": "19:30",
-    "price": "1000-2500",
-    "url": "https://www.opentix.life/event/2044254955820302336",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
-  },
-  {
     "id": "2044254955820302336-2026-07-26-1430",
     "title": "2026 夏日放／FUN時光─韓國音樂劇《如蝶翩翩》",
     "region": "中部",
@@ -66,17 +44,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
   },
   {
-    "id": "2009210831283515392-2026-07-25-1430",
-    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-25",
-    "time": "14:30",
-    "price": "500-3500",
-    "url": "https://www.opentix.life/event/2009210831283515392",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
-  },
-  {
     "id": "2009210831283515392-2026-07-26-1430",
     "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
     "region": "南部",
@@ -86,28 +53,6 @@
     "price": "500-3500",
     "url": "https://www.opentix.life/event/2009210831283515392",
     "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
-  },
-  {
-    "id": "2054052615857229824-2026-07-25-1500",
-    "title": "2026臺東藝術節：《轟吧！全壘打》棒球音樂劇",
-    "region": "東部",
-    "venue": "臺東縣政府文化處藝文中心演藝廳",
-    "date": "2026-07-25",
-    "time": "15:00",
-    "price": "400-1000",
-    "url": "https://www.opentix.life/event/2054052615857229824",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779185669948wHnOLVwEAN.png"
-  },
-  {
-    "id": "2032387392627208193-2026-07-25-1930",
-    "title": "雲林表演廳《老闆~來碗陽春麵!》",
-    "region": "中部",
-    "venue": "雲林表演廳",
-    "date": "2026-07-25",
-    "time": "19:30",
-    "price": "350-1600",
-    "url": "https://www.opentix.life/event/2032387392627208193",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774934574359yMd6lF9NS9.jpeg"
   },
   {
     "id": "2046829520049606657-2026-08-29-1430",
@@ -2363,6 +2308,39 @@
     "price": "700-1000",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
+  },
+  {
+    "id": "2080134872605343745-2026-10-30-1930",
+    "title": "所在劇集 2026原創歷史音樂劇《無聲の海腳間仔》",
+    "region": "南部",
+    "venue": "高雄中山堂劇場",
+    "date": "2026-10-30",
+    "time": "19:30",
+    "price": "400-1200",
+    "url": "https://www.opentix.life/event/2080134872605343745",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784777684036htNGZAGn6G.jpeg"
+  },
+  {
+    "id": "2080134872605343745-2026-10-31-1930",
+    "title": "所在劇集 2026原創歷史音樂劇《無聲の海腳間仔》",
+    "region": "南部",
+    "venue": "高雄中山堂劇場",
+    "date": "2026-10-31",
+    "time": "19:30",
+    "price": "400-1200",
+    "url": "https://www.opentix.life/event/2080134872605343745",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784777684036htNGZAGn6G.jpeg"
+  },
+  {
+    "id": "2080134872605343745-2026-11-01-1430",
+    "title": "所在劇集 2026原創歷史音樂劇《無聲の海腳間仔》",
+    "region": "南部",
+    "venue": "高雄中山堂劇場",
+    "date": "2026-11-01",
+    "time": "14:30",
+    "price": "400-1200",
+    "url": "https://www.opentix.life/event/2080134872605343745",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784777684036htNGZAGn6G.jpeg"
   },
   {
     "id": "2072516129034670080-2026-11-05-1930",
