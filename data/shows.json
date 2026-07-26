@@ -1,60 +1,5 @@
 [
   {
-    "id": "2044254955820302336-2026-07-26-1430",
-    "title": "2026 夏日放／FUN時光─韓國音樂劇《如蝶翩翩》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-07-26",
-    "time": "14:30",
-    "price": "1000-2500",
-    "url": "https://www.opentix.life/event/2044254955820302336",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
-  },
-  {
-    "id": "2044254955820302336-2026-07-26-1930",
-    "title": "2026 夏日放／FUN時光─韓國音樂劇《如蝶翩翩》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-07-26",
-    "time": "19:30",
-    "price": "1000-2500",
-    "url": "https://www.opentix.life/event/2044254955820302336",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776918444644NwFuE9KxaS.jpeg"
-  },
-  {
-    "id": "2009210831283515392-2026-08-29-1930",
-    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
-    "region": "中部",
-    "venue": "臺中市中山堂",
-    "date": "2026-08-29",
-    "time": "19:30",
-    "price": "500-3500",
-    "url": "https://www.opentix.life/event/2009210831283515392",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
-  },
-  {
-    "id": "2009210831283515392-2026-08-30-1430",
-    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
-    "region": "中部",
-    "venue": "臺中市中山堂",
-    "date": "2026-08-30",
-    "time": "14:30",
-    "price": "500-3500",
-    "url": "https://www.opentix.life/event/2009210831283515392",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
-  },
-  {
-    "id": "2009210831283515392-2026-07-26-1430",
-    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-07-26",
-    "time": "14:30",
-    "price": "500-3500",
-    "url": "https://www.opentix.life/event/2009210831283515392",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
-  },
-  {
     "id": "2046829520049606657-2026-08-29-1430",
     "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
     "region": "北部",
@@ -1527,6 +1472,28 @@
     "price": "200-200",
     "url": "https://www.opentix.life/event/2077232092258299905",
     "image_url": "https://s3.resource.opentix.life/upload/program/1784104459414FvsR2pUUt2.jpeg"
+  },
+  {
+    "id": "2009210831283515392-2026-08-29-1930",
+    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
+    "region": "中部",
+    "venue": "臺中市中山堂",
+    "date": "2026-08-29",
+    "time": "19:30",
+    "price": "500-3500",
+    "url": "https://www.opentix.life/event/2009210831283515392",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
+  },
+  {
+    "id": "2009210831283515392-2026-08-30-1430",
+    "title": "《情人哏裡出西施》跨界改編古裝音樂劇",
+    "region": "中部",
+    "venue": "臺中市中山堂",
+    "date": "2026-08-30",
+    "time": "14:30",
+    "price": "500-3500",
+    "url": "https://www.opentix.life/event/2009210831283515392",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
   },
   {
     "id": "2046477133841158145-2026-09-04-1930",
