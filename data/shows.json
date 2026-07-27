@@ -2750,6 +2750,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1783068295949MxWC8eosFy.jpeg"
   },
   {
+    "id": "2078001512166543361-2026-12-12-1430",
+    "title": "當亞斯遇見人魚",
+    "region": "南部",
+    "venue": "屏東演藝廳實驗劇場",
+    "date": "2026-12-12",
+    "time": "14:30",
+    "price": "500-500",
+    "url": "https://www.opentix.life/event/2078001512166543361",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784269879215YwhrMoLude.jpeg"
+  },
+  {
+    "id": "2078001512166543361-2026-12-13-1430",
+    "title": "當亞斯遇見人魚",
+    "region": "南部",
+    "venue": "屏東演藝廳實驗劇場",
+    "date": "2026-12-13",
+    "time": "14:30",
+    "price": "500-500",
+    "url": "https://www.opentix.life/event/2078001512166543361",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784269879215YwhrMoLude.jpeg"
+  },
+  {
     "id": "2064993947364380673-2026-12-19-1430",
     "title": "誠品親子音樂劇《阿卡的兒歌大冒險》三部曲—時光旅行篇",
     "region": "北部",
@@ -2792,6 +2814,28 @@
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064993947364380673",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781336018398RIyv3bHAxB.jpeg"
+  },
+  {
+    "id": "2078014126655860736-2026-12-19-1430",
+    "title": "2026南風音樂節x演藝廳十週年-《漂浪半島》原創音樂劇",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-12-19",
+    "time": "14:30",
+    "price": "300-800",
+    "url": "https://www.opentix.life/event/2078014126655860736",
+    "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
+  },
+  {
+    "id": "2078014126655860736-2026-12-20-1430",
+    "title": "2026南風音樂節x演藝廳十週年-《漂浪半島》原創音樂劇",
+    "region": "南部",
+    "venue": "恆春文化中心劇場館表演廳",
+    "date": "2026-12-20",
+    "time": "14:30",
+    "price": "300-800",
+    "url": "https://www.opentix.life/event/2078014126655860736",
+    "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
   },
   {
     "id": "2059243467760234496-2026-12-26-1930",
