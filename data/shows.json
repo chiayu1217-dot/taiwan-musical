@@ -1,16 +1,5 @@
 [
   {
-    "id": "2045062329252155393-2026-08-07-2000",
-    "title": "2026夏日放／FUN時光─台北劇場實驗室《怪美妖仙傳》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-08-07",
-    "time": "20:00",
-    "price": "700-1200",
-    "url": "https://www.opentix.life/event/2045062329252155393",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782820635679NLkQsFrZd2.jpeg"
-  },
-  {
     "id": "2045062329252155393-2026-08-08-1430",
     "title": "2026夏日放／FUN時光─台北劇場實驗室《怪美妖仙傳》",
     "region": "中部",
@@ -2618,6 +2607,72 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
   },
   {
+    "id": "2082659728235339777-2026-11-07-1430",
+    "title": "巨風之鳴·當代心靈－2026佳偶聲合唱團年度音樂會",
+    "region": "北部",
+    "venue": "真理大學大禮拜堂",
+    "date": "2026-11-07",
+    "time": "14:30",
+    "price": "100-1000",
+    "url": "https://www.opentix.life/event/2082659728235339777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785379668125WpLTTBvRLA.jpeg"
+  },
+  {
+    "id": "2082771982137057281-2026-11-13-1930",
+    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
+    "region": "北部",
+    "venue": "水源劇場",
+    "date": "2026-11-13",
+    "time": "19:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2082771982137057281",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
+  },
+  {
+    "id": "2082771982137057281-2026-11-14-1430",
+    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
+    "region": "北部",
+    "venue": "水源劇場",
+    "date": "2026-11-14",
+    "time": "14:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2082771982137057281",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
+  },
+  {
+    "id": "2082771982137057281-2026-11-14-1930",
+    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
+    "region": "北部",
+    "venue": "水源劇場",
+    "date": "2026-11-14",
+    "time": "19:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2082771982137057281",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
+  },
+  {
+    "id": "2082771982137057281-2026-11-15-1430",
+    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
+    "region": "北部",
+    "venue": "水源劇場",
+    "date": "2026-11-15",
+    "time": "14:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2082771982137057281",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
+  },
+  {
+    "id": "2082004320853954561-2026-11-14-1430",
+    "title": "九歌兒童劇團《大樹、小鳥與牽牛花》",
+    "region": "中部",
+    "venue": "臺中市葫蘆墩文化中心演講廳",
+    "date": "2026-11-14",
+    "time": "14:30",
+    "price": "100-200",
+    "url": "https://www.opentix.life/event/2082004320853954561",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785223237442KgfcPCzNGj.png"
+  },
+  {
     "id": "2043952009527836673-2026-11-18-2000",
     "title": "【2026衛武營小時光】紅潮劇集《當亞斯遇見人魚》讀演音樂會——B面歌單",
     "region": "南部",
@@ -2627,6 +2682,17 @@
     "price": "300-800",
     "url": "https://www.opentix.life/event/2043952009527836673",
     "image_url": "https://s3.resource.opentix.life/upload/program/1777278931670bXQKIgAN0B.png"
+  },
+  {
+    "id": "2029816885442543616-2026-11-20-1310",
+    "title": "親子音樂劇《阿甯咕的爸鼻不見了？》小兒子動畫劇場 ③",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-11-20",
+    "time": "13:10",
+    "price": "",
+    "url": "https://www.opentix.life/event/2029816885442543616",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17736200701549Uw8RA7T1P.png"
   },
   {
     "id": "2029816885442543616-2026-11-21-1430",
