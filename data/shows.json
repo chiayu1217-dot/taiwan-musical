@@ -1,16 +1,5 @@
 [
   {
-    "id": "2051591825313611777-2026-08-12-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-12",
-    "time": "19:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
     "id": "2051591825313611777-2026-08-13-1930",
     "title": "躍演《勸世三姊妹》中文音樂劇",
     "region": "北部",
@@ -2044,6 +2033,39 @@
     "price": "800-2200",
     "url": "https://www.opentix.life/event/2059231461195935744",
     "image_url": "https://s3.resource.opentix.life/upload/program/1780391040039XbGR62m3T6.png"
+  },
+  {
+    "id": "2084532856189726721-2026-10-05-1830",
+    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-10-05",
+    "time": "18:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2084532856189726721",
+    "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
+  },
+  {
+    "id": "2084532856189726721-2026-10-06-1830",
+    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-10-06",
+    "time": "18:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2084532856189726721",
+    "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
+  },
+  {
+    "id": "2084532856189726721-2026-10-07-1830",
+    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
+    "region": "北部",
+    "venue": "誠品表演廳",
+    "date": "2026-10-07",
+    "time": "18:30",
+    "price": "500-1200",
+    "url": "https://www.opentix.life/event/2084532856189726721",
+    "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
   },
   {
     "id": "2079847832597422081-2026-10-09-1930",
