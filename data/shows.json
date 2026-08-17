@@ -1,14 +1,25 @@
 [
   {
-    "id": "2070069307751550976-2026-08-17-1430",
-    "title": "【2026臺北藝穗節】為我辦一場告別式",
+    "id": "2064620422574579713-2026-08-18-1430",
+    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
     "region": "北部",
-    "venue": "舊峸劇場",
-    "date": "2026-08-17",
+    "venue": "小馬廄",
+    "date": "2026-08-18",
     "time": "14:30",
-    "price": "350-350",
-    "url": "https://www.opentix.life/event/2070069307751550976",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064620422574579713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
+  },
+  {
+    "id": "2064620422574579713-2026-08-18-1930",
+    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
+    "region": "北部",
+    "venue": "小馬廄",
+    "date": "2026-08-18",
+    "time": "19:30",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064620422574579713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
   },
   {
     "id": "2070069307751550976-2026-08-19-1430",
@@ -42,28 +53,6 @@
     "price": "350-350",
     "url": "https://www.opentix.life/event/2070069307751550976",
     "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
-  },
-  {
-    "id": "2064620422574579713-2026-08-18-1430",
-    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
-    "region": "北部",
-    "venue": "小馬廄",
-    "date": "2026-08-18",
-    "time": "14:30",
-    "price": "600-1000",
-    "url": "https://www.opentix.life/event/2064620422574579713",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
-  },
-  {
-    "id": "2064620422574579713-2026-08-18-1930",
-    "title": "【2026臺北藝穗節】H&G2：Encore糖果屋！饒舌互動劇場",
-    "region": "北部",
-    "venue": "小馬廄",
-    "date": "2026-08-18",
-    "time": "19:30",
-    "price": "600-1000",
-    "url": "https://www.opentix.life/event/2064620422574579713",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781078503825b7NdvCvBt9.jpeg"
   },
   {
     "id": "2064247573548912641-2026-08-19-1430",
@@ -1967,6 +1956,17 @@
     "price": "500-1200",
     "url": "https://www.opentix.life/event/2084532856189726721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1786607307552vGexzElz01.png"
+  },
+  {
+    "id": "2082382491747409921-2026-10-08-1930",
+    "title": "Hot咖百老匯~周處大爺買香屁",
+    "region": "中部",
+    "venue": "苗栗縣政府文化觀光局中正堂",
+    "date": "2026-10-08",
+    "time": "19:30",
+    "price": "500-500",
+    "url": "https://www.opentix.life/event/2082382491747409921",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785313598846Q4JIWwNzQG.jpeg"
   },
   {
     "id": "2079847832597422081-2026-10-09-1930",
