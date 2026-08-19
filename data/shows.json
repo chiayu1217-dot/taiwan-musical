@@ -1,49 +1,5 @@
 [
   {
-    "id": "2070069307751550976-2026-08-19-1430",
-    "title": "【2026臺北藝穗節】為我辦一場告別式",
-    "region": "北部",
-    "venue": "舊峸劇場",
-    "date": "2026-08-19",
-    "time": "14:30",
-    "price": "350-350",
-    "url": "https://www.opentix.life/event/2070069307751550976",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
-  },
-  {
-    "id": "2070069307751550976-2026-08-21-1930",
-    "title": "【2026臺北藝穗節】為我辦一場告別式",
-    "region": "北部",
-    "venue": "舊峸劇場",
-    "date": "2026-08-21",
-    "time": "19:30",
-    "price": "350-350",
-    "url": "https://www.opentix.life/event/2070069307751550976",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
-  },
-  {
-    "id": "2070069307751550976-2026-08-24-1430",
-    "title": "【2026臺北藝穗節】為我辦一場告別式",
-    "region": "北部",
-    "venue": "舊峸劇場",
-    "date": "2026-08-24",
-    "time": "14:30",
-    "price": "350-350",
-    "url": "https://www.opentix.life/event/2070069307751550976",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
-  },
-  {
-    "id": "2064247573548912641-2026-08-19-1430",
-    "title": "【2026臺北藝穗節】《我有一個超能力》人事擴編版",
-    "region": "北部",
-    "venue": "遊牧計畫",
-    "date": "2026-08-19",
-    "time": "14:30",
-    "price": "450-800",
-    "url": "https://www.opentix.life/event/2064247573548912641",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17809898920404r31EKr2UL.png"
-  },
-  {
     "id": "2064247573548912641-2026-08-20-1430",
     "title": "【2026臺北藝穗節】《我有一個超能力》人事擴編版",
     "region": "北部",
@@ -182,17 +138,6 @@
     "venue": "國家戲劇院",
     "date": "2026-08-22",
     "time": "13:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-19-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-19",
-    "time": "19:30",
     "price": "800-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
@@ -352,17 +297,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
   {
-    "id": "2039660562763821057-2026-08-19-2000",
-    "title": "【2026衛武營小時光】唱歌集《大家都怎麼做音樂劇？》",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心表演廳",
-    "date": "2026-08-19",
-    "time": "20:00",
-    "price": "300-800",
-    "url": "https://www.opentix.life/event/2039660562763821057",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777278848152unasdCjPT9.png"
-  },
-  {
     "id": "2067076217283747841-2026-08-21-1930",
     "title": "《仙履奇緣》百老匯音樂劇",
     "region": "北部",
@@ -405,6 +339,28 @@
     "price": "500-2000",
     "url": "https://www.opentix.life/event/2067076217283747841",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
+  },
+  {
+    "id": "2070069307751550976-2026-08-21-1930",
+    "title": "【2026臺北藝穗節】為我辦一場告別式",
+    "region": "北部",
+    "venue": "舊峸劇場",
+    "date": "2026-08-21",
+    "time": "19:30",
+    "price": "350-350",
+    "url": "https://www.opentix.life/event/2070069307751550976",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
+  },
+  {
+    "id": "2070069307751550976-2026-08-24-1430",
+    "title": "【2026臺北藝穗節】為我辦一場告別式",
+    "region": "北部",
+    "venue": "舊峸劇場",
+    "date": "2026-08-24",
+    "time": "14:30",
+    "price": "350-350",
+    "url": "https://www.opentix.life/event/2070069307751550976",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1782378836877WySbG4Z94M.png"
   },
   {
     "id": "2043526998491496449-2026-08-21-1930",
