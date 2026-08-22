@@ -99,39 +99,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
   {
-    "id": "2046829520049606657-2026-08-22-1030",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-08-22",
-    "time": "10:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-08-22-1430",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-08-22",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-08-22-1930",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院中劇院",
-    "date": "2026-08-22",
-    "time": "19:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
     "id": "2046829520049606657-2026-08-23-1030",
     "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
     "region": "中部",
@@ -187,17 +154,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
   {
-    "id": "2051591825313611777-2026-08-22-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-22",
-    "time": "19:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
     "id": "2051591825313611777-2026-08-28-1930",
     "title": "躍演《勸世三姊妹》中文音樂劇",
     "region": "北部",
@@ -247,17 +203,6 @@
     "region": "北部",
     "venue": "國家戲劇院",
     "date": "2026-08-30",
-    "time": "13:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-22-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-22",
     "time": "13:30",
     "price": "800-4200",
     "url": "https://www.opentix.life/event/2051591825313611777",
@@ -418,37 +363,15 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
   {
-    "id": "2031996710945062912-2026-08-22-1400",
-    "title": "義興閣掌中劇團《天堂客棧》",
+    "id": "2076862416033050624-2026-08-23-1400",
+    "title": "環遊世界80+1天",
     "region": "南部",
-    "venue": "高雄市岡山皮影戲館(3F親子劇場)",
-    "date": "2026-08-22",
+    "venue": "衛武營國家藝術文化中心戲劇院",
+    "date": "2026-08-23",
     "time": "14:00",
-    "price": "400-400",
-    "url": "https://www.opentix.life/event/2031996710945062912",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1773300556778ehGN276rzb.jpeg"
-  },
-  {
-    "id": "2067076217283747841-2026-08-22-1930",
-    "title": "《仙履奇緣》百老匯音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 球劇場",
-    "date": "2026-08-22",
-    "time": "19:30",
     "price": "500-2000",
-    "url": "https://www.opentix.life/event/2067076217283747841",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
-  },
-  {
-    "id": "2067076217283747841-2026-08-22-1430",
-    "title": "《仙履奇緣》百老匯音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 球劇場",
-    "date": "2026-08-22",
-    "time": "14:30",
-    "price": "500-2000",
-    "url": "https://www.opentix.life/event/2067076217283747841",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
+    "url": "https://www.opentix.life/event/2076862416033050624",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1784220390863tSvbT0YRcJ.jpeg"
   },
   {
     "id": "2067076217283747841-2026-08-23-1430",
@@ -460,28 +383,6 @@
     "price": "500-2000",
     "url": "https://www.opentix.life/event/2067076217283747841",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781664109733XADPAqfXbr.jpeg"
-  },
-  {
-    "id": "2043526998491496449-2026-08-22-1930",
-    "title": "果陀劇場《我在詐騙公司上班》2026騙局升級",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-08-22",
-    "time": "19:30",
-    "price": "600-2500",
-    "url": "https://www.opentix.life/event/2043526998491496449",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
-  },
-  {
-    "id": "2043526998491496449-2026-08-22-1430",
-    "title": "果陀劇場《我在詐騙公司上班》2026騙局升級",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-08-22",
-    "time": "14:30",
-    "price": "600-2500",
-    "url": "https://www.opentix.life/event/2043526998491496449",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
   },
   {
     "id": "2043526998491496449-2026-08-23-1430",
@@ -504,17 +405,6 @@
     "price": "400-1300",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
-  },
-  {
-    "id": "2028768565934878721-2026-08-22-1930",
-    "title": "《你的工作＆你的休假》音樂劇",
-    "region": "北部",
-    "venue": "水源劇場",
-    "date": "2026-08-22",
-    "time": "19:30",
-    "price": "700-2500",
-    "url": "https://www.opentix.life/event/2028768565934878721",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
   {
     "id": "2028768565934878721-2026-08-28-1930",
@@ -557,17 +447,6 @@
     "date": "2026-09-05",
     "time": "19:30",
     "price": "800-2500",
-    "url": "https://www.opentix.life/event/2028768565934878721",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
-  },
-  {
-    "id": "2028768565934878721-2026-08-22-1430",
-    "title": "《你的工作＆你的休假》音樂劇",
-    "region": "北部",
-    "venue": "水源劇場",
-    "date": "2026-08-22",
-    "time": "14:30",
-    "price": "700-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
@@ -625,17 +504,6 @@
     "price": "800-2500",
     "url": "https://www.opentix.life/event/2028768565934878721",
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
-  },
-  {
-    "id": "2076862416033050624-2026-08-23-1400",
-    "title": "環遊世界80+1天",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心戲劇院",
-    "date": "2026-08-23",
-    "time": "14:00",
-    "price": "500-2000",
-    "url": "https://www.opentix.life/event/2076862416033050624",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1784220390863tSvbT0YRcJ.jpeg"
   },
   {
     "id": "2061371922908585984-2026-08-23-1930",
