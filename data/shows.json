@@ -1,27 +1,5 @@
 [
   {
-    "id": "2062524758824460289-2026-08-27-1330",
-    "title": "【2026臺北藝穗節】醒醒吧！彌賽亞",
-    "region": "北部",
-    "venue": "濕地Venue-B1",
-    "date": "2026-08-27",
-    "time": "13:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2062524758824460289",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780578921258LU8uZPmBzD.png"
-  },
-  {
-    "id": "2064247573548912641-2026-08-27-1430",
-    "title": "【2026臺北藝穗節】《我有一個超能力》人事擴編版",
-    "region": "北部",
-    "venue": "遊牧計畫",
-    "date": "2026-08-27",
-    "time": "14:30",
-    "price": "450-800",
-    "url": "https://www.opentix.life/event/2064247573548912641",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17809898920404r31EKr2UL.png"
-  },
-  {
     "id": "2064247573548912641-2026-08-28-1430",
     "title": "【2026臺北藝穗節】《我有一個超能力》人事擴編版",
     "region": "北部",
@@ -33,17 +11,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/17809898920404r31EKr2UL.png"
   },
   {
-    "id": "2064949369279553537-2026-08-27-1430",
-    "title": "【2026臺北藝穗節】不識周郎",
-    "region": "北部",
-    "venue": "福利社",
-    "date": "2026-08-27",
-    "time": "14:30",
-    "price": "500-800",
-    "url": "https://www.opentix.life/event/2064949369279553537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781157104471QnJUBJIOTQ.png"
-  },
-  {
     "id": "2064949369279553537-2026-08-28-1430",
     "title": "【2026臺北藝穗節】不識周郎",
     "region": "北部",
@@ -53,270 +20,6 @@
     "price": "500-800",
     "url": "https://www.opentix.life/event/2064949369279553537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781157104471QnJUBJIOTQ.png"
-  },
-  {
-    "id": "2066725867134300160-2026-08-27-1530",
-    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
-    "region": "北部",
-    "venue": "台北偶戲館黑箱劇場",
-    "date": "2026-08-27",
-    "time": "15:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2066725867134300160",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
-  },
-  {
-    "id": "2066725867134300160-2026-08-27-1930",
-    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
-    "region": "北部",
-    "venue": "台北偶戲館黑箱劇場",
-    "date": "2026-08-27",
-    "time": "19:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2066725867134300160",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
-  },
-  {
-    "id": "2066725867134300160-2026-08-30-1530",
-    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
-    "region": "北部",
-    "venue": "台北偶戲館黑箱劇場",
-    "date": "2026-08-30",
-    "time": "15:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2066725867134300160",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
-  },
-  {
-    "id": "2066725867134300160-2026-08-30-1930",
-    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
-    "region": "北部",
-    "venue": "台北偶戲館黑箱劇場",
-    "date": "2026-08-30",
-    "time": "19:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2066725867134300160",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-28-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-28",
-    "time": "19:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-29-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-29",
-    "time": "19:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-29-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-29",
-    "time": "13:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-30-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-30",
-    "time": "13:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-08-27-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "北部",
-    "venue": "國家戲劇院",
-    "date": "2026-08-27",
-    "time": "19:30",
-    "price": "800-4200",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-09-04-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-09-04",
-    "time": "19:30",
-    "price": "700-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-09-05-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-09-05",
-    "time": "19:30",
-    "price": "700-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-09-05-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-09-05",
-    "time": "13:30",
-    "price": "700-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-09-06-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-09-06",
-    "time": "13:30",
-    "price": "700-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-16-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-16",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-17-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-17",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-23-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-23",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-24-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-24",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-18-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-18",
-    "time": "13:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-25-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-25",
-    "time": "13:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-17-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-17",
-    "time": "13:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2051591825313611777-2026-10-24-1330",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-24",
-    "time": "13:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
-    "id": "2064276306744070145-2026-08-27-2000",
-    "title": "【2026臺北藝穗節】二一六",
-    "region": "北部",
-    "venue": "遊牧計畫",
-    "date": "2026-08-27",
-    "time": "20:00",
-    "price": "600-1000",
-    "url": "https://www.opentix.life/event/2064276306744070145",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782812124020JAEzvhyVg0.jpeg"
-  },
-  {
-    "id": "2064276306744070145-2026-08-29-1500",
-    "title": "【2026臺北藝穗節】二一六",
-    "region": "北部",
-    "venue": "遊牧計畫",
-    "date": "2026-08-29",
-    "time": "15:00",
-    "price": "600-1000",
-    "url": "https://www.opentix.life/event/2064276306744070145",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782812124020JAEzvhyVg0.jpeg"
-  },
-  {
-    "id": "2064276306744070145-2026-08-30-1500",
-    "title": "【2026臺北藝穗節】二一六",
-    "region": "北部",
-    "venue": "遊牧計畫",
-    "date": "2026-08-30",
-    "time": "15:00",
-    "price": "600-1000",
-    "url": "https://www.opentix.life/event/2064276306744070145",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782812124020JAEzvhyVg0.jpeg"
   },
   {
     "id": "2059080758652174337-2026-08-28-1930",
@@ -484,6 +187,182 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1774428487596rtf82UWuqZ.jpeg"
   },
   {
+    "id": "2051591825313611777-2026-08-28-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "北部",
+    "venue": "國家戲劇院",
+    "date": "2026-08-28",
+    "time": "19:30",
+    "price": "800-4200",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-08-29-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "北部",
+    "venue": "國家戲劇院",
+    "date": "2026-08-29",
+    "time": "19:30",
+    "price": "800-4200",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-08-29-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "北部",
+    "venue": "國家戲劇院",
+    "date": "2026-08-29",
+    "time": "13:30",
+    "price": "800-4200",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-08-30-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "北部",
+    "venue": "國家戲劇院",
+    "date": "2026-08-30",
+    "time": "13:30",
+    "price": "800-4200",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-09-04-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-09-04",
+    "time": "19:30",
+    "price": "700-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-09-05-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-09-05",
+    "time": "19:30",
+    "price": "700-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-09-05-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-09-05",
+    "time": "13:30",
+    "price": "700-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-09-06-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-09-06",
+    "time": "13:30",
+    "price": "700-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-16-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-16",
+    "time": "19:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-17-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-17",
+    "time": "19:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-23-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-23",
+    "time": "19:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-24-1930",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-24",
+    "time": "19:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-18-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-18",
+    "time": "13:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-25-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-25",
+    "time": "13:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-17-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-17",
+    "time": "13:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
+    "id": "2051591825313611777-2026-10-24-1330",
+    "title": "躍演《勸世三姊妹》中文音樂劇",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心歌劇院",
+    "date": "2026-10-24",
+    "time": "13:30",
+    "price": "500-4000",
+    "url": "https://www.opentix.life/event/2051591825313611777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
+  },
+  {
     "id": "2046829520049606657-2026-08-29-1430",
     "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
     "region": "北部",
@@ -616,6 +495,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
   {
+    "id": "2064276306744070145-2026-08-29-1500",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-29",
+    "time": "15:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1782812124020JAEzvhyVg0.jpeg"
+  },
+  {
+    "id": "2064276306744070145-2026-08-30-1500",
+    "title": "【2026臺北藝穗節】二一六",
+    "region": "北部",
+    "venue": "遊牧計畫",
+    "date": "2026-08-30",
+    "time": "15:00",
+    "price": "600-1000",
+    "url": "https://www.opentix.life/event/2064276306744070145",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1782812124020JAEzvhyVg0.jpeg"
+  },
+  {
     "id": "2077232092258299905-2026-08-29-1900",
     "title": "阿勒飛斯文化藝術團”汎札萊．花蓮 ”",
     "region": "東部",
@@ -737,6 +638,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1769143112449M6Xo6BAiQ9.png"
   },
   {
+    "id": "2066725867134300160-2026-08-30-1530",
+    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
+    "region": "北部",
+    "venue": "台北偶戲館黑箱劇場",
+    "date": "2026-08-30",
+    "time": "15:30",
+    "price": "700-700",
+    "url": "https://www.opentix.life/event/2066725867134300160",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
+  },
+  {
+    "id": "2066725867134300160-2026-08-30-1930",
+    "title": "【2026臺北藝穗節】自由拍：她來聽我的演唱會",
+    "region": "北部",
+    "venue": "台北偶戲館黑箱劇場",
+    "date": "2026-08-30",
+    "time": "19:30",
+    "price": "700-700",
+    "url": "https://www.opentix.life/event/2066725867134300160",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1781580668624PhcxwrPg0g.jpeg"
+  },
+  {
     "id": "2061371922908585984-2026-08-30-1930",
     "title": "【2026臺北藝穗節】我們在終點前慶祝",
     "region": "北部",
@@ -834,17 +757,6 @@
     "price": "400-1300",
     "url": "https://www.opentix.life/event/2043526998491496449",
     "image_url": "https://s3.resource.opentix.life/upload/program/1776067677545wwCzZUoBXr.jpeg"
-  },
-  {
-    "id": "2059097848899674113-2026-09-05-1430",
-    "title": "《記憶的星光》",
-    "region": "南部",
-    "venue": "屏東藝術館",
-    "date": "2026-09-05",
-    "time": "14:30",
-    "price": "400-1000",
-    "url": "https://www.opentix.life/event/2059097848899674113",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1782189642546cqJMI2JAUR.png"
   },
   {
     "id": "2051557579253776385-2026-09-05-1930",
