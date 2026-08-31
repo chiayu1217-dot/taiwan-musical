@@ -1,16 +1,5 @@
 [
   {
-    "id": "2077232092258299905-2026-08-31-1900",
-    "title": "阿勒飛斯文化藝術團”汎札萊．花蓮 ”",
-    "region": "東部",
-    "venue": "花蓮縣臺灣原住民族文化館演藝廳",
-    "date": "2026-08-31",
-    "time": "19:00",
-    "price": "200-200",
-    "url": "https://www.opentix.life/event/2077232092258299905",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1784104459414FvsR2pUUt2.jpeg"
-  },
-  {
     "id": "2077232092258299905-2026-09-01-1900",
     "title": "阿勒飛斯文化藝術團”汎札萊．花蓮 ”",
     "region": "東部",
@@ -733,6 +722,39 @@
     "date": "2026-09-12",
     "time": "19:30",
     "price": "400-2600",
+    "url": "https://www.opentix.life/event/1881618375330443264",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
+  },
+  {
+    "id": "1881618375330443264-2027-01-09-1430",
+    "title": "《老男孩》音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院中劇院",
+    "date": "2027-01-09",
+    "time": "14:30",
+    "price": "500-2800",
+    "url": "https://www.opentix.life/event/1881618375330443264",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
+  },
+  {
+    "id": "1881618375330443264-2027-01-09-1930",
+    "title": "《老男孩》音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院中劇院",
+    "date": "2027-01-09",
+    "time": "19:30",
+    "price": "500-2800",
+    "url": "https://www.opentix.life/event/1881618375330443264",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
+  },
+  {
+    "id": "1881618375330443264-2027-01-10-1430",
+    "title": "《老男孩》音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院中劇院",
+    "date": "2027-01-10",
+    "time": "14:30",
+    "price": "500-2800",
     "url": "https://www.opentix.life/event/1881618375330443264",
     "image_url": "https://s3.resource.opentix.life/upload/program/1738919085649iBaG7k21y8.jpeg"
   },
@@ -1934,6 +1956,28 @@
     "price": "800-3000",
     "url": "https://www.opentix.life/event/2067154457490825217",
     "image_url": "https://s3.resource.opentix.life/upload/program/17816828850043aSm22NPrw.jpeg"
+  },
+  {
+    "id": "2090333861981999105-2026-11-23-1900",
+    "title": "音樂劇《天堂邊緣》中山大學劇場藝術系年度製作",
+    "region": "南部",
+    "venue": "國立中山大學逸仙館",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2090333861981999105",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1787209288689rXz4Cc1ED2.jpeg"
+  },
+  {
+    "id": "2090333861981999105-2026-11-24-1900",
+    "title": "音樂劇《天堂邊緣》中山大學劇場藝術系年度製作",
+    "region": "南部",
+    "venue": "國立中山大學逸仙館",
+    "date": "2026-11-24",
+    "time": "19:00",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2090333861981999105",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1787209288689rXz4Cc1ED2.jpeg"
   },
   {
     "id": "2058773455445823489-2026-11-27-1930",
