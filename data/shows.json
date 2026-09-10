@@ -1,93 +1,5 @@
 [
   {
-    "id": "2046829520049606657-2026-10-18-1430",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "南部",
-    "venue": "嘉義縣表演藝術中心演藝廳",
-    "date": "2026-10-18",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-13-1500",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-13",
-    "time": "15:00",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-12-1030",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-12",
-    "time": "10:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-13-1030",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-13",
-    "time": "10:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-12-1430",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-12",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-10-1300",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-10",
-    "time": "13:00",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-19-1430",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "北部",
-    "venue": "新北市藝文中心演藝廳",
-    "date": "2026-09-19",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
-    "id": "2046829520049606657-2026-09-20-1430",
-    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
-    "region": "南部",
-    "venue": "高雄市文化中心至德堂",
-    "date": "2026-09-20",
-    "time": "14:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2046829520049606657",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
-  },
-  {
     "id": "2051557579253776385-2026-09-11-1930",
     "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
     "region": "北部",
@@ -185,6 +97,83 @@
     "price": "800-1300",
     "url": "https://www.opentix.life/event/2051557579253776385",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-10-18-1430",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "南部",
+    "venue": "嘉義縣表演藝術中心演藝廳",
+    "date": "2026-10-18",
+    "time": "14:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-13-1500",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-09-13",
+    "time": "15:00",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-12-1030",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-09-12",
+    "time": "10:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-13-1030",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-09-13",
+    "time": "10:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-12-1430",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "北部",
+    "venue": "臺北市藝文推廣處城市舞台",
+    "date": "2026-09-12",
+    "time": "14:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-19-1430",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-09-19",
+    "time": "14:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
+  },
+  {
+    "id": "2046829520049606657-2026-09-20-1430",
+    "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
+    "region": "南部",
+    "venue": "高雄市文化中心至德堂",
+    "date": "2026-09-20",
+    "time": "14:30",
+    "price": "500-1500",
+    "url": "https://www.opentix.life/event/2046829520049606657",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1777881829328Ioeh04D6ua.jpeg"
   },
   {
     "id": "2059917296160870401-2026-09-12-1400",
@@ -1690,6 +1679,17 @@
     "date": "2026-11-20",
     "time": "13:10",
     "price": "",
+    "url": "https://www.opentix.life/event/2029816885442543616",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17736200701549Uw8RA7T1P.png"
+  },
+  {
+    "id": "2029816885442543616-2026-11-21-1030",
+    "title": "親子音樂劇《阿甯咕的爸鼻不見了？》小兒子動畫劇場 ③",
+    "region": "北部",
+    "venue": "新北市藝文中心演藝廳",
+    "date": "2026-11-21",
+    "time": "10:30",
+    "price": "600-2000",
     "url": "https://www.opentix.life/event/2029816885442543616",
     "image_url": "https://s3.resource.opentix.life/upload/program/17736200701549Uw8RA7T1P.png"
   },
