@@ -1,104 +1,5 @@
 [
   {
-    "id": "2051557579253776385-2026-09-11-1930",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-11",
-    "time": "19:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-12-1430",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-12",
-    "time": "14:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-12-1930",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-12",
-    "time": "19:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-13-1430",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-13",
-    "time": "14:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-17-1930",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-17",
-    "time": "19:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-18-1930",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-18",
-    "time": "19:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-19-1430",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-19",
-    "time": "14:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-19-1930",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-19",
-    "time": "19:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
-    "id": "2051557579253776385-2026-09-20-1430",
-    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
-    "region": "北部",
-    "venue": "PLAYground 南村劇場．青鳥．有.設計",
-    "date": "2026-09-20",
-    "time": "14:30",
-    "price": "800-1300",
-    "url": "https://www.opentix.life/event/2051557579253776385",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
-  },
-  {
     "id": "2046829520049606657-2026-10-18-1430",
     "title": "【朱宗慶打擊樂團２】2026豆莢寶寶兒童音樂會《咻咻～魔幻擊樂秀》",
     "region": "南部",
@@ -229,6 +130,94 @@
     "price": "900-1688",
     "url": "https://www.opentix.life/event/2067069773813166080",
     "image_url": "https://s3.resource.opentix.life/upload/program/1781662749973r86vJJjgPN.png"
+  },
+  {
+    "id": "2051557579253776385-2026-09-12-1430",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-12",
+    "time": "14:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-12-1930",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-12",
+    "time": "19:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-13-1430",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-13",
+    "time": "14:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-17-1930",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-17",
+    "time": "19:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-18-1930",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-18",
+    "time": "19:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-19-1430",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-19",
+    "time": "14:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-19-1930",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-19",
+    "time": "19:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
+  },
+  {
+    "id": "2051557579253776385-2026-09-20-1430",
+    "title": "獨角音樂劇《馬克斯威妖：我睡了我的面試官》南村小宇宙版",
+    "region": "北部",
+    "venue": "PLAYground 南村劇場．青鳥．有.設計",
+    "date": "2026-09-20",
+    "time": "14:30",
+    "price": "800-1300",
+    "url": "https://www.opentix.life/event/2051557579253776385",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779275195366LEkdLABjF5.jpeg"
   },
   {
     "id": "1881618375330443264-2026-12-17-1930",
