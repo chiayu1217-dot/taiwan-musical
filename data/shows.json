@@ -352,6 +352,17 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1785400218898WoCkGHyAbd.jpeg"
   },
   {
+    "id": "2100441920726749184-2026-10-11-1030",
+    "title": "親子音樂劇《誰偷走了我的字？》",
+    "region": "離島",
+    "venue": "馬祖梅石藝文中心",
+    "date": "2026-10-11",
+    "time": "10:30",
+    "price": "300-600",
+    "url": "https://www.opentix.life/event/2100441920726749184",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789618056938Q67BNrlv2A.jpeg"
+  },
+  {
     "id": "2037069944678072321-2026-10-16-1930",
     "title": "唱進心靈的眼眸：「青瞑猴，出外讀冊拼出頭」音樂劇",
     "region": "北部",
@@ -525,7 +536,7 @@
     "time": "14:30",
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064988953002582017",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781334822662OU8N02HwJC.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790158724531KSArfKUcKe.jpeg"
   },
   {
     "id": "2064988953002582017-2026-10-17-1830",
@@ -536,7 +547,7 @@
     "time": "18:30",
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064988953002582017",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781334822662OU8N02HwJC.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790158724531KSArfKUcKe.jpeg"
   },
   {
     "id": "2046829520049606657-2026-10-18-1430",
@@ -713,6 +724,17 @@
     "price": "800-1200",
     "url": "https://www.opentix.life/event/2084126686540869633",
     "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
+  },
+  {
+    "id": "2099682129172733952-2026-10-31-1430",
+    "title": "無獨有偶工作室劇團《演奏吧 好土樂團》",
+    "region": "中部",
+    "venue": "臺中市葫蘆墩文化中心演奏廳",
+    "date": "2026-10-31",
+    "time": "14:30",
+    "price": "200-800",
+    "url": "https://www.opentix.life/event/2099682129172733952",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
   },
   {
     "id": "2092887492767944705-2026-10-30-1930",
@@ -1350,7 +1372,7 @@
     "time": "14:30",
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064992985067073537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781335703929dkXEPcxawk.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790158744763dCBshkNpdm.jpeg"
   },
   {
     "id": "2064992985067073537-2026-11-21-1830",
@@ -1361,7 +1383,7 @@
     "time": "18:30",
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064992985067073537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781335703929dkXEPcxawk.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790158744763dCBshkNpdm.jpeg"
   },
   {
     "id": "2067154457490825217-2026-11-21-1930",
@@ -1769,6 +1791,17 @@
     "price": "300-800",
     "url": "https://www.opentix.life/event/2078014126655860736",
     "image_url": "https://s3.resource.opentix.life/default/programInfoDefault.png"
+  },
+  {
+    "id": "2100752451028361216-2026-12-20-1930",
+    "title": "【醫聲．白袍金嗓】施宗賢醫師 廣音域 跨界演唱會",
+    "region": "南部",
+    "venue": "大東文化藝術中心",
+    "date": "2026-12-20",
+    "time": "19:30",
+    "price": "500-2500",
+    "url": "https://www.opentix.life/event/2100752451028361216",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789725616575r8L83APAMd.jpeg"
   },
   {
     "id": "2059243467760234496-2026-12-26-1930",
