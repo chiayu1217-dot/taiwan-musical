@@ -1,16 +1,5 @@
 [
   {
-    "id": "2047993997244669953-2026-09-25-1430",
-    "title": "寶塚OG夢幻舞台《築夢之橋》",
-    "region": "北部",
-    "venue": "誠品表演廳",
-    "date": "2026-09-25",
-    "time": "14:30",
-    "price": "1000-2500",
-    "url": "https://www.opentix.life/event/2047993997244669953",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1777114640278RHt9VfX45f.jpeg"
-  },
-  {
     "id": "2047993997244669953-2026-09-26-1430",
     "title": "寶塚OG夢幻舞台《築夢之橋》",
     "region": "中部",
@@ -22,15 +11,48 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1777114640278RHt9VfX45f.jpeg"
   },
   {
-    "id": "2052573679595487233-2026-09-25-1430",
-    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
+    "id": "2011615042313633793-2026-09-26-1430",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
     "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-09-25",
+    "venue": "臺北表演藝術中心 大劇院",
+    "date": "2026-09-26",
     "time": "14:30",
-    "price": "700-3500",
-    "url": "https://www.opentix.life/event/2052573679595487233",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
+    "price": "800-4000",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
+  },
+  {
+    "id": "2011615042313633793-2026-09-27-1430",
+    "title": "《你好，我是接體員》黑色幽默音樂劇",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 大劇院",
+    "date": "2026-09-27",
+    "time": "14:30",
+    "price": "800-4000",
+    "url": "https://www.opentix.life/event/2011615042313633793",
+    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
+  },
+  {
+    "id": "2084544321432363008-2026-09-26-1430",
+    "title": "2026 NTT劇院展開《我的爵視金曲夜》",
+    "region": "南部",
+    "venue": "臺南文化中心演藝廳",
+    "date": "2026-09-26",
+    "time": "14:30",
+    "price": "",
+    "url": "https://www.opentix.life/event/2084544321432363008",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785898975440Slt77QwuvP.jpeg"
+  },
+  {
+    "id": "2084544321432363008-2026-10-09-1430",
+    "title": "2026 NTT劇院展開《我的爵視金曲夜》",
+    "region": "北部",
+    "venue": "新竹縣政府文化局演藝廳",
+    "date": "2026-10-09",
+    "time": "14:30",
+    "price": "",
+    "url": "https://www.opentix.life/event/2084544321432363008",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785898975440Slt77QwuvP.jpeg"
   },
   {
     "id": "2052573679595487233-2026-09-26-1430",
@@ -97,61 +119,6 @@
     "price": "500-3000",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
-  },
-  {
-    "id": "2011615042313633793-2026-09-25-1930",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-25",
-    "time": "19:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-09-26-1430",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-26",
-    "time": "14:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2011615042313633793-2026-09-27-1430",
-    "title": "《你好，我是接體員》黑色幽默音樂劇",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 大劇院",
-    "date": "2026-09-27",
-    "time": "14:30",
-    "price": "800-4000",
-    "url": "https://www.opentix.life/event/2011615042313633793",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17691432106841RgsJo251I.png"
-  },
-  {
-    "id": "2084544321432363008-2026-09-26-1430",
-    "title": "2026 NTT劇院展開《我的爵視金曲夜》",
-    "region": "南部",
-    "venue": "臺南文化中心演藝廳",
-    "date": "2026-09-26",
-    "time": "14:30",
-    "price": "",
-    "url": "https://www.opentix.life/event/2084544321432363008",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785898975440Slt77QwuvP.jpeg"
-  },
-  {
-    "id": "2084544321432363008-2026-10-09-1430",
-    "title": "2026 NTT劇院展開《我的爵視金曲夜》",
-    "region": "北部",
-    "venue": "新竹縣政府文化局演藝廳",
-    "date": "2026-10-09",
-    "time": "14:30",
-    "price": "",
-    "url": "https://www.opentix.life/event/2084544321432363008",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785898975440Slt77QwuvP.jpeg"
   },
   {
     "id": "2053677047754907649-2026-09-27-1430",
