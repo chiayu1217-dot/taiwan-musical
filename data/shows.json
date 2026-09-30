@@ -440,6 +440,17 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
   {
+    "id": "2051483080915320833-2026-11-07-1930",
+    "title": "原創青少年音樂劇《換氣練習》",
+    "region": "南部",
+    "venue": "國立嘉義大學新民校區國際會議廳",
+    "date": "2026-11-07",
+    "time": "19:30",
+    "price": "700-700",
+    "url": "https://www.opentix.life/event/2051483080915320833",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
+  },
+  {
     "id": "2067174521020350465-2026-10-30-1930",
     "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
     "region": "北部",
@@ -573,12 +584,23 @@
   },
   {
     "id": "2099682129172733952-2026-10-31-1430",
-    "title": "無獨有偶工作室劇團《演奏吧 好土樂團》",
+    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
     "region": "中部",
     "venue": "臺中市葫蘆墩文化中心演奏廳",
     "date": "2026-10-31",
     "time": "14:30",
     "price": "200-800",
+    "url": "https://www.opentix.life/event/2099682129172733952",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
+  },
+  {
+    "id": "2099682129172733952-2026-10-30-1400",
+    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
+    "region": "中部",
+    "venue": "臺中市葫蘆墩文化中心演奏廳",
+    "date": "2026-10-30",
+    "time": "14:00",
+    "price": "",
     "url": "https://www.opentix.life/event/2099682129172733952",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
   },
