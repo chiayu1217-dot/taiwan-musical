@@ -440,17 +440,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
   {
-    "id": "2051483080915320833-2026-11-07-1930",
-    "title": "原創青少年音樂劇《換氣練習》",
-    "region": "南部",
-    "venue": "國立嘉義大學新民校區國際會議廳",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "700-700",
-    "url": "https://www.opentix.life/event/2051483080915320833",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
-  },
-  {
     "id": "2067174521020350465-2026-10-30-1930",
     "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
     "region": "北部",
@@ -669,6 +658,17 @@
     "price": "400-1200",
     "url": "https://www.opentix.life/event/2080134872605343745",
     "image_url": "https://s3.resource.opentix.life/upload/program/1784777684036htNGZAGn6G.jpeg"
+  },
+  {
+    "id": "2102310370504650753-2026-10-31-1000",
+    "title": "2026嘉義縣表演藝術中心《遊園戲夢》環境劇場導覽演出",
+    "region": "南部",
+    "venue": "嘉義縣表演藝術中心全園區",
+    "date": "2026-10-31",
+    "time": "10:00",
+    "price": "200-200",
+    "url": "https://www.opentix.life/event/2102310370504650753",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790064644145oxlelrrF9L.jpeg"
   },
   {
     "id": "2101978067626668032-2026-10-31-1430",
@@ -1857,6 +1857,94 @@
     "price": "800-2600",
     "url": "https://www.opentix.life/event/2059243467760234496",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2100041290423484417-2027-01-22-1930",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-22",
+    "time": "19:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-23-1430",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-23",
+    "time": "14:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-23-1930",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-23",
+    "time": "19:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-24-1430",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-24",
+    "time": "14:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-28-1930",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-28",
+    "time": "19:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-29-1930",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-29",
+    "time": "19:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-30-1430",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-30",
+    "time": "14:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2100041290423484417-2027-01-31-1430",
+    "title": "《烏秋—黑羽的斷翼者》動漫式武打音樂劇",
+    "region": "北部",
+    "venue": "D.D.Box 劇場（Date Day Box）",
+    "date": "2027-01-31",
+    "time": "14:30",
+    "price": "1200-2300",
+    "url": "https://www.opentix.life/event/2100041290423484417",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
   },
   {
     "id": "2054129876962353153-2026-07-31-1930",
