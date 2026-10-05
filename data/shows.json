@@ -1,16 +1,5 @@
 [
   {
-    "id": "2084532856189726721-2026-10-05-1830",
-    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
-    "region": "北部",
-    "venue": "誠品表演廳",
-    "date": "2026-10-05",
-    "time": "18:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2084532856189726721",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1786607307552vGexzElz01.png"
-  },
-  {
     "id": "2084532856189726721-2026-10-06-1830",
     "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
     "region": "北部",
@@ -1243,6 +1232,17 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
   },
   {
+    "id": "2097267213329641473-2026-12-06-1900",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "北部",
+    "venue": "桃園展演中心展演廳",
+    "date": "2026-12-06",
+    "time": "19:00",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
     "id": "2097267213329641473-2026-11-22-1030",
     "title": "《生氣王子》親子繪本音樂會",
     "region": "北部",
@@ -1260,6 +1260,17 @@
     "venue": "臺北市政大樓親子劇場",
     "date": "2026-11-22",
     "time": "14:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
+    "id": "2097267213329641473-2026-11-22-1900",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "北部",
+    "venue": "臺北市政大樓親子劇場",
+    "date": "2026-11-22",
+    "time": "19:00",
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2097267213329641473",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
@@ -1626,6 +1637,50 @@
     "price": "500-2500",
     "url": "https://www.opentix.life/event/2100752451028361216",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789725616575r8L83APAMd.jpeg"
+  },
+  {
+    "id": "2101876354656706560-2026-12-25-1900",
+    "title": "臺師大表藝系X碩士班畢業製作《舞告青春》原創音樂劇",
+    "region": "北部",
+    "venue": "臺灣大學藝文中心遊心劇場",
+    "date": "2026-12-25",
+    "time": "19:00",
+    "price": "800-1500",
+    "url": "https://www.opentix.life/event/2101876354656706560",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790234652994V1iCAGFxlZ.png"
+  },
+  {
+    "id": "2101876354656706560-2026-12-26-1400",
+    "title": "臺師大表藝系X碩士班畢業製作《舞告青春》原創音樂劇",
+    "region": "北部",
+    "venue": "臺灣大學藝文中心遊心劇場",
+    "date": "2026-12-26",
+    "time": "14:00",
+    "price": "800-1500",
+    "url": "https://www.opentix.life/event/2101876354656706560",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790234652994V1iCAGFxlZ.png"
+  },
+  {
+    "id": "2101876354656706560-2026-12-26-1900",
+    "title": "臺師大表藝系X碩士班畢業製作《舞告青春》原創音樂劇",
+    "region": "北部",
+    "venue": "臺灣大學藝文中心遊心劇場",
+    "date": "2026-12-26",
+    "time": "19:00",
+    "price": "800-1500",
+    "url": "https://www.opentix.life/event/2101876354656706560",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790234652994V1iCAGFxlZ.png"
+  },
+  {
+    "id": "2101876354656706560-2026-12-27-1400",
+    "title": "臺師大表藝系X碩士班畢業製作《舞告青春》原創音樂劇",
+    "region": "北部",
+    "venue": "臺灣大學藝文中心遊心劇場",
+    "date": "2026-12-27",
+    "time": "14:00",
+    "price": "800-1500",
+    "url": "https://www.opentix.life/event/2101876354656706560",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790234652994V1iCAGFxlZ.png"
   },
   {
     "id": "2059243467760234496-2026-12-26-1930",
