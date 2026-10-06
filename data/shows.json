@@ -1,16 +1,5 @@
 [
   {
-    "id": "2084532856189726721-2026-10-06-1830",
-    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
-    "region": "北部",
-    "venue": "誠品表演廳",
-    "date": "2026-10-06",
-    "time": "18:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2084532856189726721",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1786607307552vGexzElz01.png"
-  },
-  {
     "id": "2084532856189726721-2026-10-07-1830",
     "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
     "region": "北部",
@@ -326,6 +315,17 @@
     "date": "2026-10-25",
     "time": "14:30",
     "price": "700-1000",
+    "url": "https://www.opentix.life/event/2051483080915320833",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
+  },
+  {
+    "id": "2051483080915320833-2026-11-07-1930",
+    "title": "原創青少年音樂劇《換氣練習》",
+    "region": "南部",
+    "venue": "國立嘉義大學新民校區國際會議廳",
+    "date": "2026-11-07",
+    "time": "19:30",
+    "price": "",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
