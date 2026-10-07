@@ -1,16 +1,5 @@
 [
   {
-    "id": "2084532856189726721-2026-10-07-1830",
-    "title": "「外交官的故事」部分發表會（含劇團重要報告等）",
-    "region": "北部",
-    "venue": "誠品表演廳",
-    "date": "2026-10-07",
-    "time": "18:30",
-    "price": "500-1200",
-    "url": "https://www.opentix.life/event/2084532856189726721",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1786607307552vGexzElz01.png"
-  },
-  {
     "id": "2082382491747409921-2026-10-08-1930",
     "title": "Hot咖百老匯~周處大爺買香屁",
     "region": "中部",
@@ -460,6 +449,28 @@
     "price": "800-1200",
     "url": "https://www.opentix.life/event/2084126686540869633",
     "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
+  },
+  {
+    "id": "2105121072633548800-2026-10-26-1930",
+    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院小劇場",
+    "date": "2026-10-26",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105121072633548800",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
+  },
+  {
+    "id": "2105121072633548800-2026-11-22-1530",
+    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心表演廳",
+    "date": "2026-11-22",
+    "time": "15:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105121072633548800",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
   },
   {
     "id": "2099682129172733952-2026-10-31-1430",
