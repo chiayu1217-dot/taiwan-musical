@@ -1276,6 +1276,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
   },
   {
+    "id": "2104768412676886528-2026-12-01-1930",
+    "title": "【讀劇匯】音樂劇《天選之子PRODUCE 8+9》讀劇音樂會",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-01",
+    "time": "19:30",
+    "price": "589-589",
+    "url": "https://www.opentix.life/event/2104768412676886528",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179179147724236zHYogUdd.jpeg"
+  },
+  {
+    "id": "2104768412676886528-2026-12-02-1930",
+    "title": "【讀劇匯】音樂劇《天選之子PRODUCE 8+9》讀劇音樂會",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-02",
+    "time": "19:30",
+    "price": "589-589",
+    "url": "https://www.opentix.life/event/2104768412676886528",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179179147724236zHYogUdd.jpeg"
+  },
+  {
     "id": "2076511977710968833-2026-12-04-1930",
     "title": "音樂劇《跑跑殭丙仁》",
     "region": "北部",
@@ -1397,6 +1419,61 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1783068295949MxWC8eosFy.jpeg"
   },
   {
+    "id": "2107010598838661121-2026-12-07-1930",
+    "title": "【讀劇匯】原創音樂劇《On Air》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-07",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2107010598838661121",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791193075766rzIKc7YdHZ.png"
+  },
+  {
+    "id": "2107010598838661121-2026-12-06-1930",
+    "title": "【讀劇匯】原創音樂劇《On Air》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-06",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2107010598838661121",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791193075766rzIKc7YdHZ.png"
+  },
+  {
+    "id": "2102694867868659713-2026-12-10-1930",
+    "title": "【讀劇匯】四喜坊劇集 音樂劇《暗戀對象加入了邪教該怎麼辦》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-10",
+    "time": "19:30",
+    "price": "666-666",
+    "url": "https://www.opentix.life/event/2102694867868659713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791091157414TyGPvfHYxd.jpeg"
+  },
+  {
+    "id": "2102694867868659713-2026-12-11-1930",
+    "title": "【讀劇匯】四喜坊劇集 音樂劇《暗戀對象加入了邪教該怎麼辦》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-11",
+    "time": "19:30",
+    "price": "666-666",
+    "url": "https://www.opentix.life/event/2102694867868659713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791091157414TyGPvfHYxd.jpeg"
+  },
+  {
+    "id": "2102694867868659713-2026-12-12-1430",
+    "title": "【讀劇匯】四喜坊劇集 音樂劇《暗戀對象加入了邪教該怎麼辦》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-12",
+    "time": "14:30",
+    "price": "666-666",
+    "url": "https://www.opentix.life/event/2102694867868659713",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791091157414TyGPvfHYxd.jpeg"
+  },
+  {
     "id": "2078001512166543361-2026-12-12-1430",
     "title": "當亞斯遇見人魚",
     "region": "南部",
@@ -1417,6 +1494,39 @@
     "price": "500-500",
     "url": "https://www.opentix.life/event/2078001512166543361",
     "image_url": "https://s3.resource.opentix.life/upload/program/1784269879215YwhrMoLude.jpeg"
+  },
+  {
+    "id": "2105556026520125441-2026-12-16-1930",
+    "title": "【讀劇匯】音樂劇《刻在你心底的名字》讀劇演出",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-16",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105556026520125441",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791176943926XpxaNMSFxI.jpeg"
+  },
+  {
+    "id": "2105556026520125441-2026-12-18-1930",
+    "title": "【讀劇匯】音樂劇《刻在你心底的名字》讀劇演出",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-18",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105556026520125441",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791176943926XpxaNMSFxI.jpeg"
+  },
+  {
+    "id": "2105556026520125441-2026-12-20-1430",
+    "title": "【讀劇匯】音樂劇《刻在你心底的名字》讀劇演出",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-20",
+    "time": "14:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105556026520125441",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791176943926XpxaNMSFxI.jpeg"
   },
   {
     "id": "1881618375330443264-2026-12-17-1930",
@@ -1573,6 +1683,28 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1791454178492RtWDL5oO1n.jpeg"
   },
   {
+    "id": "2105853083317858305-2026-12-21-1930",
+    "title": "【讀劇匯】音樂劇《找死俱樂部》讀劇演出",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-21",
+    "time": "19:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105853083317858305",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791185633600WWe1sK4Jlp.png"
+  },
+  {
+    "id": "2105853083317858305-2026-12-19-1430",
+    "title": "【讀劇匯】音樂劇《找死俱樂部》讀劇演出",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-19",
+    "time": "14:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105853083317858305",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791185633600WWe1sK4Jlp.png"
+  },
+  {
     "id": "2100752451028361216-2026-12-20-1930",
     "title": "【醫聲．白袍金嗓】施宗賢醫師 廣音域 跨界演唱會",
     "region": "南部",
@@ -1582,6 +1714,39 @@
     "price": "500-2500",
     "url": "https://www.opentix.life/event/2100752451028361216",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789725616575r8L83APAMd.jpeg"
+  },
+  {
+    "id": "2105961360965922817-2026-12-24-1930",
+    "title": "【讀劇匯】音樂劇《反攻！反攻！下一位偉人請就位》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-24",
+    "time": "19:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2105961360965922817",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791235139460gRlfBZVSBt.png"
+  },
+  {
+    "id": "2105961360965922817-2026-12-26-1430",
+    "title": "【讀劇匯】音樂劇《反攻！反攻！下一位偉人請就位》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-26",
+    "time": "14:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2105961360965922817",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791235139460gRlfBZVSBt.png"
+  },
+  {
+    "id": "2105961360965922817-2026-12-26-1930",
+    "title": "【讀劇匯】音樂劇《反攻！反攻！下一位偉人請就位》",
+    "region": "北部",
+    "venue": "PLAY HUB 玩・劇 創意基地",
+    "date": "2026-12-26",
+    "time": "19:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2105961360965922817",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791235139460gRlfBZVSBt.png"
   },
   {
     "id": "2101876354656706560-2026-12-25-1900",
