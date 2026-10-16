@@ -1,71 +1,5 @@
 [
   {
-    "id": "2037069944678072321-2026-10-16-1930",
-    "title": "唱進心靈的眼眸：「青瞑猴，出外讀冊拼出頭」音樂劇",
-    "region": "北部",
-    "venue": "台北生技園區多功能廳",
-    "date": "2026-10-16",
-    "time": "19:30",
-    "price": "800-1500",
-    "url": "https://www.opentix.life/event/2037069944678072321",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1781243307077yl5cbDuODW.jpeg"
-  },
-  {
-    "id": "2063907106093404161-2026-10-16-1930",
-    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
-    "region": "中部",
-    "venue": "臺中市屯區藝文中心實驗劇場",
-    "date": "2026-10-16",
-    "time": "19:30",
-    "price": "950-950",
-    "url": "https://www.opentix.life/event/2063907106093404161",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
-  },
-  {
-    "id": "2063907106093404161-2026-10-17-1430",
-    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
-    "region": "中部",
-    "venue": "臺中市屯區藝文中心實驗劇場",
-    "date": "2026-10-17",
-    "time": "14:30",
-    "price": "950-950",
-    "url": "https://www.opentix.life/event/2063907106093404161",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
-  },
-  {
-    "id": "2063907106093404161-2026-10-17-1930",
-    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
-    "region": "中部",
-    "venue": "臺中市屯區藝文中心實驗劇場",
-    "date": "2026-10-17",
-    "time": "19:30",
-    "price": "950-950",
-    "url": "https://www.opentix.life/event/2063907106093404161",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
-  },
-  {
-    "id": "2063907106093404161-2026-10-18-1430",
-    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
-    "region": "中部",
-    "venue": "臺中市屯區藝文中心實驗劇場",
-    "date": "2026-10-18",
-    "time": "14:30",
-    "price": "950-950",
-    "url": "https://www.opentix.life/event/2063907106093404161",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
-  },
-  {
-    "id": "2051591825313611777-2026-10-16-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-16",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
     "id": "2051591825313611777-2026-10-17-1930",
     "title": "躍演《勸世三姊妹》中文音樂劇",
     "region": "南部",
@@ -185,6 +119,39 @@
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2064988953002582017",
     "image_url": "https://s3.resource.opentix.life/upload/program/1790158724531KSArfKUcKe.jpeg"
+  },
+  {
+    "id": "2063907106093404161-2026-10-17-1430",
+    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
+    "region": "中部",
+    "venue": "臺中市屯區藝文中心實驗劇場",
+    "date": "2026-10-17",
+    "time": "14:30",
+    "price": "950-950",
+    "url": "https://www.opentix.life/event/2063907106093404161",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
+  },
+  {
+    "id": "2063907106093404161-2026-10-17-1930",
+    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
+    "region": "中部",
+    "venue": "臺中市屯區藝文中心實驗劇場",
+    "date": "2026-10-17",
+    "time": "19:30",
+    "price": "950-950",
+    "url": "https://www.opentix.life/event/2063907106093404161",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
+  },
+  {
+    "id": "2063907106093404161-2026-10-18-1430",
+    "title": "搖滾Ｘ療癒音樂劇《蕾娜絲的修理小舖》",
+    "region": "中部",
+    "venue": "臺中市屯區藝文中心實驗劇場",
+    "date": "2026-10-18",
+    "time": "14:30",
+    "price": "950-950",
+    "url": "https://www.opentix.life/event/2063907106093404161",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1780908617670FAGc7strGY.png"
   },
   {
     "id": "2046829520049606657-2026-10-18-1430",
@@ -2011,6 +1978,28 @@
     "price": "1200-2300",
     "url": "https://www.opentix.life/event/2100041290423484417",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789523629375Sa2iLdf5tk.png"
+  },
+  {
+    "id": "2108153136375832577-2027-01-30-1930",
+    "title": "2027屏東縣原創原住民音樂劇-婚，了頭的那一天",
+    "region": "南部",
+    "venue": "屏東藝術館",
+    "date": "2027-01-30",
+    "time": "19:30",
+    "price": "500-1000",
+    "url": "https://www.opentix.life/event/2108153136375832577",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791802680871Rhw8rA02og.jpeg"
+  },
+  {
+    "id": "2108153136375832577-2027-01-31-1430",
+    "title": "2027屏東縣原創原住民音樂劇-婚，了頭的那一天",
+    "region": "南部",
+    "venue": "屏東藝術館",
+    "date": "2027-01-31",
+    "time": "14:30",
+    "price": "500-1000",
+    "url": "https://www.opentix.life/event/2108153136375832577",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1791802680871Rhw8rA02og.jpeg"
   },
   {
     "id": "2054129876962353153-2026-07-31-1930",
