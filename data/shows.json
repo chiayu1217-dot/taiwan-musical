@@ -44,17 +44,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
   },
   {
-    "id": "2051591825313611777-2026-10-22-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-22",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
     "id": "2051483080915320833-2026-10-24-1430",
     "title": "原創青少年音樂劇《換氣練習》",
     "region": "北部",
@@ -1296,6 +1285,28 @@
     "price": "600-600",
     "url": "https://www.opentix.life/event/2072965831309205504",
     "image_url": "https://s3.resource.opentix.life/upload/program/1783068295949MxWC8eosFy.jpeg"
+  },
+  {
+    "id": "2110988649820495873-2026-12-05-1330",
+    "title": "餅乾劇團 美語音樂劇嘉年華",
+    "region": "北部",
+    "venue": "臺北基督學院",
+    "date": "2026-12-05",
+    "time": "13:30",
+    "price": "900-900",
+    "url": "https://www.opentix.life/event/2110988649820495873",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1792549914236xtZndTGO3v.png"
+  },
+  {
+    "id": "2110988649820495873-2026-12-06-1300",
+    "title": "餅乾劇團 美語音樂劇嘉年華",
+    "region": "北部",
+    "venue": "臺北基督學院",
+    "date": "2026-12-06",
+    "time": "13:00",
+    "price": "900-900",
+    "url": "https://www.opentix.life/event/2110988649820495873",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1792549914236xtZndTGO3v.png"
   },
   {
     "id": "2107010598838661121-2026-12-07-1930",
