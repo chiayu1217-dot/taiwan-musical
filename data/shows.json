@@ -1,16 +1,5 @@
 [
   {
-    "id": "2051591825313611777-2026-10-23-1930",
-    "title": "躍演《勸世三姊妹》中文音樂劇",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心歌劇院",
-    "date": "2026-10-23",
-    "time": "19:30",
-    "price": "500-4000",
-    "url": "https://www.opentix.life/event/2051591825313611777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778237887903TJbIo61xZ3.jpeg"
-  },
-  {
     "id": "2051591825313611777-2026-10-24-1930",
     "title": "躍演《勸世三姊妹》中文音樂劇",
     "region": "南部",
@@ -55,11 +44,11 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
   },
   {
-    "id": "2051483080915320833-2026-10-24-1930",
+    "id": "2051483080915320833-2026-10-25-1930",
     "title": "原創青少年音樂劇《換氣練習》",
     "region": "北部",
     "venue": "臺北市客家音樂戲劇中心二樓劇場",
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "time": "19:30",
     "price": "700-1000",
     "url": "https://www.opentix.life/event/2051483080915320833",
@@ -86,6 +75,28 @@
     "price": "",
     "url": "https://www.opentix.life/event/2051483080915320833",
     "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
+  },
+  {
+    "id": "2084126686540869633-2026-10-25-1430",
+    "title": "張雅淳×李婉菁《唸歌去天庭：老仙婆的跨界音樂會》",
+    "region": "北部",
+    "venue": "牯嶺街小劇場二樓藝文空間",
+    "date": "2026-10-25",
+    "time": "14:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2084126686540869633",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
+  },
+  {
+    "id": "2084126686540869633-2026-10-25-1930",
+    "title": "張雅淳×李婉菁《唸歌去天庭：老仙婆的跨界音樂會》",
+    "region": "北部",
+    "venue": "牯嶺街小劇場二樓藝文空間",
+    "date": "2026-10-25",
+    "time": "19:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2084126686540869633",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
   },
   {
     "id": "2067174521020350465-2026-10-30-1930",
@@ -121,12 +132,12 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
   },
   {
-    "id": "2067174521020350465-2026-10-24-1430",
+    "id": "2067174521020350465-2026-11-01-1930",
     "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
     "region": "北部",
     "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-10-24",
-    "time": "14:30",
+    "date": "2026-11-01",
+    "time": "19:30",
     "price": "700-3500",
     "url": "https://www.opentix.life/event/2067174521020350465",
     "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
@@ -196,28 +207,6 @@
     "price": "500-3000",
     "url": "https://www.opentix.life/event/2067174521020350465",
     "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2084126686540869633-2026-10-25-1430",
-    "title": "張雅淳×李婉菁《唸歌去天庭：老仙婆的跨界音樂會》",
-    "region": "北部",
-    "venue": "牯嶺街小劇場二樓藝文空間",
-    "date": "2026-10-25",
-    "time": "14:30",
-    "price": "800-1200",
-    "url": "https://www.opentix.life/event/2084126686540869633",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
-  },
-  {
-    "id": "2084126686540869633-2026-10-25-1930",
-    "title": "張雅淳×李婉菁《唸歌去天庭：老仙婆的跨界音樂會》",
-    "region": "北部",
-    "venue": "牯嶺街小劇場二樓藝文空間",
-    "date": "2026-10-25",
-    "time": "19:30",
-    "price": "800-1200",
-    "url": "https://www.opentix.life/event/2084126686540869633",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785728774024yD2v9G57gm.png"
   },
   {
     "id": "2105121072633548800-2026-10-26-1930",
@@ -1139,6 +1128,17 @@
     "venue": "駁二正港小劇場",
     "date": "2026-11-29",
     "time": "14:30",
+    "price": "900-1600",
+    "url": "https://www.opentix.life/event/2058773455445823489",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
+  },
+  {
+    "id": "2058773455445823489-2026-11-27-1330",
+    "title": "唱歌集《以為是BL結果是BFF》青春校園音樂劇",
+    "region": "南部",
+    "venue": "駁二正港小劇場",
+    "date": "2026-11-27",
+    "time": "13:30",
     "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
