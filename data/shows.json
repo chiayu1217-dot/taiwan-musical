@@ -1,27 +1,5 @@
 [
   {
-    "id": "2105121072633548800-2026-10-26-1930",
-    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院小劇場",
-    "date": "2026-10-26",
-    "time": "19:30",
-    "price": "800-800",
-    "url": "https://www.opentix.life/event/2105121072633548800",
-    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
-  },
-  {
-    "id": "2105121072633548800-2026-11-22-1530",
-    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心表演廳",
-    "date": "2026-11-22",
-    "time": "15:30",
-    "price": "800-800",
-    "url": "https://www.opentix.life/event/2105121072633548800",
-    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
-  },
-  {
     "id": "2092887492767944705-2026-10-29-1930",
     "title": "《那個女人是誰？》原創音樂劇",
     "region": "北部",
@@ -977,6 +955,17 @@
     "price": "600-1200",
     "url": "https://www.opentix.life/event/2097267213329641473",
     "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
+    "id": "2105121072633548800-2026-11-22-1530",
+    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
+    "region": "南部",
+    "venue": "衛武營國家藝術文化中心表演廳",
+    "date": "2026-11-22",
+    "time": "15:30",
+    "price": "800-800",
+    "url": "https://www.opentix.life/event/2105121072633548800",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
   },
   {
     "id": "2090333861981999105-2026-11-23-1900",
