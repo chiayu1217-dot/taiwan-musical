@@ -1,14 +1,25 @@
 [
   {
-    "id": "2092887492767944705-2026-10-29-1930",
-    "title": "《那個女人是誰？》原創音樂劇",
-    "region": "北部",
-    "venue": "臺北市政府青年局3樓臺北演藝廳",
-    "date": "2026-10-29",
-    "time": "19:30",
-    "price": "500-1500",
-    "url": "https://www.opentix.life/event/2092887492767944705",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1787817707294JRJ0lfwMRX.png"
+    "id": "2099682129172733952-2026-10-31-1430",
+    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
+    "region": "中部",
+    "venue": "臺中市葫蘆墩文化中心演奏廳",
+    "date": "2026-10-31",
+    "time": "14:30",
+    "price": "200-800",
+    "url": "https://www.opentix.life/event/2099682129172733952",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
+  },
+  {
+    "id": "2099682129172733952-2026-10-30-1400",
+    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
+    "region": "中部",
+    "venue": "臺中市葫蘆墩文化中心演奏廳",
+    "date": "2026-10-30",
+    "time": "14:00",
+    "price": "",
+    "url": "https://www.opentix.life/event/2099682129172733952",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
   },
   {
     "id": "2092887492767944705-2026-10-30-1930",
@@ -42,28 +53,6 @@
     "price": "500-1500",
     "url": "https://www.opentix.life/event/2092887492767944705",
     "image_url": "https://s3.resource.opentix.life/upload/program/1787817707294JRJ0lfwMRX.png"
-  },
-  {
-    "id": "2099682129172733952-2026-10-31-1430",
-    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
-    "region": "中部",
-    "venue": "臺中市葫蘆墩文化中心演奏廳",
-    "date": "2026-10-31",
-    "time": "14:30",
-    "price": "200-800",
-    "url": "https://www.opentix.life/event/2099682129172733952",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
-  },
-  {
-    "id": "2099682129172733952-2026-10-30-1400",
-    "title": "無獨有偶工作室劇團《演奏吧! 好土樂團》",
-    "region": "中部",
-    "venue": "臺中市葫蘆墩文化中心演奏廳",
-    "date": "2026-10-30",
-    "time": "14:00",
-    "price": "",
-    "url": "https://www.opentix.life/event/2099682129172733952",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789549971579GKd2gbZA27.png"
   },
   {
     "id": "2080134872605343745-2026-10-30-1930",
@@ -1029,7 +1018,7 @@
     "venue": "駁二正港小劇場",
     "date": "2026-11-27",
     "time": "13:30",
-    "price": "1600-1600",
+    "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
   },
