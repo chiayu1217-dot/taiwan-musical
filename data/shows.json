@@ -1,16 +1,5 @@
 [
   {
-    "id": "2080134872605343745-2026-11-01-1430",
-    "title": "所在劇集 2026原創歷史音樂劇《無聲の海腳間仔》",
-    "region": "南部",
-    "venue": "高雄中山堂劇場",
-    "date": "2026-11-01",
-    "time": "14:30",
-    "price": "400-1200",
-    "url": "https://www.opentix.life/event/2080134872605343745",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1784777684036htNGZAGn6G.jpeg"
-  },
-  {
     "id": "2072516129034670080-2026-11-05-1930",
     "title": "C MUSICAL 音樂劇《小王子》",
     "region": "北部",
@@ -141,83 +130,6 @@
     "price": "1200-2200",
     "url": "https://www.opentix.life/event/2072516129034670080",
     "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2072516129034670080-2026-11-01-1430",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "南部",
-    "venue": "嘉義市政府文化局音樂廳",
-    "date": "2026-11-01",
-    "time": "14:30",
-    "price": "700-2000",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-11-01-1930",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-11-01",
-    "time": "19:30",
-    "price": "700-3500",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-11-01-1430",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "北部",
-    "venue": "臺北市藝文推廣處城市舞台",
-    "date": "2026-11-01",
-    "time": "14:30",
-    "price": "700-3500",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-12-12-1930",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "北部",
-    "venue": "桃園展演中心展演廳",
-    "date": "2026-12-12",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-12-13-1430",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "北部",
-    "venue": "桃園展演中心展演廳",
-    "date": "2026-12-13",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-12-19-1930",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-12-19",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
-  },
-  {
-    "id": "2067174521020350465-2026-12-20-1430",
-    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
-    "region": "中部",
-    "venue": "臺中國家歌劇院大劇院",
-    "date": "2026-12-20",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2067174521020350465",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
   },
   {
     "id": "2052621362491457537-2026-11-06-1930",
@@ -1122,6 +1034,50 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1784269879215YwhrMoLude.jpeg"
   },
   {
+    "id": "2067174521020350465-2026-12-12-1930",
+    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
+    "region": "北部",
+    "venue": "桃園展演中心展演廳",
+    "date": "2026-12-12",
+    "time": "19:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2067174521020350465",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
+  },
+  {
+    "id": "2067174521020350465-2026-12-13-1430",
+    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
+    "region": "北部",
+    "venue": "桃園展演中心展演廳",
+    "date": "2026-12-13",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2067174521020350465",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
+  },
+  {
+    "id": "2067174521020350465-2026-12-19-1930",
+    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-12-19",
+    "time": "19:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2067174521020350465",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
+  },
+  {
+    "id": "2067174521020350465-2026-12-20-1430",
+    "title": "果陀劇場《Crash, Boom Boom Love!》演唱會音樂劇",
+    "region": "中部",
+    "venue": "臺中國家歌劇院大劇院",
+    "date": "2026-12-20",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2067174521020350465",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1790242596445WnLrVNHC25.jpeg"
+  },
+  {
     "id": "2105556026520125441-2026-12-16-1930",
     "title": "【讀劇匯】音樂劇《刻在你心底的名字》讀劇演出",
     "region": "北部",
@@ -1549,6 +1505,28 @@
     "price": "800-2600",
     "url": "https://www.opentix.life/event/2059243467760234496",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779796355016r2Wg7o5A0V.jpeg"
+  },
+  {
+    "id": "2099712528911405057-2027-01-02-1900",
+    "title": "親子公益音樂劇《部落英雄 大冒險2.0》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院中劇院",
+    "date": "2027-01-02",
+    "time": "19:00",
+    "price": "400-1500",
+    "url": "https://www.opentix.life/event/2099712528911405057",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1793147970017w7Aa4IBwWF.png"
+  },
+  {
+    "id": "2099712528911405057-2027-01-03-1430",
+    "title": "親子公益音樂劇《部落英雄 大冒險2.0》",
+    "region": "中部",
+    "venue": "臺中國家歌劇院中劇院",
+    "date": "2027-01-03",
+    "time": "14:30",
+    "price": "400-1500",
+    "url": "https://www.opentix.life/event/2099712528911405057",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1793147970017w7Aa4IBwWF.png"
   },
   {
     "id": "2100041290423484417-2027-01-22-1930",
