@@ -1,14 +1,14 @@
 [
   {
-    "id": "2052621362491457537-2026-11-06-1930",
-    "title": "唱歌集《大家都怎麼做音樂劇？》",
+    "id": "2082659728235339777-2026-11-07-1430",
+    "title": "巨風之鳴·當代心靈－2026佳偶聲合唱團年度音樂會",
     "region": "北部",
-    "venue": "臺灣大學藝文中心遊心劇場",
-    "date": "2026-11-06",
-    "time": "19:30",
-    "price": "1000-1800",
-    "url": "https://www.opentix.life/event/2052621362491457537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
+    "venue": "真理大學大禮拜堂",
+    "date": "2026-11-07",
+    "time": "14:30",
+    "price": "100-1000",
+    "url": "https://www.opentix.life/event/2082659728235339777",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785379668125WpLTTBvRLA.jpeg"
   },
   {
     "id": "2052621362491457537-2026-11-07-1430",
@@ -50,17 +50,6 @@
     "venue": "臺北表演藝術中心 藍盒子",
     "date": "2026-11-07",
     "time": "14:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2072516129034670080-2026-11-06-1930",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-06",
-    "time": "19:30",
     "price": "1200-2200",
     "url": "https://www.opentix.life/event/2072516129034670080",
     "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
@@ -163,17 +152,6 @@
     "price": "1200-2200",
     "url": "https://www.opentix.life/event/2072516129034670080",
     "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2082659728235339777-2026-11-07-1430",
-    "title": "巨風之鳴·當代心靈－2026佳偶聲合唱團年度音樂會",
-    "region": "北部",
-    "venue": "真理大學大禮拜堂",
-    "date": "2026-11-07",
-    "time": "14:30",
-    "price": "100-1000",
-    "url": "https://www.opentix.life/event/2082659728235339777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785379668125WpLTTBvRLA.jpeg"
   },
   {
     "id": "2052573679595487233-2026-11-07-1430",
