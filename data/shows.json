@@ -1,38 +1,5 @@
 [
   {
-    "id": "2082659728235339777-2026-11-07-1430",
-    "title": "巨風之鳴·當代心靈－2026佳偶聲合唱團年度音樂會",
-    "region": "北部",
-    "venue": "真理大學大禮拜堂",
-    "date": "2026-11-07",
-    "time": "14:30",
-    "price": "100-1000",
-    "url": "https://www.opentix.life/event/2082659728235339777",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785379668125WpLTTBvRLA.jpeg"
-  },
-  {
-    "id": "2052621362491457537-2026-11-07-1430",
-    "title": "唱歌集《大家都怎麼做音樂劇？》",
-    "region": "北部",
-    "venue": "臺灣大學藝文中心遊心劇場",
-    "date": "2026-11-07",
-    "time": "14:30",
-    "price": "1000-1800",
-    "url": "https://www.opentix.life/event/2052621362491457537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
-  },
-  {
-    "id": "2052621362491457537-2026-11-07-1930",
-    "title": "唱歌集《大家都怎麼做音樂劇？》",
-    "region": "北部",
-    "venue": "臺灣大學藝文中心遊心劇場",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "1000-1800",
-    "url": "https://www.opentix.life/event/2052621362491457537",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
-  },
-  {
     "id": "2052621362491457537-2026-11-08-1430",
     "title": "唱歌集《大家都怎麼做音樂劇？》",
     "region": "北部",
@@ -42,28 +9,6 @@
     "price": "1000-1800",
     "url": "https://www.opentix.life/event/2052621362491457537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779089047933ireCDlo8oF.png"
-  },
-  {
-    "id": "2072516129034670080-2026-11-07-1430",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-07",
-    "time": "14:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2072516129034670080-2026-11-07-1930",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
   },
   {
     "id": "2072516129034670080-2026-11-10-1930",
@@ -154,28 +99,6 @@
     "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
   },
   {
-    "id": "2052573679595487233-2026-11-07-1430",
-    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
-    "region": "北部",
-    "venue": "新竹縣政府文化局演藝廳",
-    "date": "2026-11-07",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2052573679595487233",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
-  },
-  {
-    "id": "2052573679595487233-2026-11-07-1930",
-    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
-    "region": "北部",
-    "venue": "新竹縣政府文化局演藝廳",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2052573679595487233",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
-  },
-  {
     "id": "2052573679595487233-2026-11-08-1430",
     "title": "果陀劇場《三個傻瓜》2026熱血回歸",
     "region": "北部",
@@ -207,28 +130,6 @@
     "price": "500-3000",
     "url": "https://www.opentix.life/event/2052573679595487233",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
-  },
-  {
-    "id": "2051483080915320833-2026-11-07-1930",
-    "title": "原創青少年音樂劇《換氣練習》",
-    "region": "南部",
-    "venue": "國立嘉義大學新民校區國際會議廳",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "",
-    "url": "https://www.opentix.life/event/2051483080915320833",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1778568363743LpK6Dc7S65.png"
-  },
-  {
-    "id": "2091822012383260673-2026-11-07-1930",
-    "title": "盤花仙境大冒險",
-    "region": "南部",
-    "venue": "屏東藝術館",
-    "date": "2026-11-07",
-    "time": "19:30",
-    "price": "300-500",
-    "url": "https://www.opentix.life/event/2091822012383260673",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17875643677502JFfB2r6dB.png"
   },
   {
     "id": "2082771982137057281-2026-11-13-1930",
