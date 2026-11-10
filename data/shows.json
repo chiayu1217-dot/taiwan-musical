@@ -1460,7 +1460,7 @@
     "time": "19:30",
     "price": "500-1000",
     "url": "https://www.opentix.life/event/2108153136375832577",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1791802680871Rhw8rA02og.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1794209291676DdZNAwNJFf.png"
   },
   {
     "id": "2108153136375832577-2027-01-31-1430",
@@ -1471,7 +1471,18 @@
     "time": "14:30",
     "price": "500-1000",
     "url": "https://www.opentix.life/event/2108153136375832577",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1791802680871Rhw8rA02og.jpeg"
+    "image_url": "https://s3.resource.opentix.life/upload/program/1794209291676DdZNAwNJFf.png"
+  },
+  {
+    "id": "2118581126929088513-2027-04-30-1600",
+    "title": "2027亞洲國際文化藝術音樂盛典",
+    "region": "北部",
+    "venue": "大直典華會館",
+    "date": "2027-04-30",
+    "time": "16:00",
+    "price": "3000-3000",
+    "url": "https://www.opentix.life/event/2118581126929088513",
+    "image_url": "https://s3.resource.opentix.life/upload/program/179421691817458YM5rF2n1.jpeg"
   },
   {
     "id": "2054129876962353153-2026-07-31-1930",
