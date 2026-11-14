@@ -1,110 +1,11 @@
 [
   {
-    "id": "2082004320853954561-2026-11-14-1430",
-    "title": "九歌兒童劇團《大樹、小鳥與牽牛花》",
-    "region": "中部",
-    "venue": "臺中市葫蘆墩文化中心演講廳",
-    "date": "2026-11-14",
-    "time": "14:30",
-    "price": "100-200",
-    "url": "https://www.opentix.life/event/2082004320853954561",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785223237442KgfcPCzNGj.png"
-  },
-  {
-    "id": "2072516129034670080-2026-11-14-1930",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-14",
-    "time": "19:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2072516129034670080-2026-11-14-1430",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-14",
-    "time": "14:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2072516129034670080-2026-11-15-1430",
-    "title": "C MUSICAL 音樂劇《小王子》",
-    "region": "北部",
-    "venue": "臺北表演藝術中心 藍盒子",
-    "date": "2026-11-15",
-    "time": "14:30",
-    "price": "1200-2200",
-    "url": "https://www.opentix.life/event/2072516129034670080",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
-  },
-  {
-    "id": "2082771982137057281-2026-11-14-1430",
-    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
-    "region": "北部",
-    "venue": "水源劇場",
-    "date": "2026-11-14",
-    "time": "14:30",
-    "price": "800-2000",
-    "url": "https://www.opentix.life/event/2082771982137057281",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
-  },
-  {
-    "id": "2082771982137057281-2026-11-14-1930",
-    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
-    "region": "北部",
-    "venue": "水源劇場",
-    "date": "2026-11-14",
-    "time": "19:30",
-    "price": "800-2000",
-    "url": "https://www.opentix.life/event/2082771982137057281",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
-  },
-  {
-    "id": "2082771982137057281-2026-11-15-1430",
-    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
-    "region": "北部",
-    "venue": "水源劇場",
-    "date": "2026-11-15",
-    "time": "14:30",
-    "price": "800-2000",
-    "url": "https://www.opentix.life/event/2082771982137057281",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
-  },
-  {
-    "id": "2087017782302437377-2026-11-14-1500",
-    "title": "極致藝術《海象莫雷的漂流日誌》親子音樂劇",
-    "region": "北部",
-    "venue": "新北市藝文中心演藝廳",
-    "date": "2026-11-14",
-    "time": "15:00",
-    "price": "600-2000",
-    "url": "https://www.opentix.life/event/2087017782302437377",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17884942207654flqd6LLDd.jpeg"
-  },
-  {
     "id": "2087017782302437377-2026-11-15-1100",
     "title": "極致藝術《海象莫雷的漂流日誌》親子音樂劇",
     "region": "北部",
     "venue": "新北市藝文中心演藝廳",
     "date": "2026-11-15",
     "time": "11:00",
-    "price": "600-2000",
-    "url": "https://www.opentix.life/event/2087017782302437377",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17884942207654flqd6LLDd.jpeg"
-  },
-  {
-    "id": "2087017782302437377-2026-11-14-1930",
-    "title": "極致藝術《海象莫雷的漂流日誌》親子音樂劇",
-    "region": "北部",
-    "venue": "新北市藝文中心演藝廳",
-    "date": "2026-11-14",
-    "time": "19:30",
     "price": "600-2000",
     "url": "https://www.opentix.life/event/2087017782302437377",
     "image_url": "https://s3.resource.opentix.life/upload/program/17884942207654flqd6LLDd.jpeg"
@@ -207,6 +108,28 @@
     "price": "600-2000",
     "url": "https://www.opentix.life/event/2087017782302437377",
     "image_url": "https://s3.resource.opentix.life/upload/program/17884942207654flqd6LLDd.jpeg"
+  },
+  {
+    "id": "2072516129034670080-2026-11-15-1430",
+    "title": "C MUSICAL 音樂劇《小王子》",
+    "region": "北部",
+    "venue": "臺北表演藝術中心 藍盒子",
+    "date": "2026-11-15",
+    "time": "14:30",
+    "price": "1200-2200",
+    "url": "https://www.opentix.life/event/2072516129034670080",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1783488303546FNFfEObGMQ.jpeg"
+  },
+  {
+    "id": "2082771982137057281-2026-11-15-1430",
+    "title": "唱歌集《今晚，我想來點》（一直）翻轉の人生音樂劇",
+    "region": "北部",
+    "venue": "水源劇場",
+    "date": "2026-11-15",
+    "time": "14:30",
+    "price": "800-2000",
+    "url": "https://www.opentix.life/event/2082771982137057281",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1785821573138jQ25dEG67M.jpeg"
   },
   {
     "id": "2043952009527836673-2026-11-18-2000",
