@@ -1,137 +1,5 @@
 [
   {
-    "id": "2029816885442543616-2026-11-22-1030",
-    "title": "親子音樂劇《阿甯咕的爸鼻不見了？》小兒子動畫劇場 ③",
-    "region": "北部",
-    "venue": "新北市藝文中心演藝廳",
-    "date": "2026-11-22",
-    "time": "10:30",
-    "price": "600-2000",
-    "url": "https://www.opentix.life/event/2029816885442543616",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17736200701549Uw8RA7T1P.png"
-  },
-  {
-    "id": "2029816885442543616-2026-11-22-1430",
-    "title": "親子音樂劇《阿甯咕的爸鼻不見了？》小兒子動畫劇場 ③",
-    "region": "北部",
-    "venue": "新北市藝文中心演藝廳",
-    "date": "2026-11-22",
-    "time": "14:30",
-    "price": "600-2000",
-    "url": "https://www.opentix.life/event/2029816885442543616",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17736200701549Uw8RA7T1P.png"
-  },
-  {
-    "id": "2097267213329641473-2026-12-06-1430",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "北部",
-    "venue": "桃園展演中心展演廳",
-    "date": "2026-12-06",
-    "time": "14:30",
-    "price": "800-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2026-12-06-1900",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "北部",
-    "venue": "桃園展演中心展演廳",
-    "date": "2026-12-06",
-    "time": "19:00",
-    "price": "800-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2026-11-22-1030",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "北部",
-    "venue": "臺北市政大樓親子劇場",
-    "date": "2026-11-22",
-    "time": "10:30",
-    "price": "600-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2026-11-22-1430",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "北部",
-    "venue": "臺北市政大樓親子劇場",
-    "date": "2026-11-22",
-    "time": "14:30",
-    "price": "600-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2026-11-22-1900",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "北部",
-    "venue": "臺北市政大樓親子劇場",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "price": "600-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2027-05-30-1330",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "南部",
-    "venue": "高雄市文化中心至德堂",
-    "date": "2027-05-30",
-    "time": "13:30",
-    "price": "600-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2097267213329641473-2027-05-30-1630",
-    "title": "《生氣王子》親子繪本音樂會",
-    "region": "南部",
-    "venue": "高雄市文化中心至德堂",
-    "date": "2027-05-30",
-    "time": "16:30",
-    "price": "600-1200",
-    "url": "https://www.opentix.life/event/2097267213329641473",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
-  },
-  {
-    "id": "2067154457490825217-2026-11-22-1430",
-    "title": "音樂劇《潘朵拉的音樂盒》",
-    "region": "中部",
-    "venue": "臺中國家歌劇院小劇場",
-    "date": "2026-11-22",
-    "time": "14:30",
-    "price": "800-3000",
-    "url": "https://www.opentix.life/event/2067154457490825217",
-    "image_url": "https://s3.resource.opentix.life/upload/program/17816828850043aSm22NPrw.jpeg"
-  },
-  {
-    "id": "2092573008203399169-2026-11-22-1430",
-    "title": "音樂劇《阿媽的比基尼》讀劇音樂會",
-    "region": "北部",
-    "venue": "禾禾文化空間",
-    "date": "2026-11-22",
-    "time": "14:30",
-    "price": "800-800",
-    "url": "https://www.opentix.life/event/2092573008203399169",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1789031531278XB3tGEKSbs.jpeg"
-  },
-  {
-    "id": "2105121072633548800-2026-11-22-1530",
-    "title": "TCC 沙龍音樂會系列-閱讀音樂2《心動莎翁》",
-    "region": "南部",
-    "venue": "衛武營國家藝術文化中心表演廳",
-    "date": "2026-11-22",
-    "time": "15:30",
-    "price": "800-800",
-    "url": "https://www.opentix.life/event/2105121072633548800",
-    "image_url": "https://s3.resource.opentix.life/upload/program/179134353710871F46Y6jmt.png"
-  },
-  {
     "id": "2090333861981999105-2026-11-23-1900",
     "title": "音樂劇《天堂邊緣》中山大學劇場藝術系年度製作",
     "region": "南部",
@@ -394,6 +262,50 @@
     "price": "500-500",
     "url": "https://www.opentix.life/event/2074023397003329537",
     "image_url": "https://s3.resource.opentix.life/upload/program/1786595246814sRkRKVtg8J.png"
+  },
+  {
+    "id": "2097267213329641473-2026-12-06-1430",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "北部",
+    "venue": "桃園展演中心展演廳",
+    "date": "2026-12-06",
+    "time": "14:30",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
+    "id": "2097267213329641473-2026-12-06-1900",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "北部",
+    "venue": "桃園展演中心展演廳",
+    "date": "2026-12-06",
+    "time": "19:00",
+    "price": "800-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
+    "id": "2097267213329641473-2027-05-30-1330",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "南部",
+    "venue": "高雄市文化中心至德堂",
+    "date": "2027-05-30",
+    "time": "13:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
+  },
+  {
+    "id": "2097267213329641473-2027-05-30-1630",
+    "title": "《生氣王子》親子繪本音樂會",
+    "region": "南部",
+    "venue": "高雄市文化中心至德堂",
+    "date": "2027-05-30",
+    "time": "16:30",
+    "price": "600-1200",
+    "url": "https://www.opentix.life/event/2097267213329641473",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1789524894941JTLpG4buGd.png"
   },
   {
     "id": "2107010598838661121-2026-12-07-1930",
