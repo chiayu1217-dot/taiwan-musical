@@ -1,14 +1,25 @@
 [
   {
-    "id": "2058773455445823489-2026-11-27-1930",
-    "title": "唱歌集《以為是BL結果是BFF》青春校園音樂劇",
+    "id": "2052573679595487233-2026-11-28-1430",
+    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
     "region": "南部",
-    "venue": "駁二正港小劇場",
-    "date": "2026-11-27",
-    "time": "19:30",
-    "price": "900-1600",
-    "url": "https://www.opentix.life/event/2058773455445823489",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
+    "venue": "嘉義縣表演藝術中心演藝廳",
+    "date": "2026-11-28",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2052573679595487233",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
+  },
+  {
+    "id": "2052573679595487233-2026-11-29-1430",
+    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
+    "region": "南部",
+    "venue": "嘉義縣表演藝術中心演藝廳",
+    "date": "2026-11-29",
+    "time": "14:30",
+    "price": "500-3000",
+    "url": "https://www.opentix.life/event/2052573679595487233",
+    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
   {
     "id": "2058773455445823489-2026-11-28-1930",
@@ -31,39 +42,6 @@
     "price": "900-1600",
     "url": "https://www.opentix.life/event/2058773455445823489",
     "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
-  },
-  {
-    "id": "2058773455445823489-2026-11-27-1330",
-    "title": "唱歌集《以為是BL結果是BFF》青春校園音樂劇",
-    "region": "南部",
-    "venue": "駁二正港小劇場",
-    "date": "2026-11-27",
-    "time": "13:30",
-    "price": "900-1600",
-    "url": "https://www.opentix.life/event/2058773455445823489",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779770677753dq36J8ZFBA.png"
-  },
-  {
-    "id": "2052573679595487233-2026-11-28-1430",
-    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
-    "region": "南部",
-    "venue": "嘉義縣表演藝術中心演藝廳",
-    "date": "2026-11-28",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2052573679595487233",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
-  },
-  {
-    "id": "2052573679595487233-2026-11-29-1430",
-    "title": "果陀劇場《三個傻瓜》2026熱血回歸",
-    "region": "南部",
-    "venue": "嘉義縣表演藝術中心演藝廳",
-    "date": "2026-11-29",
-    "time": "14:30",
-    "price": "500-3000",
-    "url": "https://www.opentix.life/event/2052573679595487233",
-    "image_url": "https://s3.resource.opentix.life/upload/program/1779069834228ssxYwPNRvi.jpeg"
   },
   {
     "id": "2104768412676886528-2026-12-01-1930",
